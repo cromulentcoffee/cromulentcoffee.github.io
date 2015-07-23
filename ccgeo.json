@@ -1,0 +1,1108 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4409084,
+                    37.7880105
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "b. Patisserie",
+                "yelp": "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
+                "address": "2821 California St San Francisco, CA 94115",
+                "ig": "b_patisserie"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4213655,
+                    37.7564371
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Ritual Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco",
+                "location": "Mission",
+                "address": "1026 Valencia Street San Francisco, CA 94110",
+                "ig": "ritualcoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4242601,
+                    37.7763812
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Ritual Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco-5",
+                "location": "Hayes Valley",
+                "address": "432b Octavia St San Francisco, CA 94102",
+                "ig": "ritualcoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4218206,
+                    37.7609695
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Craftsman and Wolves",
+                "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
+                "address": "746 Valencia St San Francisco, CA 94110",
+                "ig": "craftsmanwolves"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4218206,
+                    37.7609695
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Craftsman and Wolves",
+                "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
+                "address": "746 Valencia St San Francisco, CA 94110",
+                "ig": "craftsmanwolves"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.437716,
+                    37.776473
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "The Mill",
+                "yelp": "http://www.yelp.com/biz/the-mill-san-francisco",
+                "address": "736 Divisadero St San Francisco, CA 94117"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4189874,
+                    37.739687
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Pinhole Coffee",
+                "yelp": "http://www.yelp.com/biz/pinhole-coffee-san-francisco-3",
+                "address": "231 Cortland Ave San Francisco, CA 94110",
+                "ig": "pinholecoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.899306,
+                    36.610238
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Bright Coffee",
+                "yelp": "http://www.yelp.com/biz/bright-coffee-monterey",
+                "address": "281 Lighthouse Ave Monterey, CA 93940"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4127775,
+                    37.8055586
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "DeLise",
+                "yelp": "http://www.yelp.com/biz/delise-san-francisco",
+                "address": "327 Bay St San Francisco, CA 94133"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4376677,
+                    37.8008457
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Le Marais Bakery",
+                "yelp": "http://www.yelp.com/biz/le-marais-bakery-san-francisco-4",
+                "address": "2066 Chestnut St San Francisco, CA 94123"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4660636,
+                    37.7631593
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Snowbird Coffee",
+                "yelp": "http://www.yelp.com/biz/snowbird-coffee-san-francisco",
+                "address": "1352 A 9th Ave San Francisco, CA 94122"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4196824,
+                    37.7614153
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Linea Caffe",
+                "yelp": "http://www.yelp.com/biz/linea-caffe-san-francisco",
+                "address": "3417 18th St San Francisco, CA 94110"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4184726,
+                    37.7864566
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Jane on Larkin",
+                "yelp": "http://www.yelp.com/biz/jane-on-larkin-san-francisco-2",
+                "address": "925 Larkin St San Francisco, CA 94109"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4192648,
+                    37.7910837
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Contraband Coffee Bar",
+                "yelp": "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco",
+                "address": "1415 Larkin St San Francisco, CA 94109"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4222261,
+                    37.7993302
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "The Brew",
+                "yelp": "http://www.yelp.com/biz/the-brew-san-francisco",
+                "address": "2436 Polk St San Francisco, CA 94109"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0317605,
+                    37.3180209
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Bitter+Sweet",
+                "yelp": "http://www.yelp.com/biz/bitter-sweet-cupertino",
+                "address": "20560 Town Center Ln Cupertino, CA 95014"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.422026,
+                    37.798473
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Saint Frank Coffee",
+                "yelp": "http://www.yelp.com/biz/saint-frank-coffee-san-francisco-2",
+                "address": "2340 Polk St San Francisco, CA 94109"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4106368,
+                    37.76323259999999
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Coffee Bar",
+                "yelp": "http://www.yelp.com/biz/coffee-bar-san-francisco",
+                "address": "1890 Bryant St San Francisco, CA 94110"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.1864768,
+                    39.3283064
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Coffee Bar",
+                "yelp": "http://www.yelp.com/biz/coffeebar-truckee-3",
+                "address": "10120 Jibboom St Truckee, CA 96161"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.9516461,
+                    39.2491627
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "I.V. Coffee Lab",
+                "yelp": "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
+                "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4366194,
+                    37.7967042
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Wrecking Ball Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2",
+                "address": "2271 Union St San Francisco, CA 94123"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5050229,
+                    37.76025850000001
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Outerlands",
+                "yelp": "http://www.yelp.com/biz/outerlands-san-francisco",
+                "food": "meals",
+                "address": "4001 Judah St San Francisco, CA 94122"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4129209,
+                    37.7724539
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Sextant Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/sextant-coffee-roasters-san-francisco",
+                "address": "1415 Folsom St San Francisco, CA 94103"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.408537,
+                    37.777036
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Sightglass Coffee",
+                "yelp": "http://www.yelp.com/biz/sightglass-coffee-san-francisco",
+                "location": "SOMA",
+                "address": "270 Seventh Street San Francisco, CA 94103"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4113185,
+                    37.7592298
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "3014 20th Street, San Francisco, CA, 94110",
+                "name": "Sightglass Coffee",
+                "location": "Mission"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3933928,
+                    37.7957917
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "San Francisco Ferry Building, San Francisco, CA, 94111",
+                "name": "Sightglass Coffee",
+                "location": "Ferry Building"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4375233,
+                    37.772327
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "301 Divisadero St. San Francisco, CA 94117",
+                "name": "Sightglass Coffee",
+                "location": "Divisadero"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4008003,
+                    37.7859072
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "not yet open",
+                "name": "Sightglass Coffee",
+                "notes": "Opening Spring 2016",
+                "location": "SFMOMA",
+                "address": "151 Third Street, San Francisco, CA, 94103"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4341071,
+                    37.7893175
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Jane on Fillmore",
+                "yelp": "http://www.yelp.com/biz/jane-on-fillmore-san-francisco",
+                "address": "2123 Fillmore St San Francisco, CA 94115"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3934111,
+                    37.7955805
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "1 Ferry Building, #7 San Francisco, CA 94111",
+                "name": "Blue Bottle Coffee",
+                "location": "Ferry Building"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4233375,
+                    37.7762245
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "315 Linden St. San Francisco, CA 94102",
+                "name": "Blue Bottle Coffee",
+                "location": "Hayes Valley"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4118305,
+                    37.761972
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "2900 18th St. San Francisco, CA 94110",
+                "name": "Blue Bottle Coffee",
+                "location": "Heath Ceramics"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4168807,
+                    37.7767788
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "1355 Market St. (at 10th and Stevenson, suite 190) San Francisco, CA 94103",
+                "name": "Blue Bottle Coffee",
+                "location": "Market Square"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.407763,
+                    37.78246439999999
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "66 Mint Street San Francisco, CA 94103",
+                "name": "Blue Bottle Coffee",
+                "location": "Mint Plaza"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1595498,
+                    37.4475588
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "456 University Ave Palo Alto, CA 94301",
+                "name": "Blue Bottle Coffee",
+                "location": "Palo Alto"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4009813,
+                    37.7914343
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "115 Sansome San Francisco, CA 94104",
+                "name": "Blue Bottle Coffee",
+                "location": "Sansome"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2541263,
+                    37.8310971
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "4270 Broadway, Oakland, CA 94611",
+                "name": "Blue Bottle Coffee",
+                "location": "W.C. Morse"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.273128,
+                    37.795933
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "300 Webster St. Oakland, CA 94607",
+                "name": "Blue Bottle Coffee",
+                "location": "Webster Street"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4344138,
+                    37.7610934
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "4076 18th St. San Francisco, CA 94114",
+                "name": "Reveille Coffee Co",
+                "location": "Castro"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4055813,
+                    37.7971073
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "address": "200 Columbus Ave San Francisco, CA 94133",
+                "name": "Reveille Coffee Co",
+                "location": "North Beach"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.401649,
+                    37.797361
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Reveille Coffee Co",
+                "notes": "Espresso Truck",
+                "location": "Jackson Square",
+                "address": "768 Sansome St San Francisco, CA 94111"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5022956,
+                    37.7566759
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Andytown Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/andytown-coffee-roasters-san-francisco",
+                "address": "3655 Lawton St. San Francsico"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4976948,
+                    37.7755094
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Marla Bakery",
+                "yelp": "http://www.yelp.com/biz/marla-bakery-san-francisco-2",
+                "address": "3619 Balboa St San Francisco, CA 94121"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4733881,
+                    37.7635731
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Hollow",
+                "yelp": "http://www.yelp.com/biz/hollow-san-francisco",
+                "address": "1435 Irving St San Francisco, CA 94122"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4160427,
+                    37.7850861
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Hooker's Sweet Treats",
+                "yelp": "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",
+                "address": "442 Hyde St San Francisco, CA 94109"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4240327,
+                    37.7738958
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Mercury",
+                "yelp": "http://www.yelp.com/biz/mercury-cafe-san-francisco",
+                "address": "201 Octavia Blvd San Francisco, CA 94102"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2782145,
+                    37.8306732
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Scarlet City Espresso Bar",
+                "yelp": "http://www.yelp.com/biz/scarlet-city-espresso-bar-emeryville",
+                "address": "3960 Adeline St Emeryville, CA 94608"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.7691938,
+                    36.2360409
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Big Sur Bakery & Restaurant",
+                "yelp": "http://www.yelp.com/biz/big-sur-bakery-and-restaurant-big-sur-2",
+                "address": "47540 Hwy 1, Big Sur, CA 93920"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4770054,
+                    37.7544473
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Home",
+                "yelp": "http://www.yelp.com/biz/home-san-francisco-16",
+                "address": "1222 Noriega St San Francisco, CA 94122"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3993992,
+                    37.7873536
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "111 Minna St, San Francisco, CA 94105",
+                "name": "Red Door Coffee",
+                "location": "111 Mina"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3961922,
+                    37.7880095
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "505 Howard St, San Francisco, CA 94105",
+                "name": "Red Door Coffee",
+                "location": "505 Howard"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4012802,
+                    37.790841
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Coffee Cultures",
+                "yelp": "http://www.yelp.com/biz/coffee-cultures-san-francisco",
+                "address": "225 Bush St San Francisco, CA 94104"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3959956,
+                    37.7624718
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Farley's",
+                "yelp": "http://www.yelp.com/biz/farleys-san-francisco",
+                "address": "1315 18th St San Francisco, CA 94107"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4218845,
+                    37.7670058
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Four Barrel Coffee",
+                "yelp": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco",
+                "address": "375 Valencia St San Francisco, CA 94103"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4216012,
+                    37.7674032
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "notes": "does it still exist?",
+                "name": "Four Barrel Coffee Cart",
+                "address": "1 Caledonia St, San Francisco, CA"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.4462992,
+                    38.5618564
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "4749 Folsom Blvd. Sacramento, CA 95819",
+                "name": "Chocolate Fish Coffee Roasters",
+                "location": "East Sacramento"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.504537,
+                    38.57524
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "400 P Street, Ste 1203, Sacramento, CA 95814",
+                "name": "Chocolate Fish Coffee Roasters",
+                "location": "Downtown"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.4724015,
+                    38.5640033
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Temple Coffee Roasters",
+                "yelp": "http://www.yelp.com/biz/temple-coffee-roasters-sacramento-2",
+                "location": "Midtown",
+                "address": "2829 S St Sacramento, CA 95816"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.4951606,
+                    38.5803151
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "1010 9th Street, Sacramento, CA 95814",
+                "name": "Temple Coffee Roasters",
+                "location": "Downtown"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.401026,
+                    38.57387569999999
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "address": "2600 Fair Oaks Boulevard, Sacramento, CA 95864",
+                "name": "Temple Coffee Roasters",
+                "location": "Arden Arcade"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4031265,
+                    37.7803356
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Elite Audio Coffee Bar",
+                "yelp": "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco",
+                "address": "893A Folsom St San Francisco, CA 94107"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4042116,
+                    37.7942255
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Chapel Hill Coffee",
+                "yelp": "http://www.yelp.com/biz/chapel-hill-coffee-san-francisco",
+                "address": "670 Commercial St San Francisco, CA 94111"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4020874,
+                    37.7907994
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Workshop Cafe",
+                "yelp": "http://www.yelp.com/biz/workshop-cafe-san-francisco",
+                "address": "180 Montgomery St, Ste 100, San Francisco, CA 94104"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4853465,
+                    37.859091
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Cibo",
+                "yelp": "http://www.yelp.com/biz/cibo-sausalito",
+                "address": "1201 Bridgeway, Sausalito, CA 94965"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.395182,
+                    37.764412
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Front Cafe",
+                "yelp": "http://www.yelp.com/biz/front-cafe-san-francisco-3",
+                "address": "150 Mississippi St, San Francisco, CA 94107",
+                "ig": "FrontSF"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3961077,
+                    37.7952508
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Paramo Coffee Company",
+                "yelp": "http://www.yelp.com/biz/paramo-coffee-company-san-francisco-2",
+                "address": "4 Embarcadero Ctr. San Francisco, CA 94111"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5053705,
+                    37.7602986
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Trouble Coffee and Coconut Club",
+                "yelp": "http://www.yelp.com/biz/trouble-coffee-company-san-francisco",
+                "address": "4033 Judah St San Francisco, CA 94122"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4171452,
+                    37.79049970000001
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Flour and Co",
+                "yelp": "http://www.yelp.com/biz/flour-and-co-san-francisco-3",
+                "address": "1030 Hyde St San Francisco, CA 94109",
+                "ig": "flourandco"
+            }
+        }
+    ]
+}

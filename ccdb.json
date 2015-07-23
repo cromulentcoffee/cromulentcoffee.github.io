@@ -1,0 +1,24 @@
+{ "ccdb": {
+    "version": "v0.1",
+    "entries": [
+	
+	{ "id": 0,
+	  "name": "Blue Bottle Linden St.",
+	  "yelp-url": "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8",
+	  "ig-name": "@bluebottle"
+	},
+
+	{ "id": 1,
+	  "name": "Ritual Roasters",
+	  "yelp-url": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco",
+	  "ig-name": "@ritualvalencia"
+	},
+
+	{ "id": 2,
+	  "name": "Wrecking Ball",
+	  "yelp-url": "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2",
+	  "ig-name": "@wreckingball_"
+	}
+	
+	]
+}}
