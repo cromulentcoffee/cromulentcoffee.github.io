@@ -227,7 +227,7 @@ CCDB = [
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
         address = "2821 California St San Francisco, CA 94115",
-        ig = "b_patisserie"
+        ig = "bpatisserie",
     ),
 
     CCS(
