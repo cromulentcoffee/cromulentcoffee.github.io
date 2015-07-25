@@ -132,6 +132,8 @@ VALID_FIELDS = {"name": None,
                 "location": None,
                 "yelp": None,
                 "ig": None,
+                "url": None,
+                "twitter": None,
                 "rating": None,
                 "notes": None,
                 "food": None,
@@ -166,7 +168,7 @@ def CheckCCS(args):
     # Make sure all args are valid
     for arg in args.keys():
         if (arg not in VALID_FIELDS.keys()):
-            invs.appens(arg)
+            invs.append(arg)
 
     # Warn about fields that we should have
     for warn in WARNING_FIELDS:
@@ -226,6 +228,7 @@ CCDB = [
         name = "b. Patisserie",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
+        url = "bpatisserie.com/",
         address = "2821 California St San Francisco, CA 94115",
         ig = "bpatisserie",
     ),
@@ -235,6 +238,7 @@ CCDB = [
         rating = "cromulent",
         location = "Mission",
         yelp = "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco",
+        url = "https://www.ritualroasters.com/",
         address = "1026 Valencia Street San Francisco, CA 94110",
         ig = "ritualcoffee" 
     ),
@@ -244,6 +248,7 @@ CCDB = [
         rating = "cromulent",
         location = "Hayes Valley",
         yelp = "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco-5",
+        url = "https://www.ritualroasters.com/",
         address = "432b Octavia St San Francisco, CA 94102",
         ig = "ritualcoffee" 
     ),
@@ -252,6 +257,7 @@ CCDB = [
         name = "Craftsman and Wolves",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
+        url = "http://www.craftsman-wolves.com",
         address = "746 Valencia St San Francisco, CA 94110",
         ig = "craftsmanwolves" 
     ),
@@ -260,6 +266,7 @@ CCDB = [
         name = "Craftsman and Wolves",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
+        url = "http://www.craftsman-wolves.com",
         address = "746 Valencia St San Francisco, CA 94110",
         ig = "craftsmanwolves"  
     ),
@@ -268,113 +275,202 @@ CCDB = [
         name = "The Mill",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-mill-san-francisco",
-        address = "736 Divisadero St San Francisco, CA 94117" 
+        url = "www.themillsf.com/",
+        address = "736 Divisadero St San Francisco, CA 94117",
+        twitter = "TheMillSF",
+        ig = "themillsf",
     ),
 
     CCS(
         name = "Pinhole Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/pinhole-coffee-san-francisco-3",
+        url = "http://www.pinholecoffee.com",
         address = "231 Cortland Ave San Francisco, CA 94110",
-        ig = "pinholecoffee"
+        ig = "pinholecoffee",
+        twitter = "PinholeCoffee",
     ),
 
     CCS(
         name = "Bright Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/bright-coffee-monterey",
-        address = "281 Lighthouse Ave Monterey, CA 93940" 
+        url = "http://www.brightcoffeeca.com",
+        address = "281 Lighthouse Ave Monterey, CA 93940",
+        ig = "brightcoffeeca",
     ),
 
     CCS(
         name = "DeLise",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/delise-san-francisco",
-        address = "327 Bay St San Francisco, CA 94133" 
+        url = "http://www.delisesf.com",
+        address = "327 Bay St San Francisco, CA 94133",
+        twitter = "DeLiseSF",
+        ig = None,
     ),
 
     CCS(
         name = "Le Marais Bakery",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/le-marais-bakery-san-francisco-4",
-        address = "2066 Chestnut St San Francisco, CA 94123" 
+        url = "http://www.lemaraisbakery.com/",
+        address = "2066 Chestnut St San Francisco, CA 94123",
+        twitter = "lemaraisbakery",
+        ig = "lemaraisbakery",
     ),
 
     CCS(
         name = "Snowbird Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/snowbird-coffee-san-francisco",
-        address = "1352 A 9th Ave San Francisco, CA 94122" 
+        url = "http://snowbirdcoffee.com",
+        address = "1352 A 9th Ave San Francisco, CA 94122",
+        ig = "snowbirdcoffee",
+        twitter = "snowbirdcoffee",
     ),
 
     CCS(
         name = "Linea Caffe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/linea-caffe-san-francisco",
-        address = "3417 18th St San Francisco, CA 94110" 
+        url = "http://www.lineacaffe.com",
+        address = "3417 18th St San Francisco, CA 94110",
+        twitter = "linea_caffe",
+        ig = "lineacaffe",
     ),
 
     CCS(
         name = "Jane on Larkin",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/jane-on-larkin-san-francisco-2",
-        address = "925 Larkin St San Francisco, CA 94109" 
+        url = "http://itsjane.com/larkin/",
+        address = "925 Larkin St San Francisco, CA 94109",
+        twitter = "JaneonLarkin",
+        ig = "janeonlarkin",
     ),
+
+    CCS(
+        name = "Jane on Fillmore",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/jane-on-fillmore-san-francisco",
+        url = "http://itsjane.com/fillmore/",
+        address = "2123 Fillmore St San Francisco, CA 94115",
+        ig = "janeonfillmore",
+        twitter = "Janeonfillmore",
+    ),
+
 
     CCS(
         name = "Contraband Coffee Bar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco",
-        address = "1415 Larkin St San Francisco, CA 94109" 
+        url = "http://www.contrabandcoffeebar.com",
+        address = "1415 Larkin St San Francisco, CA 94109",
+        ig = "contrabandsf",
+        twitter = "contrabandsf",
     ),
 
     CCS(
         name = "The Brew",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-brew-san-francisco",
-        address = "2436 Polk St San Francisco, CA 94109" 
+        address = "2436 Polk St San Francisco, CA 94109",
+        # Darn these don't seem to exist
+        url = None,
+        ig = None,
     ),
 
     CCS(
         name = "Bitter+Sweet",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/bitter-sweet-cupertino",
-        address = "20560 Town Center Ln Cupertino, CA 95014" 
+        url = "http://bitter-sweet.com",
+        address = "20560 Town Center Ln Cupertino, CA 95014",
+        twitter = "bitterplussweet",
+        ig = "bitter_plus_sweet",
     ),
 
     CCS(
         name = "Saint Frank Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/saint-frank-coffee-san-francisco-2",
-        address = "2340 Polk St San Francisco, CA 94109" 
+        url = "http://www.saintfrankcoffee.com",
+        address = "2340 Polk St San Francisco, CA 94109",
+        twitter = "stfrankcoffee",
+        ig = "saintfrankcoffee",
     ),
 
     CCS(
         name = "Coffee Bar",
+        location = "Bryant",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/coffee-bar-san-francisco",
-        address = "1890 Bryant St San Francisco, CA 94110" 
+        address = "1890 Bryant St San Francisco, CA 94110",
+        url = "http://www.coffeebarsf.com/bryant-st",
+        ig = "CoffeeBarSF",
+        twitter = "CoffeeBarSF",
     ),
 
     CCS(
         name = "Coffee Bar",
+        location = "Montgomery",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/coffee-bar-san-francisco-2",
+        address = "101 Montgomery Street, San Francisco, CA 94104",
+        url = "http://www.coffeebarsf.com/montgomery",
+        ig = "CoffeeBarSF",
+        twitter = "CoffeeBarSF",
+    ),
+
+    CCS(
+        name = "Coffee Bar",
+        location = "Kearny",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/coffee-bar-san-francisco-4",
+        address = "433 Kearny Street, San Francisco, CA 94108",
+        url = "http://www.coffeebarsf.com/montgomery",
+        ig = "CoffeeBarSF",
+        twitter = "CoffeeBarSF",
+    ),
+
+    CCS(
+        name = "Coffeebar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/coffeebar-truckee-3",
-        address = "10120 Jibboom St Truckee, CA 96161" 
+        address = "10120 Jibboom St Truckee, CA 96161",
+        url = "http://www.coffeebartruckee.com",
+        ig = "coffeebar96161",
+        twitter = "Coffeebar96161",
+    ),
+
+    CCS(
+        name = "Coffeebar",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/coffeebar-reno-reno-2",
+        address = "682 Mount Rose St, Reno, NV 89509",
+        url = "http://www.coffeebarreno.com",
+        ig = "coffeebar96161",
+        twitter = "coffeebar96161",
     ),
 
     CCS(
         name = "I.V. Coffee Lab",
-        rating = "unverified",
+        rating = "insta-find",
         yelp = "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
         address = "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451",
+        ig = None,
+        url = None,
     ),
 
     CCS(
         name = "Wrecking Ball Coffee Roasters",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2",
-        address = "2271 Union St San Francisco, CA 94123" 
+        address = "2271 Union St San Francisco, CA 94123",
+        url = "http://www.wreckingballcoffee.com",
+        ig = "wreckingball_",
+        twitter = "wrecking_ball",
     ),
 
     CCS(
@@ -382,14 +478,20 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/outerlands-san-francisco",
         address = "4001 Judah St San Francisco, CA 94122",
-        food = "meals"
+        url = "http://outerlandssf.com",
+        ig = "outerlands",
+        twitter = "outerlandssf",
+        food = "meals",
     ),
 
     CCS(
         name = "Sextant Coffee Roasters",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/sextant-coffee-roasters-san-francisco",
-        address = "1415 Folsom St San Francisco, CA 94103" 
+        address = "1415 Folsom St San Francisco, CA 94103",
+        url = "http://sextantcoffee.com",
+        twitter = "sextantcoffee",
+        ig = "sextantcoffee",
     ),
 
     CCS(
@@ -397,120 +499,174 @@ CCDB = [
         rating = "cromulent",
         location = "SOMA",
         yelp = "http://www.yelp.com/biz/sightglass-coffee-san-francisco",
-        address = "270 Seventh Street San Francisco, CA 94103" 
+        address = "270 Seventh Street San Francisco, CA 94103",
+        url = "https://www.sightglasscoffee.com",
+        twitter = "Sightglass",
+        ig = "sightglass",
     ),
 
     CCS(
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Mission",
+        yelp = "http://www.yelp.com/biz/sightglass-coffee-san-francisco-3",
         address = "3014 20th Street, San Francisco, CA, 94110",
+        url = "https://www.sightglasscoffee.com",
+        twitter = "Sightglass",
+        ig = "sightglass",
     ),
 
     CCS(
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Ferry Building",
-        address = "San Francisco Ferry Building, San Francisco, CA, 94111" 
+        yelp = "http://www.yelp.com/biz/sightglass-coffee-stand-san-francisco",
+        address = "San Francisco Ferry Building, San Francisco, CA, 94111",
+        url = "https://www.sightglasscoffee.com",
+        twitter = "Sightglass",
+        ig = "sightglass",
     ),
 
     CCS(
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Divisadero",
-        address = "301 Divisadero St. San Francisco, CA 94117" 
+        yelp = None, # WTF?
+        address = "301 Divisadero St. San Francisco, CA 94117",
+        url = "https://www.sightglasscoffee.com",
+        twitter = "Sightglass",
+        ig = "sightglass",
     ),
 
     CCS(
         name = "Sightglass Coffee",
         rating = "not yet open",
         location = "SFMOMA",
+        yelp = None, # not yet
         address = "151 Third Street, San Francisco, CA, 94103",
-        notes = "Opening Spring 2016" 
-    ),
-
-    CCS(
-        name = "Jane on Fillmore",
-        rating = "cromulent",
-        yelp = "http://www.yelp.com/biz/jane-on-fillmore-san-francisco",
-        address = "2123 Fillmore St San Francisco, CA 94115" 
+        notes = "Opening Spring 2016",
+        url = "https://www.sightglasscoffee.com",
+        twitter = "Sightglass",
+        ig = "sightglass",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Ferry Building",
-        address = "1 Ferry Building, #7 San Francisco, CA 94111" 
+        address = "1 Ferry Building, #7 San Francisco, CA 94111",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-10",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Hayes Valley",
-        address = "315 Linden St. San Francisco, CA 94102" 
+        address = "315 Linden St. San Francisco, CA 94102",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-8",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Heath Ceramics",
-        address = "2900 18th St. San Francisco, CA 94110" 
+        address = "2900 18th St. San Francisco, CA 94110",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-9",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Market Square",
-        address = "1355 Market St. (at 10th and Stevenson, suite 190) San Francisco, CA 94103" 
+        address = "1355 Market St. (at 10th and Stevenson, suite 190) San Francisco, CA 94103",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-12",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Mint Plaza",
-        address = "66 Mint Street San Francisco, CA 94103" 
+        address = "66 Mint Street San Francisco, CA 94103",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-co-san-francisco-7",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Palo Alto",
-        address = "456 University Ave Palo Alto, CA 94301" 
+        address = "456 University Ave Palo Alto, CA 94301",
+        yelp = "http://www.yelp.com/biz/blue-bottle-palo-alto-4",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Sansome",
-        address = "115 Sansome San Francisco, CA 94104" 
+        address = "115 Sansome San Francisco, CA 94104",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-san-francisco-14",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         location = "W.C. Morse",
         rating = "cromulent",
-        address = "4270 Broadway, Oakland, CA 94611" 
+        address = "4270 Broadway, Oakland, CA 94611",
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-oakland",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Blue Bottle Coffee",
         location = "Webster Street",
         rating = "cromulent",
-        address = "300 Webster St. Oakland, CA 94607" 
+        address = "300 Webster St. Oakland, CA 94607", 
+        yelp = "http://www.yelp.com/biz/blue-bottle-coffee-oakland-2",
+        url = "https://bluebottlecoffee.com",
+        ig = "bluebottle",
+        twitter = "bluebottleroast",
     ),
 
     CCS(
         name = "Reveille Coffee Co",
         location = "Castro",
         rating = "cromulent",
-        address = "4076 18th St. San Francisco, CA 94114" 
+        address = "4076 18th St. San Francisco, CA 94114",
+        url = "http://www.reveillecoffee.com",
+        ig = "reveillecoffee",
+        twitter = "reveillecoffee",
     ),
 
     CCS(
         name = "Reveille Coffee Co",
         location = "North Beach",
         rating = "cromulent",
-        address = "200 Columbus Ave San Francisco, CA 94133" 
+        address = "200 Columbus Ave San Francisco, CA 94133",
+        url = "http://www.reveillecoffee.com",
+        ig = "reveillecoffee",
+        twitter = "reveillecoffee",
     ),
 
     CCS(
@@ -518,14 +674,20 @@ CCDB = [
         location = "Jackson Square",
         rating = "cromulent",
         address = "768 Sansome St San Francisco, CA 94111",
-        notes = "Espresso Truck"
+        url = "http://www.reveillecoffee.com",
+        ig = "reveillecoffee",
+        twitter = "reveillecoffee",
+        notes = "Espresso Truck",
     ),
 
     CCS(
         name = "Andytown Coffee Roasters",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/andytown-coffee-roasters-san-francisco",
-        address = "3655 Lawton St. San Francsico" 
+        address = "3655 Lawton St. San Francsico",
+        url = "http://www.andytownsf.com",
+        ig = "andytownsf",
+        twitter = "andytownsf",
     ),
 
     CCS(
@@ -533,6 +695,9 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/marla-bakery-san-francisco-2",
         address = "3619 Balboa St San Francisco, CA 94121",
+        url = "http://www.marlabakery.com",
+        ig = "marlabakery",
+        twitter = "Marlabakery",
     ),
 
     CCS(
@@ -540,13 +705,18 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/hollow-san-francisco",
         address = "1435 Irving St San Francisco, CA 94122",
+        url = "http://www.hollowsf.com",
+        ig = None,
+        twitter = None,
     ),
 
     CCS(
         name = "Hooker's Sweet Treats",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",
-        address = "442 Hyde St San Francisco, CA 94109" 
+        address = "442 Hyde St San Francisco, CA 94109",
+        url = "http://www.hookerssweettreats.com",
+        twitter = "hookerstreats",
     ),
 
     CCS(
@@ -554,7 +724,8 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/mercury-cafe-san-francisco",
         address = "201 Octavia Blvd San Francisco, CA 94102",
-    
+        url = "http://www.mercurycafe.net",
+        twitter = "mercurycafesf",
     ),
 
     CCS(
@@ -562,13 +733,19 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/scarlet-city-espresso-bar-emeryville",
         address = "3960 Adeline St Emeryville, CA 94608",
+        url = "http://www.scarletcityroasting.com",
+        ig = "scarletcitycoffee",
+        twitter = "TheScarletCity",
     ),
 
     CCS(
         name = "Big Sur Bakery & Restaurant",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/big-sur-bakery-and-restaurant-big-sur-2",
-        address = "47540 Hwy 1, Big Sur, CA 93920" 
+        address = "47540 Hwy 1, Big Sur, CA 93920",
+        url = "https://www.bigsurbakery.com",
+        ig = "bigsurbakery",
+        twitter = "BigSurBakery",
     ),
 
     CCS(
@@ -576,6 +753,9 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/home-san-francisco-16",
         address = "1222 Noriega St San Francisco, CA 94122",
+        # Hard to search, not linked off yelp
+        url = None,
+        ig = None,
     ),
 
     CCS(
@@ -583,6 +763,9 @@ CCDB = [
         rating = "unverified",
         location = "111 Mina",
         address = "111 Minna St, San Francisco, CA 94105",
+        url = "http://reddoorcoffeesf.com",
+        ig = "reddoorcoffee",
+        twitter = "reddoorcoffee",
     ),
 
     CCS(
@@ -590,6 +773,9 @@ CCDB = [
         rating = "unverified" ,
         location = "505 Howard",
         address = "505 Howard St, San Francisco, CA 94105",
+        url = "http://reddoorcoffeesf.com",
+        ig = "reddoorcoffee",
+        twitter = "reddoorcoffee",
     ),
 
     CCS(
@@ -597,27 +783,39 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/coffee-cultures-san-francisco",
         address = "225 Bush St San Francisco, CA 94104",
+        url = "http://coffee-cultures.com",
+        ig = "coffeeculturesfidi",
+        twitter = "CoffeeCultures1",
     ),
 
     CCS(
         name = "Farley's",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/farleys-san-francisco",
-        address = "1315 18th St San Francisco, CA 94107" 
+        address = "1315 18th St San Francisco, CA 94107",
+        url = "http://www.farleyscoffee.com",
+        ig = "farleyscoffee",
+        twitter = "farleyscoffee",
     ),
 
     CCS(
         name = "Four Barrel Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/four-barrel-coffee-san-francisco",
-        address = "375 Valencia St San Francisco, CA 94103" 
+        address = "375 Valencia St San Francisco, CA 94103",
+        url = "http://fourbarrelcoffee.com",
+        ig = "fourbarrelcoffee",
+        twitter = "fourbarrel",
     ),
 
     CCS(
         name = "Four Barrel Coffee Cart",
         rating = "cromulent",
         address = "1 Caledonia St, San Francisco, CA",
-        notes = "does it still exist?" 
+        notes = "does it still exist?",
+        url = "http://fourbarrelcoffee.com",
+        ig = "fourbarrelcoffee",
+        twitter = "fourbarrel",
     ),
 
     CCS(
@@ -714,6 +912,65 @@ CCDB = [
         ig = "flourandco"
     ),
 
+    CCS(
+        name = "Espresso Cielo",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/espresso-cielo-santa-monica",
+        address = "3101 Main Street, Santa Monica, CA",
+        url = "http://espressocielo.com",
+        ig = "espressocielo",
+        twitter = "espressocielo",
+    ),
+
+    CCS(
+        name = "Mountain Grounds",
+        rating = "insta-find",
+        yelp = "http://www.yelp.com/biz/mountain-grounds-martinez",
+        address = "3750 Alhambra Ave, Ste 2, Martinez, CA 94553",
+        twitter = "mtngrounds",
+    ),
+
+    CCS(
+        name = "Pacific Bay Coffee Co.",
+        rating = "insta-find",
+        yelp = "http://www.yelp.com/biz/pacific-bay-coffee-co-and-micro-roastery-walnut-creek",
+        url = "http://www.pacificbaycoffee.com",
+        address = "1495 Newell Ave, Walnut Creek, California 94596",
+        twitter = "pacbaycoffee",
+    ),
+    
+    CCS(
+        name = "Aviano Coffee",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/aviano-coffee-denver",
+        url = "http://avianocoffee.com",
+        address = "244 Detroit St, Denver, CO 80206",
+        twitter = "avianocoffee",
+        ig = "avianocoffee"
+    ),
+
+    CCS(
+        name = "Nove Coffee",
+        location = "Gilpin",
+        rating = "insta-find",
+        yelp = "http://www.yelp.com/biz/novo-coffee-denver-5",
+        url = "http://novocoffee.com",
+        address = "1700 E 6th Ave, Denver, CO 80218",
+        twitter = "novocoffee",
+        ig = "novocoffee"
+    ),
+    
+    CCS(
+        name = "Thump Coffee",
+        location = "Denver",
+        rating = "insta-find",
+        yelp = "http://www.yelp.com/biz/thump-coffee-denver",
+        url = "http://www.thumpcoffee.com",
+        address = "1201 E 13th Ave, Denver, CO 80218",
+        twitter = "thumpcoffee",
+        ig = "thumpcoffee"
+    ),
+    
     ]
 
 ###

@@ -13,12 +13,19 @@
         ],
         "3014 20th Street, San Francisco, CA 94110, USA"
     ],
-    "2271 Union St San Francisco, CA 94123": [
+    "315 Linden St. San Francisco, CA 94102": [
         [
-            -122.4366194,
-            37.7967042
+            -122.4233375,
+            37.7762245
         ],
-        "2271 Union Street, San Francisco, CA 94123, USA"
+        "315 Linden Street, San Francisco, CA 94102, USA"
+    ],
+    "1700 E 6th Ave, Denver, CO 80218": [
+        [
+            -104.9669622,
+            39.7254389
+        ],
+        "1700 East 6th Avenue, Denver, CO 80218, USA"
     ],
     "4076 18th St. San Francisco, CA 94114": [
         [
@@ -27,12 +34,12 @@
         ],
         "4076 18th Street, San Francisco, CA 94114, USA"
     ],
-    "1315 18th St San Francisco, CA 94107": [
+    "244 Detroit St, Denver, CO 80206": [
         [
-            -122.3959956,
-            37.7624718
+            -104.9543,
+            39.720375
         ],
-        "1315 18th Street, San Francisco, CA 94107, USA"
+        "244 Detroit Street, Denver, CO 80206, USA"
     ],
     "1352 A 9th Ave San Francisco, CA 94122": [
         [
@@ -41,6 +48,27 @@
         ],
         "1352-A 9th Avenue, San Francisco, CA 94122, USA"
     ],
+    "3101 Main Street, Santa Monica, CA": [
+        [
+            -118.4793298,
+            33.9980239
+        ],
+        "3101 Main Street, Santa Monica, CA 90405, USA"
+    ],
+    "3750 Alhambra Ave, Ste 2, Martinez, CA 94553": [
+        [
+            -122.1326685,
+            37.9979207
+        ],
+        "3750 Alhambra Avenue #2, Martinez, CA 94553, USA"
+    ],
+    "1495 Newell Ave, Walnut Creek, California 94596": [
+        [
+            -122.0580251,
+            37.8927752
+        ],
+        "1495 Newell Avenue, Walnut Creek, CA 94596, USA"
+    ],
     "670 Commercial St San Francisco, CA 94111": [
         [
             -122.4042116,
@@ -48,26 +76,12 @@
         ],
         "670 Commercial Street, San Francisco, CA 94111, USA"
     ],
-    "150 Mississippi St, San Francisco, CA 94107": [
+    "2900 18th St. San Francisco, CA 94110": [
         [
-            -122.395182,
-            37.764412
+            -122.4118305,
+            37.761972
         ],
-        "150 Mississippi Street, San Francisco, CA 94107, USA"
-    ],
-    "315 Linden St. San Francisco, CA 94102": [
-        [
-            -122.4233375,
-            37.7762245
-        ],
-        "315 Linden Street, San Francisco, CA 94102, USA"
-    ],
-    "4033 Judah St San Francisco, CA 94122": [
-        [
-            -122.5053705,
-            37.7602986
-        ],
-        "4033 Judah Street, San Francisco, CA 94122, USA"
+        "2900 18th Street, San Francisco, CA 94110, USA"
     ],
     "151 Third Street, San Francisco, CA, 94103": [
         [
@@ -82,6 +96,13 @@
             37.7893175
         ],
         "2123 Fillmore Street, San Francisco, CA 94115, USA"
+    ],
+    "4001 Judah St San Francisco, CA 94122": [
+        [
+            -122.5050229,
+            37.76025850000001
+        ],
+        "4001 Judah Street, San Francisco, CA 94122, USA"
     ],
     "20560 Town Center Ln Cupertino, CA 95014": [
         [
@@ -118,13 +139,6 @@
         ],
         "300 Webster Street, Oakland, CA 94607, USA"
     ],
-    "505 Howard St, San Francisco, CA 94105": [
-        [
-            -122.3961922,
-            37.7880095
-        ],
-        "505 Howard Street, San Francisco, CA 94105, USA"
-    ],
     "301 Divisadero St. San Francisco, CA 94117": [
         [
             -122.4375233,
@@ -153,26 +167,33 @@
         ],
         "3655 Lawton Street, San Francisco, CA 94122, USA"
     ],
-    "2900 18th St. San Francisco, CA 94110": [
+    "1315 18th St San Francisco, CA 94107": [
         [
-            -122.4118305,
-            37.761972
+            -122.3959956,
+            37.7624718
         ],
-        "2900 18th Street, San Francisco, CA 94110, USA"
+        "1315 18th Street, San Francisco, CA 94107, USA"
     ],
-    "281 Lighthouse Ave Monterey, CA 93940": [
+    "4033 Judah St San Francisco, CA 94122": [
         [
-            -121.899306,
-            36.610238
+            -122.5053705,
+            37.7602986
         ],
-        "281 Lighthouse Avenue, Monterey, CA 93940, USA"
+        "4033 Judah Street, San Francisco, CA 94122, USA"
     ],
-    "225 Bush St San Francisco, CA 94104": [
+    "682 Mount Rose St, Reno, NV 89509": [
         [
-            -122.4012802,
-            37.790841
+            -119.8149981,
+            39.5090563
         ],
-        "225 Bush Street, San Francisco, CA 94104, USA"
+        "682 Mount Rose Street, Reno, NV 89509, USA"
+    ],
+    "115 Sansome San Francisco, CA 94104": [
+        [
+            -122.4009813,
+            37.7914343
+        ],
+        "115 Sansome Street, San Francisco, CA 94104, USA"
     ],
     "375 Valencia St San Francisco, CA 94103": [
         [
@@ -181,12 +202,12 @@
         ],
         "375 Valencia Street, San Francisco, CA 94103, USA"
     ],
-    "1 Ferry Building, #7 San Francisco, CA 94111": [
+    "281 Lighthouse Ave Monterey, CA 93940": [
         [
-            -122.3934111,
-            37.7955805
+            -121.899306,
+            36.610238
         ],
-        "Ferry Building Marketplace, San Francisco, CA 94105, USA"
+        "281 Lighthouse Avenue, Monterey, CA 93940, USA"
     ],
     "4270 Broadway, Oakland, CA 94611": [
         [
@@ -230,19 +251,19 @@
         ],
         "1415 Folsom Street, San Francisco, CA 94103, USA"
     ],
-    "1890 Bryant St San Francisco, CA 94110": [
+    "150 Mississippi St, San Francisco, CA 94107": [
         [
-            -122.4106368,
-            37.76323259999999
+            -122.395182,
+            37.764412
         ],
-        "1890 Bryant Street, San Francisco, CA 94110, USA"
+        "150 Mississippi Street, San Francisco, CA 94107, USA"
     ],
-    "1026 Valencia Street San Francisco, CA 94110": [
+    "2271 Union St San Francisco, CA 94123": [
         [
-            -122.4213655,
-            37.7564371
+            -122.4366194,
+            37.7967042
         ],
-        "1026 Valencia Street, San Francisco, CA 94110, USA"
+        "2271 Union Street, San Francisco, CA 94123, USA"
     ],
     "10120 Jibboom St Truckee, CA 96161": [
         [
@@ -258,12 +279,26 @@
         ],
         "1355 Market Street, San Francisco, CA 94103, USA"
     ],
-    "1435 Irving St San Francisco, CA 94122": [
+    "1 Ferry Building, #7 San Francisco, CA 94111": [
         [
-            -122.4733881,
-            37.7635731
+            -122.3934111,
+            37.7955805
         ],
-        "1435 Irving Street, San Francisco, CA 94122, USA"
+        "Ferry Building Marketplace, San Francisco, CA 94105, USA"
+    ],
+    "101 Montgomery Street, San Francisco, CA 94104": [
+        [
+            -122.4025967,
+            37.79053
+        ],
+        "101 Montgomery Street, San Francisco, CA 94104, USA"
+    ],
+    "505 Howard St, San Francisco, CA 94105": [
+        [
+            -122.3961922,
+            37.7880095
+        ],
+        "505 Howard Street, San Francisco, CA 94105, USA"
     ],
     "2821 California St San Francisco, CA 94115": [
         [
@@ -272,12 +307,12 @@
         ],
         "2821 California Street, San Francisco, CA 94115, USA"
     ],
-    "442 Hyde St San Francisco, CA 94109": [
+    "1435 Irving St San Francisco, CA 94122": [
         [
-            -122.4160427,
-            37.7850861
+            -122.4733881,
+            37.7635731
         ],
-        "442 Hyde Street, San Francisco, CA 94109, USA"
+        "1435 Irving Street, San Francisco, CA 94122, USA"
     ],
     "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451": [
         [
@@ -285,6 +320,13 @@
             39.2491627
         ],
         "Humboldt-Toiyabe National Forest, 907 Tahoe Boulevard #20a, Incline Village, NV 89451, USA"
+    ],
+    "893A Folsom St San Francisco, CA 94107": [
+        [
+            -122.4031265,
+            37.7803356
+        ],
+        "893B Folsom Street, San Francisco, CA 94107, USA"
     ],
     "1222 Noriega St San Francisco, CA 94122": [
         [
@@ -300,12 +342,19 @@
         ],
         "3619 Balboa Street, San Francisco, CA 94121, USA"
     ],
-    "4 Embarcadero Ctr. San Francisco, CA 94111": [
+    "180 Montgomery St, Ste 100, San Francisco, CA 94104": [
         [
-            -122.3961077,
-            37.7952508
+            -122.4020874,
+            37.7907994
         ],
-        "4 Embarcadero Center, San Francisco, CA 94111, USA"
+        "180 Montgomery Street #100, San Francisco, CA 94104, USA"
+    ],
+    "1201 E 13th Ave, Denver, CO 80218": [
+        [
+            -104.9728066,
+            39.7370362
+        ],
+        "1201 East 13th Avenue, Denver, CO 80218, USA"
     ],
     "925 Larkin St San Francisco, CA 94109": [
         [
@@ -328,12 +377,12 @@
         ],
         "2829 S Street, Sacramento, CA 95816, USA"
     ],
-    "4001 Judah St San Francisco, CA 94122": [
+    "225 Bush St San Francisco, CA 94104": [
         [
-            -122.5050229,
-            37.76025850000001
+            -122.4012802,
+            37.790841
         ],
-        "4001 Judah Street, San Francisco, CA 94122, USA"
+        "225 Bush Street, San Francisco, CA 94104, USA"
     ],
     "47540 Hwy 1, Big Sur, CA 93920": [
         [
@@ -342,12 +391,12 @@
         ],
         "47540 California 1, Big Sur, CA 93920, USA"
     ],
-    "180 Montgomery St, Ste 100, San Francisco, CA 94104": [
+    "1890 Bryant St San Francisco, CA 94110": [
         [
-            -122.4020874,
-            37.7907994
+            -122.4106368,
+            37.76323259999999
         ],
-        "180 Montgomery Street #100, San Francisco, CA 94104, USA"
+        "1890 Bryant Street, San Francisco, CA 94110, USA"
     ],
     "1010 9th Street, Sacramento, CA 95814": [
         [
@@ -356,12 +405,19 @@
         ],
         "1010 9th Street, Sacramento, CA 95814, USA"
     ],
-    "893A Folsom St San Francisco, CA 94107": [
+    "1026 Valencia Street San Francisco, CA 94110": [
         [
-            -122.4031265,
-            37.7803356
+            -122.4213655,
+            37.7564371
         ],
-        "893B Folsom Street, San Francisco, CA 94107, USA"
+        "1026 Valencia Street, San Francisco, CA 94110, USA"
+    ],
+    "433 Kearny Street, San Francisco, CA 94108": [
+        [
+            -122.4047029,
+            37.7921426
+        ],
+        "433 Kearny Street, San Francisco, CA 94108, USA"
     ],
     "400 P Street, Ste 1203, Sacramento, CA 95814": [
         [
@@ -377,12 +433,19 @@
         ],
         "Sausalito - San Francisco Ferry Building, San Francisco, CA 94111, USA"
     ],
-    "115 Sansome San Francisco, CA 94104": [
+    "442 Hyde St San Francisco, CA 94109": [
         [
-            -122.4009813,
-            37.7914343
+            -122.4160427,
+            37.7850861
         ],
-        "115 Sansome Street, San Francisco, CA 94104, USA"
+        "442 Hyde Street, San Francisco, CA 94109, USA"
+    ],
+    "1 Caledonia St, San Francisco, CA": [
+        [
+            -122.4216012,
+            37.7674032
+        ],
+        "1 Caledonia Street, San Francisco, CA 94103, USA"
     ],
     "66 Mint Street San Francisco, CA 94103": [
         [
@@ -454,12 +517,12 @@
         ],
         "201 Octavia Boulevard, San Francisco, CA 94102, USA"
     ],
-    "1 Caledonia St, San Francisco, CA": [
+    "4 Embarcadero Ctr. San Francisco, CA 94111": [
         [
-            -122.4216012,
-            37.7674032
+            -122.3961077,
+            37.7952508
         ],
-        "1 Caledonia Street, San Francisco, CA 94103, USA"
+        "4 Embarcadero Center, San Francisco, CA 94111, USA"
     ],
     "1030 Hyde St San Francisco, CA 94109": [
         [
