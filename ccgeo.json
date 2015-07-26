@@ -164,8 +164,7 @@
                 "yelp": "http://www.yelp.com/biz/delise-san-francisco",
                 "url": "http://www.delisesf.com",
                 "twitter": "DeLiseSF",
-                "address": "327 Bay St San Francisco, CA 94133",
-                "ig": null
+                "address": "327 Bay St San Francisco, CA 94133"
             }
         },
         {
@@ -295,9 +294,7 @@
                 "rating": "cromulent",
                 "name": "The Brew",
                 "yelp": "http://www.yelp.com/biz/the-brew-san-francisco",
-                "url": null,
-                "address": "2436 Polk St San Francisco, CA 94109",
-                "ig": null
+                "address": "2436 Polk St San Francisco, CA 94109"
             }
         },
         {
@@ -449,9 +446,7 @@
                 "rating": "insta-find",
                 "name": "I.V. Coffee Lab",
                 "yelp": "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
-                "url": null,
-                "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451",
-                "ig": null
+                "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451"
             }
         },
         {
@@ -584,7 +579,6 @@
             "properties": {
                 "rating": "cromulent",
                 "name": "Sightglass Coffee",
-                "yelp": null,
                 "url": "https://www.sightglasscoffee.com",
                 "twitter": "Sightglass",
                 "location": "Divisadero",
@@ -602,9 +596,8 @@
             },
             "type": "Feature",
             "properties": {
-                "rating": "not yet open",
+                "rating": "unverified",
                 "name": "Sightglass Coffee",
-                "yelp": null,
                 "url": "https://www.sightglasscoffee.com",
                 "notes": "Opening Spring 2016",
                 "location": "SFMOMA",
@@ -903,9 +896,7 @@
                 "name": "Hollow",
                 "yelp": "http://www.yelp.com/biz/hollow-san-francisco",
                 "url": "http://www.hollowsf.com",
-                "twitter": null,
-                "address": "1435 Irving St San Francisco, CA 94122",
-                "ig": null
+                "address": "1435 Irving St San Francisco, CA 94122"
             }
         },
         {
@@ -995,9 +986,7 @@
                 "rating": "unverified",
                 "name": "Home",
                 "yelp": "http://www.yelp.com/biz/home-san-francisco-16",
-                "url": null,
-                "address": "1222 Noriega St San Francisco, CA 94122",
-                "ig": null
+                "address": "1222 Noriega St San Francisco, CA 94122"
             }
         },
         {
@@ -1125,9 +1114,12 @@
             "type": "Feature",
             "properties": {
                 "rating": "unverified",
-                "address": "4749 Folsom Blvd. Sacramento, CA 95819",
                 "name": "Chocolate Fish Coffee Roasters",
-                "location": "East Sacramento"
+                "url": "http://www.chocolatefishcoffee.com",
+                "twitter": "ChocFishCoffee",
+                "location": "East Sacramento",
+                "address": "4749 Folsom Blvd. Sacramento, CA 95819",
+                "ig": "chocfishcoffee"
             }
         },
         {
@@ -1141,9 +1133,12 @@
             "type": "Feature",
             "properties": {
                 "rating": "unverified",
-                "address": "400 P Street, Ste 1203, Sacramento, CA 95814",
                 "name": "Chocolate Fish Coffee Roasters",
-                "location": "Downtown"
+                "url": "http://www.chocolatefishcoffee.com",
+                "twitter": "ChocFishCoffee",
+                "location": "Downtown",
+                "address": "400 P Street, Ste 1203, Sacramento, CA 95814",
+                "ig": "chocfishcoffee"
             }
         },
         {
@@ -1159,8 +1154,11 @@
                 "rating": "unverified",
                 "name": "Temple Coffee Roasters",
                 "yelp": "http://www.yelp.com/biz/temple-coffee-roasters-sacramento-2",
+                "url": "http://templecoffee.com",
+                "twitter": "templecoffee",
                 "location": "Midtown",
-                "address": "2829 S St Sacramento, CA 95816"
+                "address": "2829 S St Sacramento, CA 95816",
+                "ig": "templecoffeeroasters"
             }
         },
         {
@@ -1174,9 +1172,12 @@
             "type": "Feature",
             "properties": {
                 "rating": "unverified",
-                "address": "1010 9th Street, Sacramento, CA 95814",
                 "name": "Temple Coffee Roasters",
-                "location": "Downtown"
+                "url": "http://templecoffee.com",
+                "twitter": "templecoffee",
+                "location": "Downtown",
+                "address": "1010 9th Street, Sacramento, CA 95814",
+                "ig": "templecoffeeroasters"
             }
         },
         {
@@ -1190,9 +1191,12 @@
             "type": "Feature",
             "properties": {
                 "rating": "unverified",
-                "address": "2600 Fair Oaks Boulevard, Sacramento, CA 95864",
                 "name": "Temple Coffee Roasters",
-                "location": "Arden Arcade"
+                "url": "http://templecoffee.com",
+                "twitter": "templecoffee",
+                "location": "Arden Arcade",
+                "address": "2600 Fair Oaks Boulevard, Sacramento, CA 95864",
+                "ig": "templecoffeeroasters"
             }
         },
         {
@@ -1205,10 +1209,13 @@
             },
             "type": "Feature",
             "properties": {
-                "rating": "unverified",
+                "rating": "cromulent",
                 "name": "Elite Audio Coffee Bar",
                 "yelp": "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco",
-                "address": "893A Folsom St San Francisco, CA 94107"
+                "url": "http://www.eliteaudiosf.com/menu/",
+                "twitter": "eliteaudiocafe",
+                "address": "893A Folsom St San Francisco, CA 94107",
+                "ig": "eliteaudiocoffeebar"
             }
         },
         {
@@ -1224,7 +1231,10 @@
                 "rating": "unverified",
                 "name": "Chapel Hill Coffee",
                 "yelp": "http://www.yelp.com/biz/chapel-hill-coffee-san-francisco",
-                "address": "670 Commercial St San Francisco, CA 94111"
+                "url": "http://www.chapelhillcoffee.com",
+                "twitter": "chapelcoffee",
+                "address": "670 Commercial St San Francisco, CA 94111",
+                "ig": "chapelcoffee"
             }
         },
         {
@@ -1240,7 +1250,10 @@
                 "rating": "unverified",
                 "name": "Workshop Cafe",
                 "yelp": "http://www.yelp.com/biz/workshop-cafe-san-francisco",
-                "address": "180 Montgomery St, Ste 100, San Francisco, CA 94104"
+                "url": "http://www.workshopcafe.com",
+                "twitter": "workshopcafe",
+                "address": "180 Montgomery St, Ste 100, San Francisco, CA 94104",
+                "ig": "workshopcafesf"
             }
         },
         {
@@ -1256,7 +1269,10 @@
                 "rating": "unverified",
                 "name": "Cibo",
                 "yelp": "http://www.yelp.com/biz/cibo-sausalito",
-                "address": "1201 Bridgeway, Sausalito, CA 94965"
+                "url": "http://cibosausalito.com/",
+                "twitter": "teracibo",
+                "address": "1201 Bridgeway, Sausalito, CA 94965",
+                "ig": "cibosausalito"
             }
         },
         {
@@ -1272,6 +1288,8 @@
                 "rating": "unverified",
                 "name": "Front Cafe",
                 "yelp": "http://www.yelp.com/biz/front-cafe-san-francisco-3",
+                "url": "https://www.frontsf.com",
+                "twitter": "frontsf",
                 "address": "150 Mississippi St, San Francisco, CA 94107",
                 "ig": "FrontSF"
             }
@@ -1289,7 +1307,10 @@
                 "rating": "unverified",
                 "name": "Paramo Coffee Company",
                 "yelp": "http://www.yelp.com/biz/paramo-coffee-company-san-francisco-2",
-                "address": "4 Embarcadero Ctr. San Francisco, CA 94111"
+                "url": "http://www.paramocoffee.com",
+                "twitter": "paramocoffee",
+                "address": "4 Embarcadero Ctr. San Francisco, CA 94111",
+                "ig": "paramocoffee"
             }
         },
         {
@@ -1305,6 +1326,7 @@
                 "rating": "cromulent",
                 "name": "Trouble Coffee and Coconut Club",
                 "yelp": "http://www.yelp.com/biz/trouble-coffee-company-san-francisco",
+                "url": "https://www.facebook.com/pages/Trouble-Coffee-and-Coconut-Club/56373211579",
                 "address": "4033 Judah St San Francisco, CA 94122"
             }
         },
@@ -1321,6 +1343,8 @@
                 "rating": "cromulent",
                 "name": "Flour and Co",
                 "yelp": "http://www.yelp.com/biz/flour-and-co-san-francisco-3",
+                "url": "http://www.flourandco.com",
+                "twitter": "FlourandCo",
                 "address": "1030 Hyde St San Francisco, CA 94109",
                 "ig": "flourandco"
             }
@@ -1357,6 +1381,7 @@
                 "rating": "insta-find",
                 "name": "Mountain Grounds",
                 "yelp": "http://www.yelp.com/biz/mountain-grounds-martinez",
+                "url": "https://www.facebook.com/pages/Mountain-Grounds/374220416039981",
                 "twitter": "mtngrounds",
                 "address": "3750 Alhambra Ave, Ste 2, Martinez, CA 94553"
             }
@@ -1408,8 +1433,8 @@
             },
             "type": "Feature",
             "properties": {
-                "rating": "insta-find",
-                "name": "Nove Coffee",
+                "rating": "cromulent",
+                "name": "Novo Coffee",
                 "yelp": "http://www.yelp.com/biz/novo-coffee-denver-5",
                 "url": "http://novocoffee.com",
                 "twitter": "novocoffee",

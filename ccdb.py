@@ -127,6 +127,7 @@ def geocode_address(name, addr, geo_opt):
 
 REQUIRED_FIELDS = ["name", "address", "rating"]
 WARNING_FIELDS = ["ig", "url"]
+VALID_RATINGS = ["cromulent", "insta-find", "unverified"]
 VALID_FIELDS = {"name": None,
                 "address": None,
                 "location": None,
@@ -160,9 +161,9 @@ def CheckCCS(args):
     invs = []
     warns = []
     
-    # Make sure required args are all there
+    # Make sure required args are all there and non-None
     for req in REQUIRED_FIELDS:
-        if req not in args.keys():
+        if (args.get(req, None) is None):
             reqs.append(req)
 
     # Make sure all args are valid
@@ -174,6 +175,10 @@ def CheckCCS(args):
     for warn in WARNING_FIELDS:
         if warn not in args.keys():
             warns.append(warn)
+
+    # make sure it's a valid rating
+    if args["rating"] not in VALID_RATINGS:
+        invs.append("rating")
 
     return (reqs, invs, warns)
 
@@ -187,14 +192,18 @@ def ParseCCS(args, geo_opt=None):
         raise RuntimeError("Missing required fields: %s", reqs)
     
     if (len(invs)):
-        raise RuntimeError("Invalid fields specified: %s", invs)
+        raise RuntimeError("Invalid fields/values specified: %s", invs)
 
     # Make sure all valid fields with default values are specified
     for field in VALID_FIELDS.keys():
         if ((field not in args.keys())
             and (VALID_FIELDS[field] is not None)):
             args[field] = VALID_FIELDS[field]
-        
+        elif ((field in args.keys())
+              and (args[field] is None)):
+            # remove any none fields we used to avoid warnings
+                del args[field]
+                
     # Now look up the lat/long
     # FIXME: insta scrape will probably use lat/long already
     args[LATLONG] = geocode_address(NameCCS(args), args["address"], geo_opt)
@@ -540,7 +549,7 @@ CCDB = [
 
     CCS(
         name = "Sightglass Coffee",
-        rating = "not yet open",
+        rating = "unverified",
         location = "SFMOMA",
         yelp = None, # not yet
         address = "151 Third Street, San Francisco, CA, 94103",
@@ -717,6 +726,7 @@ CCDB = [
         address = "442 Hyde St San Francisco, CA 94109",
         url = "http://www.hookerssweettreats.com",
         twitter = "hookerstreats",
+        ig = None,
     ),
 
     CCS(
@@ -726,6 +736,7 @@ CCDB = [
         address = "201 Octavia Blvd San Francisco, CA 94102",
         url = "http://www.mercurycafe.net",
         twitter = "mercurycafesf",
+        ig = None,
     ),
 
     CCS(
@@ -823,6 +834,9 @@ CCDB = [
         rating = "unverified",
         location = "East Sacramento",
         address = "4749 Folsom Blvd. Sacramento, CA 95819",
+        url = "http://www.chocolatefishcoffee.com",
+        ig = "chocfishcoffee",
+        twitter = "ChocFishCoffee",
     ),
 
     CCS(
@@ -830,6 +844,9 @@ CCDB = [
         rating = "unverified",
         location = "Downtown",
         address = "400 P Street, Ste 1203, Sacramento, CA 95814",
+        url = "http://www.chocolatefishcoffee.com",
+        ig = "chocfishcoffee",
+        twitter = "ChocFishCoffee",
     ),
 
     CCS(
@@ -838,6 +855,9 @@ CCDB = [
         location = "Midtown",
         yelp = "http://www.yelp.com/biz/temple-coffee-roasters-sacramento-2",
         address = "2829 S St Sacramento, CA 95816",
+        url = "http://templecoffee.com",
+        ig = "templecoffeeroasters",
+        twitter = "templecoffee",
     ),
 
     CCS(
@@ -845,6 +865,9 @@ CCDB = [
         rating = "unverified",
         location = "Downtown",
         address = "1010 9th Street, Sacramento, CA 95814",
+        url = "http://templecoffee.com",
+        ig = "templecoffeeroasters",
+        twitter = "templecoffee",
     ),
 
     CCS(
@@ -852,27 +875,39 @@ CCDB = [
         rating = "unverified",
         location = "Arden Arcade",
         address = "2600 Fair Oaks Boulevard, Sacramento, CA 95864",
+        url = "http://templecoffee.com",
+        ig = "templecoffeeroasters",
+        twitter = "templecoffee",
     ),
 
     CCS(
         name = "Elite Audio Coffee Bar",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco",
         address = "893A Folsom St San Francisco, CA 94107",
+        url = "http://www.eliteaudiosf.com/menu/",
+        ig = "eliteaudiocoffeebar",
+        twitter = "eliteaudiocafe",
     ),
 
     CCS(
         name = "Chapel Hill Coffee",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/chapel-hill-coffee-san-francisco",
-        address = "670 Commercial St San Francisco, CA 94111" 
+        address = "670 Commercial St San Francisco, CA 94111",
+        url = "http://www.chapelhillcoffee.com",
+        ig = "chapelcoffee",
+        twitter = "chapelcoffee",
     ),
 
     CCS(
         name = "Workshop Cafe",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/workshop-cafe-san-francisco",
-        address = "180 Montgomery St, Ste 100, San Francisco, CA 94104" 
+        address = "180 Montgomery St, Ste 100, San Francisco, CA 94104",
+        url = "http://www.workshopcafe.com",
+        ig = "workshopcafesf",
+        twitter = "workshopcafe",
     ),
 
     CCS(
@@ -880,6 +915,9 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/cibo-sausalito",
         address = "1201 Bridgeway, Sausalito, CA 94965",
+        url = "http://cibosausalito.com/",
+        ig = "cibosausalito",
+        twitter = "teracibo",
     ),
 
     CCS(
@@ -887,21 +925,29 @@ CCDB = [
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/front-cafe-san-francisco-3",
         address = "150 Mississippi St, San Francisco, CA 94107",
+        url = "https://www.frontsf.com",
         ig = "FrontSF",
+        twitter = "frontsf",
     ),
 
     CCS(
         name = "Paramo Coffee Company",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/paramo-coffee-company-san-francisco-2",
-        address = "4 Embarcadero Ctr. San Francisco, CA 94111" 
+        address = "4 Embarcadero Ctr. San Francisco, CA 94111",
+        url = "http://www.paramocoffee.com",
+        ig = "paramocoffee",
+        twitter = "paramocoffee",
     ),
 
     CCS(
         name = "Trouble Coffee and Coconut Club",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/trouble-coffee-company-san-francisco",
-        address = "4033 Judah St San Francisco, CA 94122"
+        address = "4033 Judah St San Francisco, CA 94122",
+        # I guess we can use the FB page?
+        url = "https://www.facebook.com/pages/Trouble-Coffee-and-Coconut-Club/56373211579",
+        ig = None,
     ),
     
     CCS(
@@ -909,7 +955,9 @@ CCDB = [
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/flour-and-co-san-francisco-3",
         address = "1030 Hyde St San Francisco, CA 94109",
-        ig = "flourandco"
+        url = "http://www.flourandco.com",
+        ig = "flourandco",
+        twitter = "FlourandCo",
     ),
 
     CCS(
@@ -927,7 +975,10 @@ CCDB = [
         rating = "insta-find",
         yelp = "http://www.yelp.com/biz/mountain-grounds-martinez",
         address = "3750 Alhambra Ave, Ste 2, Martinez, CA 94553",
+        # Facebark 'll do
+        url = "https://www.facebook.com/pages/Mountain-Grounds/374220416039981",
         twitter = "mtngrounds",
+        ig = None,
     ),
 
     CCS(
@@ -936,6 +987,7 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/pacific-bay-coffee-co-and-micro-roastery-walnut-creek",
         url = "http://www.pacificbaycoffee.com",
         address = "1495 Newell Ave, Walnut Creek, California 94596",
+        ig = None,
         twitter = "pacbaycoffee",
     ),
     
@@ -946,18 +998,18 @@ CCDB = [
         url = "http://avianocoffee.com",
         address = "244 Detroit St, Denver, CO 80206",
         twitter = "avianocoffee",
-        ig = "avianocoffee"
+        ig = "avianocoffee",
     ),
 
     CCS(
-        name = "Nove Coffee",
+        name = "Novo Coffee",
         location = "Gilpin",
-        rating = "insta-find",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/novo-coffee-denver-5",
         url = "http://novocoffee.com",
         address = "1700 E 6th Ave, Denver, CO 80218",
         twitter = "novocoffee",
-        ig = "novocoffee"
+        ig = "novocoffee",
     ),
     
     CCS(
@@ -968,7 +1020,7 @@ CCDB = [
         url = "http://www.thumpcoffee.com",
         address = "1201 E 13th Ave, Denver, CO 80218",
         twitter = "thumpcoffee",
-        ig = "thumpcoffee"
+        ig = "thumpcoffee",
     ),
     
     ]
@@ -1020,7 +1072,7 @@ def db_check():
         # check the entry
         (reqs, invs, warns) = CheckCCS(ccs)
         db_stat(ccs, reqs, "Required fields missing", db_errors)
-        db_stat(ccs, invs, "Invalid fields specified", db_errors)
+        db_stat(ccs, invs, "Invalid fields/values specified", db_errors)
         db_stat(ccs, warns, "Desired fields missing", db_warnings)
 
     if (len(db_warnings)):

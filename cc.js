@@ -15,12 +15,27 @@ function geo_loaded(result)
 
 function style_feature(feature)
 {
-    var name = feature.getProperty('name');
-    console.log("getting property for " + name)
-    return {
-        clickable: true,
-        title: name
-      };
+	var name = feature.getProperty('name');
+	var rating = feature.getProperty('rating');
+
+	switch(rating) {
+	case "cromulent":
+		icon = "red-dot.png"
+		break;
+	case "insta-find":
+		icon = "blue-dot.png"
+		break;
+	case "unverified":
+	default:
+		icon = "grey-dot.png"	
+	}
+
+	return {
+	clickable: true,
+			title: name,
+			icon: icon
+
+			};
 }
 
 // manage click events
@@ -33,30 +48,50 @@ function click_event(event)
     //show an infowindow on click   
     // infoWindow.setContent('<div style="line-height:1.35;overflow:hidden;white-space:nowrap;"> <br/>' + event.feature.getProperty("name") + "</div>");
 
-    info = '<div style="font-size: 16;"><b>' + event.feature.getProperty("name") + "</b></div>"
+	info = '<div style="font-size: 16;"><b>' + event.feature.getProperty("name") + "</b></div>";
 
-    info += '<div style="font-size: 12; color = #CCC;">'
-    if (typeof event.feature.getProperty('rating') != 'undefined')
-	info += event.feature.getProperty("rating")
-    else
-	info += "verified"
-    info += '</div>'
+	if (typeof event.feature.getProperty('location') != 'undefined')
+		info += '<div style="font-size: 12;"><b>' + event.feature.getProperty("location") + "</b></div>";
 
-    info += '<div style="float: center; vertical-align: middle;">'
+	info += '<div style="font-size: 12; color = #CCC;">';
+	info += event.feature.getProperty("rating");
+	info += '</div>';
 
-    if (typeof event.feature.getProperty('yelp') != 'undefined')
-	info += "<a href=" + event.feature.getProperty("yelp") + '><img src="yelp.png" /></a>'
+	info += '<div style="font-size: 12;">';
+	if (typeof event.feature.getProperty('food') != 'undefined')
+		info += "<br />food: " + event.feature.getProperty("food");
+	if (typeof event.feature.getProperty('notes') != 'undefined')
+		info += "<br />" + event.feature.getProperty("notes");
+	info += '</div>';
 
-    if (typeof event.feature.getProperty('ig') != 'undefined')
-	info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>'
-    info += "</div>"
+	info += '<br />';
+
+	info += '<div style="float: center; vertical-align: middle;">';
+
+	if (typeof event.feature.getProperty('url') != 'undefined')
+		info += "<a href=" + event.feature.getProperty("url") + '><img src="home.png" /></a>';
+
+	if (typeof event.feature.getProperty('yelp') != 'undefined')
+		info += "<a href=" + event.feature.getProperty("yelp") + '><img src="yelp.png" /></a>';
+
+	if (typeof event.feature.getProperty('ig') != 'undefined')
+		info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>';
+
+	if (typeof event.feature.getProperty('twitter') != 'undefined')
+		info += '<a href="http://twitter.com/' + event.feature.getProperty("twitter") + '"><img src="twitter.png" alt="Twitter" /></a>';
+
+	var lllit = event.feature.getGeometry().get();
+	qstr = lllit.lat() + "," + lllit.lng();
+	
+	info += '<a href="http://maps.google.com/?q=' + qstr + '"><img src="maps.png" alt="Maps" /></a>';
+	info += "</div>";
     
-    infoWindow.setContent(info);
+	infoWindow.setContent(info);
     
-    var anchor = new google.maps.MVCObject();
-    anchor.set("position",event.latLng);
-    anchor.set("anchorPoint", new google.maps.Point(0,-40));
-    infoWindow.open(map,anchor);
+	var anchor = new google.maps.MVCObject();
+	anchor.set("position",event.latLng);
+	anchor.set("anchorPoint", new google.maps.Point(0,-40));
+	infoWindow.open(map,anchor);
 }
 
 
