@@ -1082,6 +1082,7 @@
                 "yelp": "http://www.yelp.com/biz/four-barrel-coffee-san-francisco",
                 "url": "http://fourbarrelcoffee.com",
                 "twitter": "fourbarrel",
+                "location": "Mission",
                 "address": "375 Valencia St San Francisco, CA 94103",
                 "ig": "fourbarrelcoffee"
             }
@@ -1100,8 +1101,28 @@
                 "name": "Four Barrel Coffee Cart",
                 "url": "http://fourbarrelcoffee.com",
                 "notes": "does it still exist?",
+                "location": "Mission",
                 "address": "1 Caledonia St, San Francisco, CA",
                 "twitter": "fourbarrel",
+                "ig": "fourbarrelcoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4036987,
+                    37.7289629
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Four Barrel Coffee",
+                "url": "http://fourbarrelcoffee.com",
+                "twitter": "fourbarrel",
+                "location": "Portola",
+                "address": "2 Burrows St, San Francisco, CA 94134",
                 "ig": "fourbarrelcoffee"
             }
         },
@@ -1463,6 +1484,43 @@
                 "location": "Denver",
                 "address": "1201 E 13th Ave, Denver, CO 80218",
                 "ig": "thumpcoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2708895,
+                    37.8031636
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Modern Coffee",
+                "yelp": "http://www.yelp.com/biz/modern-coffee-oakland",
+                "url": "http://moderncoffeeoakland.com",
+                "twitter": "Moderncoffee",
+                "address": "411 13th St, Oakland, CA 94612",
+                "ig": "moderncoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2708937,
+                    37.8052477
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Awaken Cafe",
+                "yelp": "http://www.yelp.com/biz/awaken-cafe-oakland-2",
+                "url": "http://www.awakencafe.com",
+                "twitter": "awakencafe",
+                "address": "1429 Broadway Oakland, CA 94612"
             }
         }
     ]

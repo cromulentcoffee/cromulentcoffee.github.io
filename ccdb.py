@@ -811,6 +811,7 @@ CCDB = [
 
     CCS(
         name = "Four Barrel Coffee",
+        location = "Mission",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/four-barrel-coffee-san-francisco",
         address = "375 Valencia St San Francisco, CA 94103",
@@ -821,9 +822,20 @@ CCDB = [
 
     CCS(
         name = "Four Barrel Coffee Cart",
+        location = "Mission",
         rating = "cromulent",
         address = "1 Caledonia St, San Francisco, CA",
         notes = "does it still exist?",
+        url = "http://fourbarrelcoffee.com",
+        ig = "fourbarrelcoffee",
+        twitter = "fourbarrel",
+    ),
+
+    CCS(
+        name = "Four Barrel Coffee",
+        location = "Portola",
+        rating = "cromulent",
+        address = "2 Burrows St, San Francisco, CA 94134",
         url = "http://fourbarrelcoffee.com",
         ig = "fourbarrelcoffee",
         twitter = "fourbarrel",
@@ -1021,6 +1033,26 @@ CCDB = [
         address = "1201 E 13th Ave, Denver, CO 80218",
         twitter = "thumpcoffee",
         ig = "thumpcoffee",
+    ),
+    
+    CCS(
+        name = "Modern Coffee",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/modern-coffee-oakland",
+        url = "http://moderncoffeeoakland.com",
+        address = "411 13th St, Oakland, CA 94612",
+        twitter = "Moderncoffee",
+        ig = "moderncoffee",
+    ),
+    
+    CCS(
+        name = "Awaken Cafe",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/awaken-cafe-oakland-2",
+        url = "http://www.awakencafe.com",
+        address = "1429 Broadway Oakland, CA 94612",
+        twitter = "awakencafe",
+        ig = None,
     ),
     
     ]
