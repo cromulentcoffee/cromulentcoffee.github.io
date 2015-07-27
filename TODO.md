@@ -13,13 +13,15 @@ Database Data
   * NY and Tokyo Blue Bottle locations
   * That other place on Columbus?
   * Four Barrel Portola
+  * Modern Coffee (crom), Awaken Cafe (un-v), Oakland
   * GUIDs for everyone!
+ 
 
 Webpage fixes
 -------------
 
   * Fix for iPhone
-  * lat/long, zoom and GUID dest in URL
+  * GUID dest in URL
 
 Instagram
 ---------

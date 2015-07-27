@@ -711,12 +711,12 @@ CCDB = [
 
     CCS(
         name = "Hollow",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/hollow-san-francisco",
         address = "1435 Irving St San Francisco, CA 94122",
         url = "http://www.hollowsf.com",
-        ig = None,
-        twitter = None,
+        ig = "hollow_sf",
+        twitter = "hollowsf",
     ),
 
     CCS(

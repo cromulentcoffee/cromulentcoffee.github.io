@@ -1,4 +1,8 @@
-
+//
+// cromulent coffee javascript
+//
+// originally hosted at https://github.com/cromulentcoffee
+//
 
 var map;
 
@@ -43,55 +47,66 @@ infoWindow = new google.maps.InfoWindow({
     content: ""
 });
 
+// show an infowindow on click of a map pin
 function click_event(event)
 {
-    //show an infowindow on click   
-    // infoWindow.setContent('<div style="line-height:1.35;overflow:hidden;white-space:nowrap;"> <br/>' + event.feature.getProperty("name") + "</div>");
 
-	info = '<div style="font-size: 16;"><b>' + event.feature.getProperty("name") + "</b></div>";
+    // Main name and location
+    info = '<div style="font-size: 16;"><b>' + event.feature.getProperty("name") + "</b></div>";
 
-	if (typeof event.feature.getProperty('location') != 'undefined')
-		info += '<div style="font-size: 12;"><b>' + event.feature.getProperty("location") + "</b></div>";
+    if (typeof event.feature.getProperty('location') != 'undefined')
+	info += '<div style="font-size: 12;"><b>' + event.feature.getProperty("location") + "</b></div>";
 
-	info += '<div style="font-size: 12; color = #CCC;">';
-	info += event.feature.getProperty("rating");
-	info += '</div>';
+    // Rating
+    info += '<div style="font-size: 12; color = #CCC;">';
+    info += event.feature.getProperty("rating");
+    info += '</div>';
 
-	info += '<div style="font-size: 12;">';
-	if (typeof event.feature.getProperty('food') != 'undefined')
-		info += "<br />food: " + event.feature.getProperty("food");
-	if (typeof event.feature.getProperty('notes') != 'undefined')
-		info += "<br />" + event.feature.getProperty("notes");
-	info += '</div>';
+    // Optional food and notes
+    info += '<div style="font-size: 12;">';
+    if (typeof event.feature.getProperty('food') != 'undefined')
+	info += "<br />food: " + event.feature.getProperty("food");
+    if (typeof event.feature.getProperty('notes') != 'undefined')
+	info += "<br />" + event.feature.getProperty("notes");
+    info += '</div>';
 
-	info += '<br />';
+    // whitespace
+    info += '<br />';
 
-	info += '<div style="float: center; vertical-align: middle;">';
+    // the set of badges
+    info += '<div style="float: center; vertical-align: middle;">';
 
-	if (typeof event.feature.getProperty('url') != 'undefined')
-		info += "<a href=" + event.feature.getProperty("url") + '><img src="home.png" /></a>';
+    // homepage
+    if (typeof event.feature.getProperty('url') != 'undefined')
+	info += "<a href=" + event.feature.getProperty("url") + '><img src="home.png" /></a>';
 
-	if (typeof event.feature.getProperty('yelp') != 'undefined')
-		info += "<a href=" + event.feature.getProperty("yelp") + '><img src="yelp.png" /></a>';
+    // yelp
+    if (typeof event.feature.getProperty('yelp') != 'undefined')
+	info += "<a href=" + event.feature.getProperty("yelp") + '><img src="yelp.png" /></a>';
 
-	if (typeof event.feature.getProperty('ig') != 'undefined')
-		info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>';
+    // instagram
+    if (typeof event.feature.getProperty('ig') != 'undefined')
+	info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>';
 
-	if (typeof event.feature.getProperty('twitter') != 'undefined')
-		info += '<a href="http://twitter.com/' + event.feature.getProperty("twitter") + '"><img src="twitter.png" alt="Twitter" /></a>';
+    // twitter
+    if (typeof event.feature.getProperty('twitter') != 'undefined')
+	info += '<a href="http://twitter.com/' + event.feature.getProperty("twitter") + '"><img src="twitter.png" alt="Twitter" /></a>';
 
-	var lllit = event.feature.getGeometry().get();
-	qstr = lllit.lat() + "," + lllit.lng();
+    // google maps link
+    var lllit = event.feature.getGeometry().get();
+    qstr = lllit.lat() + "," + lllit.lng();
 	
-	info += '<a href="http://maps.google.com/?q=' + qstr + '"><img src="maps.png" alt="Maps" /></a>';
-	info += "</div>";
+    info += '<a href="http://maps.google.com/?q=' + qstr + '"><img src="maps.png" alt="Maps" /></a>';
+    info += "</div>";
+
+
+    // set it up
+    infoWindow.setContent(info);
     
-	infoWindow.setContent(info);
-    
-	var anchor = new google.maps.MVCObject();
-	anchor.set("position",event.latLng);
-	anchor.set("anchorPoint", new google.maps.Point(0,-40));
-	infoWindow.open(map,anchor);
+    var anchor = new google.maps.MVCObject();
+    anchor.set("position",event.latLng);
+    anchor.set("anchorPoint", new google.maps.Point(0,-40));
+    infoWindow.open(map,anchor);
 }
 
 
@@ -121,11 +136,56 @@ function map_align_world()
     map.setZoom(2);
 }
 
+function getURLParameter(name) {
+    // unashamedly stolen from stackoverflow
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+
+function get_init_map_position()
+{
+    // default to SF
+    var lat = mapOptionsSF.center.lat();
+    var lng = mapOptionsSF.center.lng();
+    var zoom = mapOptionsSF.zoom;
+    
+    // check for URL parameters
+    ulat = getURLParameter("lat");
+    ulng = getURLParameter("lng");
+    uzoom = getURLParameter("zoom");
+
+    ulat = parseFloat(ulat);
+    ulng = parseFloat(ulng);
+    uzoom = parseFloat(uzoom);
+    
+    console.log("ulat: " + ulat)
+    console.log("ulng: " + ulng)
+    console.log("uzoom: " + uzoom)
+
+    if (!isNaN(ulat))
+	lat = ulat;
+
+    if (!isNaN(ulng))
+	lng = ulng;
+
+    if (!isNaN(uzoom))
+	zoom = uzoom;
+
+    console.log("lat: " + lat)
+    console.log("lng: " + lng)
+    console.log("zoom: " + zoom)
+    
+
+    return {
+	center: new google.maps.LatLng(lat, lng),
+	zoom: zoom
+    }
+}
+
 function maps_init()
 {
     var mapCanvas = document.getElementById('map-canvas');
 
-    map = new google.maps.Map(mapCanvas, mapOptionsSF);
+    map = new google.maps.Map(mapCanvas, get_init_map_position());
 
     //listen for click events
     map.data.addListener('click', click_event);
