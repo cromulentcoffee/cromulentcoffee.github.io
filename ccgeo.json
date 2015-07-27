@@ -892,11 +892,13 @@
             },
             "type": "Feature",
             "properties": {
-                "rating": "unverified",
+                "rating": "cromulent",
                 "name": "Hollow",
                 "yelp": "http://www.yelp.com/biz/hollow-san-francisco",
                 "url": "http://www.hollowsf.com",
-                "address": "1435 Irving St San Francisco, CA 94122"
+                "twitter": "hollowsf",
+                "address": "1435 Irving St San Francisco, CA 94122",
+                "ig": "hollow_sf"
             }
         },
         {
