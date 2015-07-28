@@ -1060,7 +1060,9 @@ CCDB = [
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
         address = "950 The Alameda San Jose, CA 95126",
-        url = None,
+        # These guys aren't very social. Facebook.
+        # under construction: http://www.cremacoffeeco.com
+        url = "https://www.facebook.com/CremaCoffeeCo",
         ig = None,
     ),
 
@@ -1069,7 +1071,7 @@ CCDB = [
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/dana-street-roasting-mountain-view",
         address = "744 W Dana St Mountain View, CA 94041",
-        url = None,
+        url = "http://www.danastreetroasting.com",
         ig = None,
     ),
 
@@ -1084,12 +1086,13 @@ CCDB = [
     ),
 
     CCS(
-        name = "Barista",
+        name = "Barista PDX",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/barista-portland-5",
         address = "529 SW 3rd Ave #110 Portland, OR 97204",
         url = "http://baristapdx.com/",
-        ig = None,
+        ig = "baristapdx",
+        twitter = "baristapdx",
     ),
 
     CCS(
@@ -1109,9 +1112,65 @@ CCDB = [
         address = "235 400 W Salt Lake City, UT 84101",
         url = "http://www.theroseestb.com/",
         ig = "theroseestb",
+        twitter = "TheRoseEstb",
+        food = "cafe",
     ),
 
-    ]
+    CCS(
+        name = "Wild Flour Bakery",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/wild-flour-bakery-banff",
+        address = "101-211 Bear Street, Banff, AB T1L, Canada",
+        url = "http://www.wildflourbakery.ca",
+        ig = "wildflourbanff",
+        twitter = "wildflourbanff",
+        food = "meals",
+    ),
+
+    CCS(
+        name = "Joe Coffee",
+        location = "West Village",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/joe-coffee-new-york-4",
+        address = "141 waverly place, new york, ny 10014",
+        url = "http://www.joenewyork.com/",
+        twitter = "joecoffeenyc",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Cafe Grumpy",
+        location = "Grand Central Terminal",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/cafe-grumpy-new-york-8",
+        address = "89 EAST 42ND STREET, LEXINGTON PASSAGE, NEW YORK, NY 10017",
+        url = "http://cafegrumpy.com",
+        ig = "cafegrumpy",
+        twitter = "cafegrumpy",
+    ),
+
+    CCS(
+        name = "Voyageur du Temps",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/voyageur-du-temps-los-altos",
+        address = "288 1st St, Los Altos, CA 94022",
+        url = "http://www.voyageur.com",
+        ig = "voyageurcafe",
+        twitter = "voyageurcafe",
+        food = "cafe",
+    ),
+
+    CCS(
+        name = "Red Berry Coffee Bar",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/red-berry-coffee-bar-los-altos",
+        address = "145 Main St Los Altos, CA 94022",
+        url = "http://www.redberrycoffeebar.com",
+        ig = "redberrycoffeebar",
+        twitter = "redberrycb",
+    ),
+
+]
 
 ###
 ##  database generation

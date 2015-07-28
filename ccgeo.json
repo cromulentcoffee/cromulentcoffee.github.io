@@ -1522,6 +1522,215 @@
                 "twitter": "awakencafe",
                 "address": "1429 Broadway Oakland, CA 94612"
             }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9082164,
+                    37.33134930000001
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Crema Coffee Roasting Company",
+                "yelp": "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
+                "url": "https://www.facebook.com/CremaCoffeeCo",
+                "address": "950 The Alameda San Jose, CA 95126"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0790203,
+                    37.3924124
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Dana Street Roasting Company",
+                "yelp": "http://www.yelp.com/biz/dana-street-roasting-mountain-view",
+                "url": "http://www.danastreetroasting.com",
+                "address": "744 W Dana St Mountain View, CA 94041"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6839179,
+                    45.5214335
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Heart Coffee",
+                "yelp": "http://www.yelp.com/biz/heart-portland-5",
+                "url": "http://www.heartroasters.com/",
+                "twitter": "heartroasters",
+                "address": "537 SW 12th Ave Portland, OR 97205",
+                "ig": "heartroasters"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6751838,
+                    45.5192676
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Barista PDX",
+                "yelp": "http://www.yelp.com/biz/barista-portland-5",
+                "url": "http://baristapdx.com/",
+                "twitter": "baristapdx",
+                "address": "529 SW 3rd Ave #110 Portland, OR 97204",
+                "ig": "baristapdx"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6795146,
+                    45.5199585
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Public Domain",
+                "yelp": "http://www.yelp.com/biz/public-domain-coffee-portland",
+                "url": "http://www.publicdomaincoffee.com/",
+                "twitter": "pdcoffee",
+                "address": "603 SW Broadway Portland, OR 97205",
+                "ig": "publicdomaincoffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9022209,
+                    40.7640053
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "The Rose Establishment",
+                "yelp": "http://www.yelp.com/biz/the-rose-establishment-salt-lake-city",
+                "url": "http://www.theroseestb.com/",
+                "twitter": "TheRoseEstb",
+                "food": "cafe",
+                "address": "235 400 W Salt Lake City, UT 84101",
+                "ig": "theroseestb"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.5727351,
+                    51.1772837
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Wild Flour Bakery",
+                "yelp": "http://www.yelp.com/biz/wild-flour-bakery-banff",
+                "url": "http://www.wildflourbakery.ca",
+                "twitter": "wildflourbanff",
+                "food": "meals",
+                "address": "101-211 Bear Street, Banff, AB T1L, Canada",
+                "ig": "wildflourbanff"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00052079999999,
+                    40.7333235
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Joe Coffee",
+                "yelp": "http://www.yelp.com/biz/joe-coffee-new-york-4",
+                "url": "http://www.joenewyork.com/",
+                "twitter": "joecoffeenyc",
+                "location": "West Village",
+                "address": "141 waverly place, new york, ny 10014"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9748908,
+                    40.7530692
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Cafe Grumpy",
+                "yelp": "http://www.yelp.com/biz/cafe-grumpy-new-york-8",
+                "url": "http://cafegrumpy.com",
+                "twitter": "cafegrumpy",
+                "location": "Grand Central Terminal",
+                "address": "89 EAST 42ND STREET, LEXINGTON PASSAGE, NEW YORK, NY 10017",
+                "ig": "cafegrumpy"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1177291,
+                    37.377212
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Voyageur du Temps",
+                "yelp": "http://www.yelp.com/biz/voyageur-du-temps-los-altos",
+                "url": "http://www.voyageur.com",
+                "twitter": "voyageurcafe",
+                "food": "cafe",
+                "address": "288 1st St, Los Altos, CA 94022",
+                "ig": "voyageurcafe"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1146345,
+                    37.379552
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "unverified",
+                "name": "Red Berry Coffee Bar",
+                "yelp": "http://www.yelp.com/biz/red-berry-coffee-bar-los-altos",
+                "url": "http://www.redberrycoffeebar.com",
+                "twitter": "redberrycb",
+                "address": "145 Main St Los Altos, CA 94022",
+                "ig": "redberrycoffeebar"
+            }
         }
     ]
 }

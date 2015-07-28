@@ -7,14 +7,19 @@ Conversion script
   * Script to pull favicons from websites
   * 404-checker for pages
 
-Database Data
--------------
+Database Schema
+---------------
+
+  * GUIDs for everyone!
+
+ccdb entries
+---------------
 
   * NY and Tokyo Blue Bottle locations
-  * That other place on Columbus?
-  * Four Barrel Portola
-  * Modern Coffee (crom), Awaken Cafe (un-v), Oakland
-  * GUIDs for everyone!
+  * All the rest of the Joe NYC locations
+  * More Cafe Grumpy NYC
+  * That other place on Columbus SF?
+  * More barista PDX locations
  
 
 Webpage fixes
