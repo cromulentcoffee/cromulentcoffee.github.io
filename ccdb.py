@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
+import argparse
 import urllib
 import json
-import argparse
+import math
 import sys
 
 ##
@@ -209,6 +210,24 @@ def ParseCCS(args, geo_opt=None):
     args[LATLONG] = geocode_address(NameCCS(args), args["address"], geo_opt)
 
     # Then just leave it as a dict
+    return args
+
+# Given insta info in 'i', update ccdb entry 'cc'
+def InstaUpdate(cc, i):
+    cc["igpost"] = i["posts"][0]
+
+# Make a CC arg list from an instagram record
+def InstaCC(i):
+
+    l = i["location"]
+    url = "https://instagram.com/explore/locations/%s/" % l["id"]
+    
+    args = {}
+    args["name"] = l["name"]
+    args["rating"] = "insta-find"
+    args["url"] = url
+    args[LATLONG] = [l["longitude"], l["latitude"]]
+    args["igpost"] = i["posts"][0]
     return args
 
 ###
@@ -1178,11 +1197,29 @@ CCDB = [
 def geojson_generate():
 
     fl = open(options['output'], "w")
+
+    # build the list of ccs
+    ccdb = []
+    for ccs in CCDB:
+        cc = ParseCCS(ccs)
+        ccdb.append(cc)
+
+    # now incorporate the insta list
+    js = read_insta_db()
     
+    for j in js:
+        m = find_closest_ccs(j, ccdb)
+
+        if (m is None):
+            ccdb.append(InstaCC(j))
+        else:
+            InstaUpdate(m, j)
+
+        
     # build the geojson feature list from the DB
     features = []
-    for ccs in CCDB:
-        features.append(ccs2geojson(ParseCCS(ccs)))
+    for cc in ccdb:
+        features.append(ccs2geojson(cc))
 
         
     # build the master geojson data structure
@@ -1194,6 +1231,80 @@ def geojson_generate():
                         indent=4, separators=(',', ': ')))
 
     print "Processed %d locations" % len(features)
+
+###
+##  check instagram data
+#
+
+def get_dst(lat, lng, ccs):
+
+    lng2 = ccs[LATLONG][0]
+    lat2 = ccs[LATLONG][1]
+
+    dst = math.sqrt((lat2 - lat) ** 2 + (lng2 - lng) ** 2)
+
+    return dst
+
+def find_closest_ccs(i, ccl):
+
+    lat = i["location"]["latitude"]
+    lng = i["location"]["longitude"]
+    
+    min_dst = 10000000000
+    min_ccl = None
+
+    for cc in ccl:
+        dst = get_dst(lat, lng, cc)
+
+        if (dst < min_dst):
+            min_dst = dst
+            min_ccl = cc
+
+    # FIXME: min threshold units?
+    if (min_dst > 0.001):
+        return None
+    
+    return min_ccl
+
+def read_insta_db():
+    # xxx: hard coded name
+    try:
+        fl = open("insta-posts.json")
+    except:
+        # do nothing if we can't open the file
+        print "WARNING: instagram data not found"
+        return []
+
+    # parse the json
+    s = ""
+    for l in fl.readlines():
+        s += l
+
+    return json.loads(s)
+
+
+def insta_check():
+    js = read_insta_db()
+    
+    # Setup the CCDB
+    ccl = []
+    for ccs in CCDB:
+        ccl.append(ParseCCS(ccs))
+
+    # XXX: slow search
+    # for each insta item
+    unmatched = []
+    matched = []
+    for j in js:
+        m = find_closest_ccs(j, ccl)
+
+        if (m is None):
+            unmatched.append(j)
+        else:
+            matched.append(j)
+
+
+    print "%d matched, %d unmatched" % (len(matched), len(unmatched))
     
 ###
 ##  database health checking
@@ -1251,6 +1362,9 @@ def parse_args():
     parser.add_argument("--geojson", dest="action", action="store_const",
                         const="geojson", help="generate the geojson file")
 
+    parser.add_argument("--instacheck", dest="action", action="store_const",
+                        const="instacheck", help="check instagram data")
+
     parser.add_argument("--output", dest="output", nargs=1,
                         help="output file for --geojson, default = 'ccgeo.json'",
                         default="ccgeo.json")
@@ -1276,6 +1390,8 @@ if (__name__ == "__main__"):
     if (action == "dbcheck"):
         db_check()
         geocache_save()
+    elif (action == "instacheck"):
+        insta_check()
     elif(action == "geojson"):
         geojson_generate()
         geocache_save()

@@ -99,6 +99,18 @@ function click_event(event)
     info += '<a href="http://maps.google.com/?q=' + qstr + '"><img src="maps.png" alt="Maps" /></a>';
     info += "</div>";
 
+    // and the insta pic
+    if (typeof event.feature.getProperty('igpost') != 'undefined') {
+	var p = event.feature.getProperty('igpost');
+	var link = p["link"];
+	var timg = p["thumb"]["url"];
+	var w = p["thumb"]["width"];
+	var h = p["thumb"]["height"];
+
+	info += "<br />"
+	info += '<a href="' + link + '"><img src="' + timg + '" with="' + w + 'px" height="' + h + 'px" /></a>'
+    }
+    
 
     // set it up
     infoWindow.setContent(info);

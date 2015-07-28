@@ -16,6 +16,14 @@
                 "yelp": "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
                 "url": "bpatisserie.com/",
                 "address": "2821 California St San Francisco, CA 94115",
+                "igpost": {
+                    "link": "https://instagram.com/p/5DSGJtiQEG/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11381407_739824412794677_585036206_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "bpatisserie"
             }
         },
@@ -35,6 +43,14 @@
                 "url": "https://www.ritualroasters.com/",
                 "location": "Mission",
                 "address": "1026 Valencia Street San Francisco, CA 94110",
+                "igpost": {
+                    "link": "https://instagram.com/p/459CVXCQA1/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11324885_1611073012475189_413282992_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "ritualcoffee"
             }
         },
@@ -54,6 +70,14 @@
                 "url": "https://www.ritualroasters.com/",
                 "location": "Hayes Valley",
                 "address": "432b Octavia St San Francisco, CA 94102",
+                "igpost": {
+                    "link": "https://instagram.com/p/4fnmddCQKm/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11325440_973728702678633_929177160_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "ritualcoffee"
             }
         },
@@ -72,6 +96,14 @@
                 "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
                 "url": "http://www.craftsman-wolves.com",
                 "address": "746 Valencia St San Francisco, CA 94110",
+                "igpost": {
+                    "link": "https://instagram.com/p/3KeGEUCQCe/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11252211_756658851122974_200299167_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "craftsmanwolves"
             }
         },
@@ -109,6 +141,14 @@
                 "url": "www.themillsf.com/",
                 "twitter": "TheMillSF",
                 "address": "736 Divisadero St San Francisco, CA 94117",
+                "igpost": {
+                    "link": "https://instagram.com/p/2zVRjtCQDx/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11324270_1427958950856740_1018292506_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "themillsf"
             }
         },
@@ -128,6 +168,14 @@
                 "url": "http://www.pinholecoffee.com",
                 "twitter": "PinholeCoffee",
                 "address": "231 Cortland Ave San Francisco, CA 94110",
+                "igpost": {
+                    "link": "https://instagram.com/p/4KTgwjCQMS/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11378392_1624915037753961_1549888388_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "pinholecoffee"
             }
         },
@@ -146,6 +194,14 @@
                 "yelp": "http://www.yelp.com/biz/bright-coffee-monterey",
                 "url": "http://www.brightcoffeeca.com",
                 "address": "281 Lighthouse Ave Monterey, CA 93940",
+                "igpost": {
+                    "link": "https://instagram.com/p/5TQphCCQNP/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11337172_803672716416603_1961272892_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "brightcoffeeca"
             }
         },
@@ -164,7 +220,15 @@
                 "yelp": "http://www.yelp.com/biz/delise-san-francisco",
                 "url": "http://www.delisesf.com",
                 "twitter": "DeLiseSF",
-                "address": "327 Bay St San Francisco, CA 94133"
+                "address": "327 Bay St San Francisco, CA 94133",
+                "igpost": {
+                    "link": "https://instagram.com/p/2e544VCQOp/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11240364_1608576139407144_824068684_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                }
             }
         },
         {
@@ -183,6 +247,14 @@
                 "url": "http://www.lemaraisbakery.com/",
                 "twitter": "lemaraisbakery",
                 "address": "2066 Chestnut St San Francisco, CA 94123",
+                "igpost": {
+                    "link": "https://instagram.com/p/40aPd3CQIy/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11377920_1050523034959591_1276837511_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "lemaraisbakery"
             }
         },
@@ -202,6 +274,14 @@
                 "url": "http://snowbirdcoffee.com",
                 "twitter": "snowbirdcoffee",
                 "address": "1352 A 9th Ave San Francisco, CA 94122",
+                "igpost": {
+                    "link": "https://instagram.com/p/1ohU5liQNR/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xat1/t51.2885-15/s150x150/e15/10731672_849078581852296_1760756576_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "snowbirdcoffee"
             }
         },
@@ -221,6 +301,14 @@
                 "url": "http://www.lineacaffe.com",
                 "twitter": "linea_caffe",
                 "address": "3417 18th St San Francisco, CA 94110",
+                "igpost": {
+                    "link": "https://instagram.com/p/5A_-GAiQG4/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11348277_1590374704556798_150520986_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "lineacaffe"
             }
         },
@@ -240,6 +328,14 @@
                 "url": "http://itsjane.com/larkin/",
                 "twitter": "JaneonLarkin",
                 "address": "925 Larkin St San Francisco, CA 94109",
+                "igpost": {
+                    "link": "https://instagram.com/p/5ahR5FiQH8/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/s150x150/e15/10860043_833794130022047_1930029001_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "janeonlarkin"
             }
         },
@@ -278,6 +374,14 @@
                 "url": "http://www.contrabandcoffeebar.com",
                 "twitter": "contrabandsf",
                 "address": "1415 Larkin St San Francisco, CA 94109",
+                "igpost": {
+                    "link": "https://instagram.com/p/1tAhYZiQLd/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xta1/t51.2885-15/s150x150/e15/11084878_832724540115399_1677864179_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "contrabandsf"
             }
         },
@@ -313,6 +417,14 @@
                 "url": "http://bitter-sweet.com",
                 "twitter": "bitterplussweet",
                 "address": "20560 Town Center Ln Cupertino, CA 95014",
+                "igpost": {
+                    "link": "https://instagram.com/p/4_BT-aiQFd/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11410740_1628967454049011_1861318541_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "bitter_plus_sweet"
             }
         },
@@ -332,6 +444,14 @@
                 "url": "http://www.saintfrankcoffee.com",
                 "twitter": "stfrankcoffee",
                 "address": "2340 Polk St San Francisco, CA 94109",
+                "igpost": {
+                    "link": "https://instagram.com/p/3ugjCaiQDb/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11248975_995106113853992_1376851762_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "saintfrankcoffee"
             }
         },
@@ -411,6 +531,14 @@
                 "url": "http://www.coffeebartruckee.com",
                 "twitter": "Coffeebar96161",
                 "address": "10120 Jibboom St Truckee, CA 96161",
+                "igpost": {
+                    "link": "https://instagram.com/p/15_vECiQKk/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/s150x150/e15/11184566_563283280478798_1513005460_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "coffeebar96161"
             }
         },
@@ -465,6 +593,14 @@
                 "url": "http://www.wreckingballcoffee.com",
                 "twitter": "wrecking_ball",
                 "address": "2271 Union St San Francisco, CA 94123",
+                "igpost": {
+                    "link": "https://instagram.com/p/104iBUCQEj/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-15/s150x150/e15/11116883_1598783490406159_1441498316_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "wreckingball_"
             }
         },
@@ -524,6 +660,14 @@
                 "twitter": "Sightglass",
                 "location": "SOMA",
                 "address": "270 Seventh Street San Francisco, CA 94103",
+                "igpost": {
+                    "link": "https://instagram.com/p/5dskGmiQFs/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11353440_102762756740626_925063434_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "sightglass"
             }
         },
@@ -703,6 +847,14 @@
                 "twitter": "bluebottleroast",
                 "location": "Mint Plaza",
                 "address": "66 Mint Street San Francisco, CA 94103",
+                "igpost": {
+                    "link": "https://instagram.com/p/2POmiSCQM1/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e15/11189355_459325737576255_788851272_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "bluebottle"
             }
         },
@@ -821,6 +973,14 @@
                 "twitter": "reveillecoffee",
                 "location": "North Beach",
                 "address": "200 Columbus Ave San Francisco, CA 94133",
+                "igpost": {
+                    "link": "https://instagram.com/p/3Uq7R5iQFI/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11376209_1641268489421191_1257008967_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "reveillecoffee"
             }
         },
@@ -860,6 +1020,14 @@
                 "url": "http://www.andytownsf.com",
                 "twitter": "andytownsf",
                 "address": "3655 Lawton St. San Francsico",
+                "igpost": {
+                    "link": "https://instagram.com/p/3XrUWHCQGW/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11377582_1610418402537991_654537100_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "andytownsf"
             }
         },
@@ -898,6 +1066,14 @@
                 "url": "http://www.hollowsf.com",
                 "twitter": "hollowsf",
                 "address": "1435 Irving St San Francisco, CA 94122",
+                "igpost": {
+                    "link": "https://instagram.com/p/5n4xh0CQP7/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11243658_1638269286391475_1901653106_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "hollow_sf"
             }
         },
@@ -1238,6 +1414,14 @@
                 "url": "http://www.eliteaudiosf.com/menu/",
                 "twitter": "eliteaudiocafe",
                 "address": "893A Folsom St San Francisco, CA 94107",
+                "igpost": {
+                    "link": "https://instagram.com/p/5k6lxaCQEE/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11371164_1123830150965270_661611046_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "eliteaudiocoffeebar"
             }
         },
@@ -1350,7 +1534,15 @@
                 "name": "Trouble Coffee and Coconut Club",
                 "yelp": "http://www.yelp.com/biz/trouble-coffee-company-san-francisco",
                 "url": "https://www.facebook.com/pages/Trouble-Coffee-and-Coconut-Club/56373211579",
-                "address": "4033 Judah St San Francisco, CA 94122"
+                "address": "4033 Judah St San Francisco, CA 94122",
+                "igpost": {
+                    "link": "https://instagram.com/p/3XSFciiQJf/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11355236_906508749407089_1757862290_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                }
             }
         },
         {
@@ -1730,6 +1922,236 @@
                 "twitter": "redberrycb",
                 "address": "145 Main St Los Altos, CA 94022",
                 "ig": "redberrycoffeebar"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.150863317,
+                    37.48253342
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/719729800/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/2FMzqMiQId/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/s150x150/e15/11203375_552199868255689_1718640015_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Roof of Facebook Building 20"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.9751647,
+                    37.5675972
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/646486803/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/3z4esPiQGs/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/l/t51.2885-15/s150x150/e15/11325946_437759376398144_175528061_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Kwanghwamun OFFICIA Bldg."
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.972846343,
+                    37.563380249
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/311811992/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/3sDSEHiQCF/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11420787_1589675714638126_22563518_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "52 Roasters Lab"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.986589589,
+                    37.536805149
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/341194402/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/5RLVYjiQFD/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10860234_873652452717268_1204462914_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Botton \uc774\ud0dc\uc6d0"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.00930738,
+                    37.534204093
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/251023917/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/4LzhLNCQPv/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11430359_1102561199772587_2049777345_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "D-Queens"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.929053065,
+                    37.554879266
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/296648518/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/32YvOdiQKZ/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11330719_762530203866109_378423027_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Coffee Lab \ud64d\ub300"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.980855561,
+                    37.581504649
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/265570632/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/3vxeOnCQPK/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11328230_947491565271077_1493918200_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "\uc0bc\uccad\ub3d9 Lusso \ubc14\ub9ac\uc2a4\ud0c0\ub7a9"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.987524675,
+                    37.53504143
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/495614166/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/2K32eciQMg/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-15/s150x150/e15/11192951_444102095774118_1720107437_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Chansbros 2"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0266647,
+                    36.9763222
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/6296413/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/5VU812CQN2/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s150x150/e15/1921997_586214904852223_55353580_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Verve Coffee Roasters Pacific Ave."
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.97783,
+                    37.56826
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "url": "https://instagram.com/explore/locations/604694142/",
+                "rating": "insta-find",
+                "igpost": {
+                    "link": "https://instagram.com/p/37kAsyCQEV/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11313388_884018174988380_1049749944_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "52LAB"
             }
         }
     ]
