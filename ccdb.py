@@ -1055,6 +1055,62 @@ CCDB = [
         ig = None,
     ),
     
+    CCS(
+        name = "Crema Coffee Roasting Company",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
+        address = "950 The Alameda San Jose, CA 95126",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "Dana Street Roasting Company",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/dana-street-roasting-mountain-view",
+        address = "744 W Dana St Mountain View, CA 94041",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "Heart Coffee",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/heart-portland-5",
+        address = "537 SW 12th Ave Portland, OR 97205",
+        url = "http://www.heartroasters.com/",
+        ig = "heartroasters",
+        twitter = "heartroasters",
+    ),
+
+    CCS(
+        name = "Barista",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/barista-portland-5",
+        address = "529 SW 3rd Ave #110 Portland, OR 97204",
+        url = "http://baristapdx.com/",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Public Domain",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/public-domain-coffee-portland",
+        address = "603 SW Broadway Portland, OR 97205",
+        url = "http://www.publicdomaincoffee.com/",
+        twitter = "pdcoffee",
+        ig = "publicdomaincoffee",
+    ),
+
+    CCS(
+        name = "The Rose Establishment",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/the-rose-establishment-salt-lake-city",
+        address = "235 400 W Salt Lake City, UT 84101",
+        url = "http://www.theroseestb.com/",
+        ig = "theroseestb",
+    ),
+
     ]
 
 ###
