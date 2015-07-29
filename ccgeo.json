@@ -608,7 +608,18 @@
                 "rating": "insta-find",
                 "name": "I.V. Coffee Lab",
                 "yelp": "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
-                "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451"
+                "url": "https://www.facebook.com/I.V.CoffeeLab",
+                "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/33785752/",
+                    "link": "https://instagram.com/p/2H-oyWC8U0/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e15/11199525_861006660601177_110866609_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "ig": "ivcoffeelab"
             }
         },
         {
@@ -2467,7 +2478,7 @@
                     "url": "https://instagram.com/explore/locations/450405905/",
                     "link": "https://instagram.com/p/4mNgWFSlPV/",
                     "thumb": {
-                        "url": "https://3mbflodu2nc3larr.igsonar.com/hphotos-ak-xaf1/t51.2885-15/s150x150/e15/11353443_952220158173436_601482879_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11353443_952220158173436_601482879_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -4894,6 +4905,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -87.68745806,
+                    41.92323397
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/515098008/",
+                    "link": "https://instagram.com/p/3ktwh6hWEV/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11380170_873043976101065_948263436_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Ipsento Coffee House"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     115.858301898,
                     -31.930295598
                 ]
@@ -4934,29 +4968,6 @@
                     }
                 },
                 "name": "Agnes'b Cafe"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.68745806,
-                    41.92323397
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/515098008/",
-                    "link": "https://instagram.com/p/3ktwh6hWEV/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11380170_873043976101065_948263436_n.jpg",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Ipsento Coffee House"
             }
         },
         {

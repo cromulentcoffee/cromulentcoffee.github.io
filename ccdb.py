@@ -495,8 +495,9 @@ CCDB = [
         rating = "insta-find",
         yelp = "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
         address = "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451",
-        ig = None,
-        url = None,
+        ig = "ivcoffeelab",
+        # Facebook for now
+        url = "https://www.facebook.com/I.V.CoffeeLab",
     ),
 
     CCS(
