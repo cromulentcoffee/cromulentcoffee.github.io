@@ -216,6 +216,10 @@ def ParseCCS(args, geo_opt=None):
 def InstaUpdate(cc, i):
     cc["igpost"] = i["posts"][0]
 
+    l = i["location"]
+    url = "https://instagram.com/explore/locations/%s/" % l["id"]
+    cc["igpost"]["url"] = url
+    
 # Make a CC arg list from an instagram record
 def InstaCC(i):
 
@@ -224,10 +228,14 @@ def InstaCC(i):
     
     args = {}
     args["name"] = l["name"]
-    args["rating"] = "insta-find"
-    args["url"] = url
+    args["rating"] = i["rating"]
     args[LATLONG] = [l["longitude"], l["latitude"]]
+
+    # pull the post and patch the URL in. Make the main link
+    # to the pic and the image link to the location.
     args["igpost"] = i["posts"][0]
+    args["igpost"]["url"] = url
+    
     return args
 
 ###

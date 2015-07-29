@@ -102,7 +102,7 @@ function click_event(event)
     // and the insta pic
     if (typeof event.feature.getProperty('igpost') != 'undefined') {
 	var p = event.feature.getProperty('igpost');
-	var link = p["link"];
+	var link = p["url"];
 	var timg = p["thumb"]["url"];
 	var w = p["thumb"]["width"];
 	var h = p["thumb"]["height"];

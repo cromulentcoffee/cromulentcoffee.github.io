@@ -18,16 +18,18 @@ access_token = None
 #
 
 class InstaLoc:
-    def __init__(self, locid, locinfo):
+    def __init__(self, locid, rating, locinfo):
         self.posts = []
         self.locid = locid
         self.locinfo = locinfo
+        self.rating = rating
 
     def add_post(self, post):
         self.posts.append(post)
 
     def get_rep(self):
         return { "location" : self.locinfo,
+                 "rating": self.rating,
                  "posts" : self.posts }
     
 ###
@@ -43,7 +45,16 @@ def img2cache(ii):
 
     locid = None
     if (ii["location"] is not None):
-        locid = ii["location"]["id"]
+        # some of the data is really shitty...
+        if ("id" not in ii["location"]):
+            print "id on %s missing in location?" % d["link"]
+        elif ("latitude" not in ii["location"]):
+            print "lat on %s missing in location?" % d["link"]
+        elif ("longitude" not in ii["location"]):
+            print "lng on %s missing in location?" % d["link"]
+        else:
+            locid = ii["location"]["id"]
+            
         
     return (locid, d)
 
@@ -51,7 +62,7 @@ def img2cache(ii):
 def img2locinfo(ii):
     l = ii["location"]
     
-    return ii["location"]
+    return l
 
     
 ###
@@ -77,14 +88,15 @@ def http_get_js(url):
 ##  Pulling the post list
 #
 
-def get_post_list():
-
+def get_list_by_url(url, rating):
+    
     # list of posted items
     pl = {}
-    
-    # base URL of our most recent posts
-    url = "https://api.instagram.com/v1/users/%s/media/recent?access_token=%s" % (CCUID, access_token)
 
+    # total and location-tagged counters
+    tcount = 0
+    lcount = 0
+    
     # loop over the pages
     while (url is not None):
         # pull the first page
@@ -93,15 +105,22 @@ def get_post_list():
         # Decode the returned list
         ds = js["data"]
         for d in ds:
-            (k, v) = img2cache(d)
+            tcount += 1
+            try:
+                (k, v) = img2cache(d)
+            except:
+                print d
+                sys.exit(1)
 
             # untagged post 
             if (k is None):
                 continue
 
+            lcount += 1
+            
             # first post in location
             if (k not in pl.keys()):
-                pl[k] = InstaLoc(k, img2locinfo(d))
+                pl[k] = InstaLoc(k, rating, img2locinfo(d))
 
             pl[k].add_post(v)
             
@@ -111,24 +130,59 @@ def get_post_list():
         if ("next_url" in pag):
             url = pag['next_url']
 
+    print "Found %d posts, %d with locations" % (tcount, lcount)
+            
     return pl
 
+    
+def get_post_list():
+
+    # base URL of our most recent posts
+    url = "https://api.instagram.com/v1/users/%s/media/recent?access_token=%s" % (CCUID, access_token)
+
+    return get_list_by_url(url, "cromulent")
+    
+def get_like_list():
+    
+    # base URL of our likes
+    url = "https://api.instagram.com/v1/users/self/media/liked?access_token=%s" % access_token
+
+    return get_list_by_url(url, "insta-find")
+
+    
 ###
 ##  Entrypoint
 #
 
+def usage():
+    print "usage: %s <auth-token>" % sys.argv[0]
+    sys.exit(1)
+
 if (__name__ == "__main__"):
 
+    if (len(sys.argv) <= 1):
+        usage()
+        
     # This needs to be gotten live
     access_token = sys.argv[1]
 
     # Pull the list of #cc postings
+    print "Pulling post list..."
     post_list = get_post_list()
+
+    # Pull the list of #cc likes
+    print "Pulling post list..."
+    like_list = get_like_list()
     
     # Translate that to something we want to save
     sl = []
+    
     for p in post_list.keys():
         j = post_list[p].get_rep()
+        sl.append(j)
+
+    for l in like_list.keys():
+        j = like_list[l].get_rep()
         sl.append(j)
 
     # save it
