@@ -18,7 +18,6 @@ ccdb entries
   * NY and Tokyo Blue Bottle locations
   * All the rest of the Joe NYC locations
   * More Cafe Grumpy NYC
-  * That other place on Columbus SF?
   * More barista PDX locations
   * Revolver, Bali
   * Comet Coffee - Ann Arbor, MI
@@ -32,7 +31,6 @@ ccdb entries
   * Timbertrain Coffee Roasters - Vancover, BC
     http://timbertraincoffeeroasters.com/
 
-
   * to validate:
     http://www.yelp.com/biz/barnstormers-coffee-dublin
 
@@ -41,10 +39,9 @@ Webpage fixes
 
   * Fix for iPhone
   * GUID dest in URL
+  * drop-down for more locations in top-left
 
 Instagram
 ---------
 
-  * scrape cc pics
-  * scrape the likes
-  * links to tagged feeds
+  * involved follwed folks?
