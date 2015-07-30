@@ -1198,6 +1198,155 @@ CCDB = [
         twitter = "redberrycb",
     ),
 
+    CCS(
+        name = "Toby's Estate Coffee & Tea",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/tobys-estate-chippendale",
+        address = "32-36 City Rd Chippendale NSW 2008 Australia",
+        url = "http://www.tobysestate.com.au/",
+        ig = "tobysestatecoffee",
+        twitter = "tobysestate",
+    ),
+
+    CCS(
+        name = "Toby's Estate",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/tobys-estate-coffee-bondi-junction",
+        address = "480-500 Oxford Street, Bondi Junction NSW 2022 Australia",
+        url = "http://www.tobysestate.com.au/",
+        ig = "tobysestatecoffee",
+        twitter = "tobysestate",
+    ),
+
+    CCS(
+        name = "Workshop Espresso",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/workshop-espresso-sydney",
+        address = "500 George St The Galeries Sydney NSW 2000 Australia",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "Campos Coffee",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/campos-coffee-newtown",
+        address = "193 Missenden Rd Newtown NSW 2042 Australia",
+        url = "http://www.camposcoffee.com/",
+        twitter = "camposcoffee",
+        ig = None,
+    ),
+
+    CCS(
+        name = "The Cove Dining Co",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/the-cove-dining-abbotsford",
+        address = "378 Great North Road Abbotsford NSW 2046 Australia",
+        url = "http://www.thecovediningco.com.au/",
+        ig = "thecovediningco",
+    ),
+
+    CCS(
+        name = "Lyons R.A.W. Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/lyons-r-a-w-drummoyne",
+        address = "155 Lyons Rd Drummoyne NSW 2047 Australia",
+        url = None,
+        ig = "lyonsraw",
+    ),
+
+    CCS(
+        name = "Sonoma Bakery Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/sonoma-bakery-glebe",
+        address = "215A Glebe Point Rd Glebe NSW 2037 Australia",
+        url = "http://sonoma.com.au",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Sonoma Bakery Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/sonoma-bakery-cafe-waterloo-waterloo",
+        address = "2/9-15 Danks St Waterloo NSW 2017 Australia",
+        url = "http://sonoma.com.au",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Sonoma Bakery Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/sonoma-bakery-cafe-alexandria-alexandria",
+        address = "32/44 Birmingham St Alexandria NSW 2015 Australia",
+        url = "http://sonoma.com.au",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Sonoma Bakery Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/sonoma-woollahra-woollahra",
+        address = "5/156 Edgecliff Rd Woollahra NSW 2025 Australia",
+        url = "http://sonoma.com.au",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Big Brekky",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/big-brekky-petersham",
+        address = "316 Stanmore Rd Petersham NSW 2049 Australia",
+        url = "http://bigbrekky.com.au/",
+        ig = None,
+    ),
+
+    CCS(
+        name = "Brewing Now",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/brewing-now-kingsford",
+        address = "Shop 1/343 Anzac Parade Kingsford Sydney NSW 2032 Australia",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "Fresh Ground",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/fresh-ground-sandwiches-and-espresso-randwick",
+        address = "154 Belmore Rd Randwick NSW 2031 Australia",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "Cafe Brioso (Coffee Cart)",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/cafe-brioso-kensington",
+        address = "Library Lawn UNSW Kensington NSW 2033 Australia",
+        url = None,
+        ig = None,
+    ),
+
+    CCS(
+        name = "The Gentlemen Baristas",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/the-gentlemen-baristas-london",
+        address = "63 Union St London SE1 1SG United Kingdom",
+        url = "http://thegentlemenbaristas.com/",
+        twitter = "TheGBswhatwhat",
+        ig = "thegentlemenbaristas",
+    ),
+
+    CCS(
+        name = "The Table Cafe",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/the-table-london-2",
+        address = "83 Southwark St London SE1 0HX United Kingdom",
+        url = "http://thetablecafe.com/",
+        twitter = "thetablecafe",
+        ig = "thetablecafe",
+    ),
+
 ]
 
 ###
