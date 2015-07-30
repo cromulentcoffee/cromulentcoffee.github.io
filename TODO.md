@@ -6,6 +6,7 @@ Conversion script
 
   * Script to pull favicons from websites
   * 404-checker for pages
+  * Generate a page from the insta data to scrub for weird entries etc.
 
 Database Schema
 ---------------
