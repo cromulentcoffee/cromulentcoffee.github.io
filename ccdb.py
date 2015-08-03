@@ -952,7 +952,7 @@ CCDB = [
 
     CCS(
         name = "Cibo",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/cibo-sausalito",
         address = "1201 Bridgeway, Sausalito, CA 94965",
         url = "http://cibosausalito.com/",

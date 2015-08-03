@@ -46,9 +46,9 @@
                 "address": "1026 Valencia Street San Francisco, CA 94110",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/1261393/",
-                    "link": "https://instagram.com/p/459CVXCQA1/",
+                    "link": "https://instagram.com/p/56XYJhiQF9/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11324885_1611073012475189_413282992_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11351774_850123325036253_276078610_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -1579,7 +1579,7 @@
             },
             "type": "Feature",
             "properties": {
-                "rating": "unverified",
+                "rating": "cromulent",
                 "name": "Cibo",
                 "yelp": "http://www.yelp.com/biz/cibo-sausalito",
                 "url": "http://cibosausalito.com/",
@@ -5444,6 +5444,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    121.0588226,
+                    14.6463642
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/664233454/",
+                    "link": "https://instagram.com/p/48_Y_NtDNE/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/s150x150/e15/10488644_1575226216076546_639128710_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Magpie Cafe"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -87.962490432,
                     41.904960671
                 ]
@@ -6626,9 +6649,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/519417246/",
-                    "link": "https://instagram.com/p/5S36tuQAFq/",
+                    "link": "https://instagram.com/p/52czXuwABH/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/10358451_140137222985780_1113307164_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/s150x150/e15/11201549_117719021905685_838850353_n.jpg",
                         "width": 150,
                         "height": 150
                     }
