@@ -991,16 +991,6 @@ CCDB = [
     ),
     
     CCS(
-        name = "Flour and Co",
-        rating = "cromulent",
-        yelp = "http://www.yelp.com/biz/flour-and-co-san-francisco-3",
-        address = "1030 Hyde St San Francisco, CA 94109",
-        url = "http://www.flourandco.com",
-        ig = "flourandco",
-        twitter = "FlourandCo",
-    ),
-
-    CCS(
         name = "Espresso Cielo",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/espresso-cielo-santa-monica",

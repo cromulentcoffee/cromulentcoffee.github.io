@@ -1683,25 +1683,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.4171452,
-                    37.79049970000001
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "cromulent",
-                "name": "Flour and Co",
-                "yelp": "http://www.yelp.com/biz/flour-and-co-san-francisco-3",
-                "url": "http://www.flourandco.com",
-                "twitter": "FlourandCo",
-                "address": "1030 Hyde St San Francisco, CA 94109",
-                "ig": "flourandco"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -118.4793298,
                     33.9980239
                 ]
