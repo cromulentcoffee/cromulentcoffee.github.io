@@ -128,24 +128,81 @@ var mapOptionsSF = {
     zoom: 12
 }
 
-function map_align_sf()
+var locations = {
+
+    "world": [ "world",
+		new google.maps.LatLng(-58.631217, -18.105469),
+		new google.maps.LatLng(72.289067, -15.644531) ],
+    
+    "usa": [ "USA",
+	     new google.maps.LatLng(23.079732, -125.419922),
+	     new google.maps.LatLng(52.052490, -58.974609) ],
+
+    "CA": [ "  California",
+	    new google.maps.LatLng(32.398516, -123.991699),
+	    new google.maps.LatLng(42.228517, -115.202637) ],
+
+    "sfbay": [ "    Bay Area",
+	       new google.maps.LatLng(37.317752, -122.471466),
+	       new google.maps.LatLng(38.032949, -122.045746) ],
+    
+    "SF": [ "    San Francsico",
+	    new google.maps.LatLng(37.732168, -122.538414),
+	    new google.maps.LatLng(37.869433, -122.254143) ],
+
+    "PacNW": [ "  Pacific NW",
+	       new google.maps.LatLng(41.672912, -124.694824),
+	       new google.maps.LatLng(49.181703, -116.169434) ],
+    
+    "asia": [ "Asia",
+	      new google.maps.LatLng(-17.811456, 88.154297),
+	      new google.maps.LatLng(47.754098, 148.974609) ],
+
+    "seoul": [ "Seoul",
+	       new google.maps.LatLng(37.498831, 126.926594),
+	       new google.maps.LatLng(37.576964, 127.040577) ],
+
+    "HK": [ "Hong Kong",
+	    new google.maps.LatLng(22.197577, 114.096794),
+	    new google.maps.LatLng(22.339914, 114.281502) ],
+
+    "AU": [ "Australia",
+	    new google.maps.LatLng(-44.964798, 112.236328),
+	    new google.maps.LatLng(-8.928487, -174.990234) ],
+
+    "EU": [ "Europe",
+	    new google.maps.LatLng(35.460670, -10.634766),
+	    new google.maps.LatLng(68.528235, 36.826172) ]
+};
+
+function set_location(loc)
 {
-    console.log("align sf");
-    map.panTo(mapOptionsSF['center']);
-    map.setZoom(mapOptionsSF['zoom']);
+    map.fitBounds(new google.maps.LatLngBounds(loc[1], loc[2]));
 }
 
-function map_align_ca()
+function location_select()
 {
-    console.log("align ca");
-    map.panTo(new google.maps.LatLng(37.7833, -122.4167));
-    map.setZoom(6);
+    var llist = document.getElementById('location');
+    loc = locations[llist.value]
+    console.log("lol " + loc[0] );
+
+    set_location(loc)
 }
 
-function map_align_world()
+function fill_locations()
 {
-    map.panTo(new google.maps.LatLng(0,0));
-    map.setZoom(2);
+    var llist = document.getElementById('location');
+
+    //llist.options.add(new Option("SF", "sf"));
+
+    for (var k in locations) {
+	var d = locations[k];
+	llist.options.add(new Option(d[0], k));
+    }
+    
+    // setup for clicking
+    llist.addEventListener('click',
+			   location_select, false);
 }
 
 function getURLParameter(name) {
@@ -155,42 +212,31 @@ function getURLParameter(name) {
 
 function get_init_map_position()
 {
-    // default to SF
-    var lat = mapOptionsSF.center.lat();
-    var lng = mapOptionsSF.center.lng();
-    var zoom = mapOptionsSF.zoom;
+    // fill out the location selector
+    fill_locations();
     
-    // check for URL parameters
-    ulat = getURLParameter("lat");
-    ulng = getURLParameter("lng");
-    uzoom = getURLParameter("zoom");
-
-    ulat = parseFloat(ulat);
-    ulng = parseFloat(ulng);
-    uzoom = parseFloat(uzoom);
-    
-    console.log("ulat: " + ulat)
-    console.log("ulng: " + ulng)
-    console.log("uzoom: " + uzoom)
-
-    if (!isNaN(ulat))
-	lat = ulat;
-
-    if (!isNaN(ulng))
-	lng = ulng;
-
-    if (!isNaN(uzoom))
-	zoom = uzoom;
-
-    console.log("lat: " + lat)
-    console.log("lng: " + lng)
-    console.log("zoom: " + zoom)
-    
-
     return {
-	center: new google.maps.LatLng(lat, lng),
-	zoom: zoom
+	center: new google.maps.LatLng(0, 0),
+	zoom: 4
     }
+}
+
+function set_init_map_position()
+{
+    locname = getURLParameter("loc");
+
+    if (locname == null)
+	locname = "world";
+
+    if (!(locname in locations))
+	locname = "world";
+    
+    loc = locations[locname];
+    set_location(loc);
+
+    // set the drop-down, too!
+    var llist = document.getElementById('location');
+    llist.value = locname;
 }
 
 function maps_init()
@@ -199,6 +245,10 @@ function maps_init()
 
     map = new google.maps.Map(mapCanvas, get_init_map_position());
 
+    // set the bounds
+    set_init_map_position();
+
+    
     //listen for click events
     map.data.addListener('click', click_event);
 
@@ -211,14 +261,6 @@ function maps_init()
 function cc_init()
 {
     maps_init();
-
-    // Hook the location links
-    document.getElementById('map-sf').addEventListener('click',
-						       map_align_sf, false);
-    document.getElementById('map-ca').addEventListener('click',
-						       map_align_ca, false);
-    document.getElementById('map-world').addEventListener('click',
-							  map_align_world, false);
 }
 
 // Predicate everything on the load even

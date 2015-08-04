@@ -40,9 +40,10 @@ Webpage fixes
 
   * Fix for iPhone
   * GUID dest in URL
-  * drop-down for more locations in top-left
+  * Help / info pop-up?
 
 Instagram
 ---------
 
   * involved follwed folks?
+  * For posts with locations but no place tag, find place tags near loc'n
