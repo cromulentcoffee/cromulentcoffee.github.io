@@ -130,7 +130,7 @@ var mapOptionsSF = {
 
 var locations = {
 
-    "world": [ "world",
+    "world": [ "World",
 		new google.maps.LatLng(-58.631217, -18.105469),
 		new google.maps.LatLng(72.289067, -15.644531) ],
     
@@ -138,19 +138,19 @@ var locations = {
 	     new google.maps.LatLng(23.079732, -125.419922),
 	     new google.maps.LatLng(52.052490, -58.974609) ],
 
-    "CA": [ "  California",
+    "CA": [ "> California",
 	    new google.maps.LatLng(32.398516, -123.991699),
 	    new google.maps.LatLng(42.228517, -115.202637) ],
 
-    "sfbay": [ "    Bay Area",
+    "sfbay": [ ">> Bay Area",
 	       new google.maps.LatLng(37.317752, -122.471466),
 	       new google.maps.LatLng(38.032949, -122.045746) ],
     
-    "SF": [ "    San Francsico",
-	    new google.maps.LatLng(37.732168, -122.538414),
-	    new google.maps.LatLng(37.869433, -122.254143) ],
+    "SF": [ ">>> San Francsico",
+	    new google.maps.LatLng(37.706097, -122.511635),
+	    new google.maps.LatLng(37.820633, -122.386665) ],
 
-    "PacNW": [ "  Pacific NW",
+    "PacNW": [ "> Pacific NW",
 	       new google.maps.LatLng(41.672912, -124.694824),
 	       new google.maps.LatLng(49.181703, -116.169434) ],
     
@@ -158,11 +158,11 @@ var locations = {
 	      new google.maps.LatLng(-17.811456, 88.154297),
 	      new google.maps.LatLng(47.754098, 148.974609) ],
 
-    "seoul": [ "Seoul",
+    "seoul": [ "> Seoul",
 	       new google.maps.LatLng(37.498831, 126.926594),
 	       new google.maps.LatLng(37.576964, 127.040577) ],
 
-    "HK": [ "Hong Kong",
+    "HK": [ "> Hong Kong",
 	    new google.maps.LatLng(22.197577, 114.096794),
 	    new google.maps.LatLng(22.339914, 114.281502) ],
 
@@ -184,7 +184,6 @@ function location_select()
 {
     var llist = document.getElementById('location');
     loc = locations[llist.value]
-    console.log("lol " + loc[0] );
 
     set_location(loc)
 }

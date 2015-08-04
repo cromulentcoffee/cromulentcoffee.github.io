@@ -1966,7 +1966,16 @@
                 "url": "http://www.wildflourbakery.ca",
                 "twitter": "wildflourbanff",
                 "food": "meals",
-                "address": "101-211 Bear Street, Banff, AB T1L, Canada",
+                "address": "211 Bear Street #101, Banff, AB T1L, Canada",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1369307/",
+                    "link": "https://instagram.com/p/wuPzkSs2QV/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e15/10843674_1565403387028493_947254477_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
                 "ig": "wildflourbanff"
             }
         },
@@ -3178,7 +3187,7 @@
                     "url": "https://instagram.com/explore/locations/632009270/",
                     "link": "https://instagram.com/p/5zKFB7uwhA/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11325453_1630200873923406_1730967810_n.jpg",
+                        "url": "https://3mbflqda4jc3larr.igsonar.com/hphotos-ak-xaf1/t51.2885-15/s150x150/e15/11325453_1630200873923406_1730967810_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -3707,7 +3716,7 @@
                     "url": "https://instagram.com/explore/locations/215786607/",
                     "link": "https://instagram.com/p/24J3wRiwWb/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11275387_1635309253365125_740391079_n.jpg",
+                        "url": "https://3mbflqda7nc3larr.igsonar.com/hphotos-ak-xaf1/t51.2885-15/s150x150/e15/11275387_1635309253365125_740391079_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -3903,6 +3912,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    101.5806503,
+                    3.1138501
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/792012423/",
+                    "link": "https://instagram.com/p/5jWJWCoM9C/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11330695_1635726210002344_1659749927_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Double A Cafe KL"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     103.834719764,
                     1.352841793
                 ]
@@ -3920,6 +3952,29 @@
                     }
                 },
                 "name": "One Man Coffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5780334,
+                    45.4960709
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/80523/",
+                    "link": "https://instagram.com/p/5Fww0Wpv8N/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11266390_685261784939828_447904029_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cafe Myriade"
             }
         },
         {
@@ -4087,23 +4142,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.5693283,
-                    45.5057945
+                    -73.578338242,
+                    45.480910594
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/229702808/",
-                    "link": "https://instagram.com/p/3HmKz1m4YS/",
+                    "url": "https://instagram.com/explore/locations/385022616/",
+                    "link": "https://instagram.com/p/4dG3EjlgSR/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11376266_1380510282256408_434556440_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11356523_432931993498612_1412675275_n.jpg",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Caf\u00e9 Parvis"
+                "name": "Buck15 Espresso Bar"
             }
         },
         {
@@ -4225,8 +4280,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.558795232,
-                    25.032008483
+                    121.558794903,
+                    25.031998725
                 ]
             },
             "type": "Feature",
@@ -4869,6 +4924,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.5693283,
+                    45.5057945
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/229702808/",
+                    "link": "https://instagram.com/p/3HmKz1m4YS/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11376266_1380510282256408_434556440_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Caf\u00e9 Parvis"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.069003796,
                     -33.847367188
                 ]
@@ -5007,23 +5085,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    135.49565911,
-                    34.67042687
+                    115.7599487,
+                    -32.0439682
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/923410899/",
-                    "link": "https://instagram.com/p/5ycEsHhWCR/",
+                    "url": "https://instagram.com/explore/locations/421150163/",
+                    "link": "https://instagram.com/p/5qNETUylJv/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11355747_451101815062570_82908152_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11809877_1607062736241272_1041129939_n.jpg",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Pour Mademoiselle"
+                "name": "Young George"
             }
         },
         {
@@ -5084,10 +5162,10 @@
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/449387257/",
-                    "link": "https://instagram.com/p/4zVZWTlNtB/",
+                    "url": "https://instagram.com/explore/locations/626555843/",
+                    "link": "https://instagram.com/p/2th0RRPjIN/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s150x150/e15/1171688_451820641664219_1133358354_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11244064_1475307805852808_251699106_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -5329,8 +5407,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.031943017,
-                    38.916394687
+                    -77.0323868,
+                    38.9163399
                 ]
             },
             "type": "Feature",
@@ -5737,6 +5815,29 @@
                     }
                 },
                 "name": "La Renaissance Cafe Patisserie"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.764998333,
+                    35.671428748
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/435800376/",
+                    "link": "https://instagram.com/p/x5Pu1nD0R7/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e15/10919118_1543760652534204_938758524_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Ladur\u00e9e Cafe, Mitsukoshi Ginza"
             }
         },
         {
@@ -7100,23 +7201,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.7599487,
-                    -32.0439682
+                    135.49565911,
+                    34.67042687
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/421150163/",
-                    "link": "https://instagram.com/p/5qNETUylJv/",
+                    "url": "https://instagram.com/explore/locations/923410899/",
+                    "link": "https://instagram.com/p/5ycEsHhWCR/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11809877_1607062736241272_1041129939_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11355747_451101815062570_82908152_n.jpg",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Young George"
+                "name": "Pour Mademoiselle"
             }
         },
         {

@@ -62,13 +62,6 @@
         ],
         "281 Lighthouse Avenue, Monterey, CA 93940, USA"
     ],
-    "Shop 1/343 Anzac Parade Kingsford Sydney NSW 2032 Australia": [
-        [
-            151.227102,
-            -33.923583
-        ],
-        "1/343 Anzac Parade, Kingsford NSW 2032, Australia"
-    ],
     "4749 Folsom Blvd. Sacramento, CA 95819": [
         [
             -121.4462992,
@@ -118,12 +111,12 @@
         ],
         "1201 East 13th Avenue, Denver, CO 80218, USA"
     ],
-    "2829 S St Sacramento, CA 95816": [
+    "Shop 1/343 Anzac Parade Kingsford Sydney NSW 2032 Australia": [
         [
-            -121.4724015,
-            38.5640033
+            151.227102,
+            -33.923583
         ],
-        "2829 S Street, Sacramento, CA 95816, USA"
+        "1/343 Anzac Parade, Kingsford NSW 2032, Australia"
     ],
     "4001 Judah St San Francisco, CA 94122": [
         [
@@ -461,6 +454,13 @@
         ],
         "2436 Polk Street, San Francisco, CA 94109, USA"
     ],
+    "211 Bear Street, Banff, AB T1L, Canada": [
+        [
+            -115.5727351,
+            51.1772837
+        ],
+        "211 Bear Street, Banff, AB T1L, Canada"
+    ],
     "10120 Jibboom St Truckee, CA 96161": [
         [
             -120.1864768,
@@ -475,12 +475,12 @@
         ],
         "505 Howard Street, San Francisco, CA 94105, USA"
     ],
-    "744 W Dana St Mountain View, CA 94041": [
+    "3619 Balboa St San Francisco, CA 94121": [
         [
-            -122.0790203,
-            37.3924124
+            -122.4976948,
+            37.7755094
         ],
-        "744 West Dana Street, Mountain View, CA 94041, USA"
+        "3619 Balboa Street, San Francisco, CA 94121, USA"
     ],
     "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451": [
         [
@@ -558,6 +558,13 @@
             37.8306732
         ],
         "3960 Adeline Street, Emeryville, CA 94608, USA"
+    ],
+    "2829 S St Sacramento, CA 95816": [
+        [
+            -121.4724015,
+            38.5640033
+        ],
+        "2829 S Street, Sacramento, CA 95816, USA"
     ],
     "2/9-15 Danks St Waterloo NSW 2017 Australia": [
         [
@@ -643,6 +650,13 @@
         ],
         "288 1st Street, Los Altos, CA 94022, USA"
     ],
+    "211 Bear Street #101, Banff, AB T1L, Canada": [
+        [
+            -115.5727351,
+            51.1772837
+        ],
+        "211 Bear Street #101, Banff, AB T1L, Canada"
+    ],
     "2 Burrows St, San Francisco, CA 94134": [
         [
             -122.4036987,
@@ -699,12 +713,12 @@
         ],
         "442 Hyde Street, San Francisco, CA 94109, USA"
     ],
-    "3619 Balboa St San Francisco, CA 94121": [
+    "744 W Dana St Mountain View, CA 94041": [
         [
-            -122.4976948,
-            37.7755094
+            -122.0790203,
+            37.3924124
         ],
-        "3619 Balboa Street, San Francisco, CA 94121, USA"
+        "744 West Dana Street, Mountain View, CA 94041, USA"
     ],
     "47540 Hwy 1, Big Sur, CA 93920": [
         [
