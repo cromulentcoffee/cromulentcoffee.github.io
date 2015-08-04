@@ -3187,7 +3187,7 @@
                     "url": "https://instagram.com/explore/locations/632009270/",
                     "link": "https://instagram.com/p/5zKFB7uwhA/",
                     "thumb": {
-                        "url": "https://3mbflqda4jc3larr.igsonar.com/hphotos-ak-xaf1/t51.2885-15/s150x150/e15/11325453_1630200873923406_1730967810_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11325453_1630200873923406_1730967810_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -3716,7 +3716,7 @@
                     "url": "https://instagram.com/explore/locations/215786607/",
                     "link": "https://instagram.com/p/24J3wRiwWb/",
                     "thumb": {
-                        "url": "https://3mbflqda7nc3larr.igsonar.com/hphotos-ak-xaf1/t51.2885-15/s150x150/e15/11275387_1635309253365125_740391079_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11275387_1635309253365125_740391079_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -4619,6 +4619,29 @@
                     }
                 },
                 "name": "The Lobby Of Simple Kaffa | Hotel V"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.150542767,
+                    22.282433752
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/236846785/",
+                    "link": "https://instagram.com/p/yYhCz2OOKv/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s150x150/e15/10956607_352834968252238_241004287_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Filters Lane"
             }
         },
         {
