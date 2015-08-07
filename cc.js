@@ -47,6 +47,11 @@ infoWindow = new google.maps.InfoWindow({
     content: ""
 });
 
+function close_window(event)
+{
+    infoWindow.close();
+}
+
 // show an infowindow on click of a map pin
 function click_event(event)
 {
@@ -133,7 +138,10 @@ var locations = {
     "world": [ "World",
 		new google.maps.LatLng(-58.631217, -18.105469),
 		new google.maps.LatLng(72.289067, -15.644531) ],
-    
+
+    // Magic!
+    "near": [ "Near Me", null, null],
+
     "usa": [ "USA",
 	     new google.maps.LatLng(23.079732, -125.419922),
 	     new google.maps.LatLng(52.052490, -58.974609) ],
@@ -185,7 +193,10 @@ function location_select()
     var llist = document.getElementById('location');
     loc = locations[llist.value]
 
-    set_location(loc)
+    if (llist.value == "near")
+	locate_me();
+    else
+	set_location(loc);
 }
 
 function fill_locations()
@@ -204,9 +215,22 @@ function fill_locations()
 			   location_select, false);
 }
 
-function getURLParameter(name) {
+function getURLParameter(name)
+{
     // unashamedly stolen from stackoverflow
     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+
+function set_map_position_callback(pos)
+{
+    console.log("setting to " + pos.coords.latitude + ", " + pos.coords.longitude);
+    map.panTo(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+    map.setZoom(15);
+}
+
+function locate_me()
+{
+    navigator.geolocation.getCurrentPosition(set_map_position_callback);
 }
 
 function get_init_map_position()
@@ -251,6 +275,9 @@ function maps_init()
     //listen for click events
     map.data.addListener('click', click_event);
 
+    // and a window closer
+    google.maps.event.addListener(map, 'click', close_window);
+    
     console.log("geting json");
     jQuery.getJSON("ccgeo.json", "", geo_loaded);
     console.log("got json");
