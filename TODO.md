@@ -20,7 +20,6 @@ ccdb entries
   * All the rest of the Joe NYC locations
   * More Cafe Grumpy NYC
   * More barista PDX locations
-  * Revolver, Bali
   * Comet Coffee - Ann Arbor, MI
     http://www.yelp.com/biz/comet-coffee-ann-arbor
   * Stumptown Coffee - Portland, OR
@@ -40,7 +39,6 @@ Webpage fixes
 
   * Fix for iPhone
   * GUID dest in URL
-  * Help / info pop-up?
 
 Instagram
 ---------
