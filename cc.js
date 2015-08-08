@@ -154,7 +154,7 @@ var locations = {
 	       new google.maps.LatLng(37.317752, -122.471466),
 	       new google.maps.LatLng(38.032949, -122.045746) ],
     
-    "SF": [ ">>> San Francsico",
+    "SF": [ ">>> San Francisco",
 	    new google.maps.LatLng(37.706097, -122.511635),
 	    new google.maps.LatLng(37.820633, -122.386665) ],
 
