@@ -789,12 +789,11 @@ CCDB = [
 
     CCS(
         name = "Home",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/home-san-francisco-16",
         address = "1222 Noriega St San Francisco, CA 94122",
-        # Hard to search, not linked off yelp
-        url = None,
-        ig = None,
+        url = "http://www.yelp.com/biz/home-san-francisco-16",
+        ig = "homesf",
     ),
 
     CCS(
