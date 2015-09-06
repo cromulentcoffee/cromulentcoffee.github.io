@@ -175,9 +175,9 @@
                 "address": "231 Cortland Ave San Francisco, CA 94110",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/253042947/",
-                    "link": "https://instagram.com/p/6X4MmoIQPU/",
+                    "link": "https://instagram.com/p/7RJun5oQBu/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11355174_1456821934623987_565108152_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11821064_1490098674646100_121179690_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -2422,6 +2422,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.1322989,
+                    -35.2749696
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "name": "Lonsdale Street Roasters",
+                "yelp": "http://www.yelp.com/biz/lonsdale-street-roasters-braddon",
+                "url": "http://lonsdalestreetroasters.com/",
+                "twitter": "LSRoasters",
+                "address": "7 Lonsdale St Braddon ACT 2612 Australia",
+                "ig": "lonsdalestreetroasters"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -122.150863317,
                     37.48253342
                 ]
@@ -2638,9 +2657,9 @@
                 "rating": "cromulent",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/6296413/",
-                    "link": "https://instagram.com/p/5VU812CQN2/",
+                    "link": "https://instagram.com/p/7S2vN8yo24/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s150x150/e35/1921997_586214904852223_55353580_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11850265_641558269312799_172062419_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -2859,8 +2878,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.643216094,
-                    45.52300352
+                    -122.643215936,
+                    45.52300355
                 ]
             },
             "type": "Feature",
@@ -2951,6 +2970,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.4442902,
+                    -28.0771198
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/218241109/",
+                    "link": "https://instagram.com/p/5wasaJMtyj/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11326498_1479634235680042_1246408296_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Paddock Bakery"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.9946747,
                     -37.8450203
                 ]
@@ -2968,6 +3010,29 @@
                     }
                 },
                 "name": "Caffe Sienna Ristorante"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4094009,
+                    37.7826614
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/367582357/",
+                    "link": "https://instagram.com/p/4F2oRuDY2n/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11363635_918088674919721_2128626499_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "The Village"
             }
         },
         {
@@ -3443,14 +3508,37 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/314355945/",
-                    "link": "https://instagram.com/p/5zFWH8TJ1l/",
+                    "link": "https://instagram.com/p/7P4JowvSIr/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11351953_137443843258849_180035435_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11850312_1541592702756100_1871411012_n.jpg",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Bluestone Lane Collective Caf\u00e9"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.1326752,
+                    -35.2724991
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/228079850/",
+                    "link": "https://instagram.com/p/6qq2HHCMkN/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e15/11910200_466250356868779_8964043_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Lonsdale Street Roasters 23"
             }
         },
         {
@@ -3480,29 +3568,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    26.103942915,
-                    44.430906448
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/879181465/",
-                    "link": "https://instagram.com/p/5wHBb0A4V6/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11374739_842879339128256_2117547071_n.jpg",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Tucano Coffee Rom\u00e2nia"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     12.569518681,
                     55.683476129
                 ]
@@ -3520,6 +3585,29 @@
                     }
                 },
                 "name": "The Coffee Collective Torvehallerne"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.179735471,
+                    -35.324249983
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/2261234/",
+                    "link": "https://instagram.com/p/63mLwuNDHR/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11909420_1486784861645779_1637637011_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Ona Coffee"
             }
         },
         {
@@ -3733,6 +3821,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -0.1346838,
+                    51.5135345
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/63775/",
+                    "link": "https://instagram.com/p/7SmfGmPsxA/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s150x150/e35/11189883_999531536734641_1795229873_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Flat White"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -74.007086569,
                     40.742553157
                 ]
@@ -3894,6 +4005,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    26.103377826,
+                    44.431686238
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/879181465/",
+                    "link": "https://instagram.com/p/5wHBb0A4V6/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11374739_842879339128256_2117547071_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Tucano Coffee El Salvador"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.8996582,
                     -37.8589211
                 ]
@@ -4049,6 +4183,29 @@
                     }
                 },
                 "name": "Bowtruss Coffee Roasters"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3569508,
+                    48.1917305
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/441725328/",
+                    "link": "https://instagram.com/p/7SZiBzHyqw/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11849264_1610384139214406_2012465122_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Kaffee von Sascha"
             }
         },
         {
@@ -4446,29 +4603,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.4442902,
-                    -28.0771198
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/218241109/",
-                    "link": "https://instagram.com/p/5wasaJMtyj/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11326498_1479634235680042_1246408296_n.jpg",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Paddock Bakery"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -122.377938064,
                     47.66445431
                 ]
@@ -4492,8 +4626,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.212843677,
-                    -33.859158396
+                    151.212840552,
+                    -33.859161734
                 ]
             },
             "type": "Feature",
@@ -5711,8 +5845,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.184590976,
-                    -33.79618001
+                    151.184590387,
+                    -33.796180628
                 ]
             },
             "type": "Feature",
@@ -5757,8 +5891,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.107557295,
-                    -33.84169919
+                    151.1073151,
+                    -33.8417587
                 ]
             },
             "type": "Feature",
@@ -6309,8 +6443,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -85.670349421,
-                    42.965102922
+                    -85.6699295,
+                    42.9651489
                 ]
             },
             "type": "Feature",
@@ -6355,8 +6489,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9588562,
-                    40.783883863
+                    -73.9582825,
+                    40.7838326
                 ]
             },
             "type": "Feature",
@@ -7022,23 +7156,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.4094009,
-                    37.7826614
+                    151.2373505,
+                    -33.8882484
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/367582357/",
-                    "link": "https://instagram.com/p/4F2oRuDY2n/",
+                    "url": "https://instagram.com/explore/locations/228109461/",
+                    "link": "https://instagram.com/p/7SG7avx49w/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11363635_918088674919721_2128626499_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11371185_1667979026747704_453067606_n.jpg",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "The Village"
+                "name": "Luxe - Woollahra"
             }
         },
         {
@@ -7445,9 +7579,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/3296510/",
-                    "link": "https://instagram.com/p/6bEm3eBhN6/",
+                    "link": "https://instagram.com/p/7RKA3XhhII/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11821784_1614956465423830_721645568_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11377861_596641630475384_1366381990_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -7666,8 +7800,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.3738599,
-                    48.8681297
+                    2.373810178,
+                    48.86822036
                 ]
             },
             "type": "Feature",
@@ -7965,8 +8099,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.872444652,
-                    -31.933902728
+                    115.872439744,
+                    -31.93390116
                 ]
             },
             "type": "Feature",
@@ -9851,8 +9985,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.4912186,
-                    38.5700912
+                    -121.491224749,
+                    38.569909231
                 ]
             },
             "type": "Feature",
@@ -10535,6 +10669,29 @@
                     }
                 },
                 "name": "Thomson Street Foodstore"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.36198167,
+                    48.86480591
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/488331229/",
+                    "link": "https://instagram.com/p/7Suz-yNN1U/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11856860_1060147464010122_642102915_n.jpg",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Boken Arm"
             }
         },
         {
