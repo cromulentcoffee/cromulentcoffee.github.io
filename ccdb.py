@@ -1336,6 +1336,16 @@ CCDB = [
         ig = "thetablecafe",
     ),
 
+    CCS(
+        name = "Lonsdale Street Roasters",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/lonsdale-street-roasters-braddon",
+        address = "7 Lonsdale St Braddon ACT 2612 Australia",
+        url = "http://lonsdalestreetroasters.com/",
+        twitter = "LSRoasters",
+        ig = "lonsdalestreetroasters",
+    ),
+
 ]
 
 ###
