@@ -5,7 +5,7 @@
 //
 
 var map;
-var search_id;
+var search_id = null;
 
 function geo_loaded(result)
 {
@@ -15,10 +15,6 @@ function geo_loaded(result)
 
     map.data.addGeoJson(result)
     map.data.setStyle(style_feature);
-
-    if (search_id !== null) {
-	set_location_by_id();
-    }
 }
 
 function style_feature(feature)
@@ -226,7 +222,10 @@ function id_check(feature)
 // iterate over map features looking for global "search_id"
 function set_location_by_id()
 {
-    map.data.forEach(id_check)
+    if (search_id !== null) {
+	map.data.forEach(id_check);
+	search_id = null;
+    }
 }
 
 function location_select()
@@ -324,7 +323,10 @@ function maps_init()
 
     // and a window closer
     google.maps.event.addListener(map, 'click', close_window);
-    
+
+    // and the location setter
+    google.maps.event.addListener(map, 'idle', set_location_by_id);
+
     console.log("geting json");
     jQuery.getJSON("ccgeo.json", "", geo_loaded);
     console.log("got json");
