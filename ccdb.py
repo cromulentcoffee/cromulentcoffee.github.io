@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 import argparse
+import random
 import urllib
+import string
 import json
 import math
 import sys
@@ -126,7 +128,7 @@ def geocode_address(name, addr, geo_opt):
 ##  Handling a database entry
 #
 
-REQUIRED_FIELDS = ["name", "address", "rating"]
+REQUIRED_FIELDS = ["name", "address", "rating", "ccid"]
 WARNING_FIELDS = ["ig", "url"]
 VALID_RATINGS = ["cromulent", "insta-find", "unverified"]
 VALID_FIELDS = {"name": None,
@@ -1462,7 +1464,60 @@ def insta_check():
 
 
     print "%d matched, %d unmatched" % (len(matched), len(unmatched))
+
+###
+##  ccid generation
+#
+
+# prefix for ids in the database
+CCID_PREFIX = "cc"
+
+# prefix for IDs in the insta-find locations
+CCIG_PREFIX = "ig"
+
+# list of characters for IDs -- 52 + 10 + 2 = 64
+IDCHARS = string.ascii_letters + string.digits + "-_"
+
+# 10 chars of 4 bit = big number
+IDLEN = 10
+
+def get_rand_idnum():
+    # gonna make a random
+    random.seed()
     
+    return random.randint(0, len(IDCHARS) ** IDLEN)
+
+
+def num_to_id(num):
+
+    if (num <= 0):
+        raise RuntimeError("invalid id %d" % num)
+        
+    id = ""
+    while(num > 0):
+        id += IDCHARS[num % len(IDCHARS)]
+        num /= len(IDCHARS)
+
+    return id
+        
+def mkid():
+    n = get_rand_idnum()
+
+    id = num_to_id(n)
+    
+    return id
+
+def genid(prefix):
+
+    id = mkid()
+    return "%s%s" % (prefix, id)
+
+def idgen():
+    # generate a new id
+    id = genid(CCID_PREFIX)
+
+    print 'ccid = "%s"' % id
+
 ###
 ##  database health checking
 #
@@ -1526,6 +1581,10 @@ def parse_args():
                         help="output file for --geojson, default = 'ccgeo.json'",
                         default="ccgeo.json")
 
+    parser.add_argument("--idgen", dest="action", action="store_const",
+                        const="idgen",
+                        help="generate a random ccid")
+    
     # parse it
     options = vars(parser.parse_args())
 
@@ -1552,6 +1611,8 @@ if (__name__ == "__main__"):
     elif(action == "geojson"):
         geojson_generate()
         geocache_save()
+    elif(action == "idgen"):
+        idgen()
     else:
         raise RuntimeError("unknown action '%s'" % action)
         
