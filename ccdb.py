@@ -131,7 +131,8 @@ def geocode_address(name, addr, geo_opt):
 REQUIRED_FIELDS = ["name", "address", "rating", "ccid"]
 WARNING_FIELDS = ["ig", "url"]
 VALID_RATINGS = ["cromulent", "insta-find", "unverified"]
-VALID_FIELDS = {"name": None,
+VALID_FIELDS = {"ccid": None,
+                "name": None,
                 "address": None,
                 "location": None,
                 "yelp": None,
@@ -1519,6 +1520,55 @@ def idgen():
     print 'ccid = "%s"' % id
 
 ###
+##  ccid fixup
+#
+
+# This is kinda gross. First, run through the CCDB list, generating a
+# list of entries that do not contain a 'ccid'. Then, walk through
+# this script file finding 'CCS' entries and adding new IDs to
+# this. Currently we expect "CCS(" lines as above. This could very
+# well corrupt this script. Isn't that what version control is for?
+
+CCSTOK = "CCS("
+
+def ccid_fixup():
+
+    # search the db for items without a ccid
+    # and add them to a list
+    idxlist = []
+    for n in range(len(CCDB)):
+        if ("ccid" not in CCDB[n]):
+            idxlist.append(n)
+
+
+    # crack open ourselves and search for "CCS(" lines
+    idx = 0
+    fl = open(__file__, "r")
+    outbuf = ""
+    for ln in fl.readlines():
+        # buffer line to output verbatim
+        outbuf += ln
+
+        # see if we should inject some magic
+        sln = ln.strip()
+        if (sln == CCSTOK):
+
+            # if we need to fix up this CCS
+            if(idx in idxlist):
+                # keep the same indentation, with a tab
+                indent = ln[:ln.find(CCSTOK)] + "\t"
+                # make a line of it
+                outbuf += (indent + 'ccid = "%s",\n' % genid(CCID_PREFIX))
+
+            # move onto next CCS
+            idx += 1
+
+
+    #yolo
+    fl = open(__file__, "w")
+    fl.write(outbuf)
+        
+###
 ##  database health checking
 #
 db_errors = []
@@ -1585,6 +1635,10 @@ def parse_args():
                         const="idgen",
                         help="generate a random ccid")
     
+    parser.add_argument("--idfixup", dest="action", action="store_const",
+                        const="idfixup",
+                        help="update the script file with new ccids for entries that don't have them. Please commit your changes before running this.")
+    
     # parse it
     options = vars(parser.parse_args())
 
@@ -1613,6 +1667,8 @@ if (__name__ == "__main__"):
         geocache_save()
     elif(action == "idgen"):
         idgen()
+    elif(action == "idfixup"):
+        ccid_fixup()
     else:
         raise RuntimeError("unknown action '%s'" % action)
         
