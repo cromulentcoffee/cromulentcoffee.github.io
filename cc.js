@@ -5,16 +5,20 @@
 //
 
 var map;
+var search_id;
 
 function geo_loaded(result)
 {
     // Load a GeoJSON from the same server as our demo.
 
     console.log("loading geo")
-    
-    map.data.addGeoJson(result)
 
+    map.data.addGeoJson(result)
     map.data.setStyle(style_feature);
+
+    if (search_id !== null) {
+	set_location_by_id();
+    }
 }
 
 function style_feature(feature)
@@ -102,8 +106,24 @@ function click_event(event)
     qstr = lllit.lat() + "," + lllit.lng();
 	
     info += '<a href="http://maps.google.com/?q=' + qstr + '"><img src="maps.png" alt="Maps" /></a>';
+
+    // find out if there's a perma-link
+    id = null
+    if (typeof event.feature.getProperty('ccid') != 'undefined') {
+	id = event.feature.getProperty('ccid')
+    } else if (typeof event.feature.getProperty('igid') != 'undefined') {
+	id = event.feature.getProperty('igid')
+    }
+
+    if (id !== null) {
+	info += '<a href=index.html?id=' + id + '><img src="link.png" alt="Link" /></a>';
+    }
+
+    
+    // end of icons
     info += "</div>";
 
+    
     // and the insta pic
     if (typeof event.feature.getProperty('igpost') != 'undefined') {
 	var p = event.feature.getProperty('igpost');
@@ -128,11 +148,6 @@ function click_event(event)
 
 
 // functions to handle setting locations
-var mapOptionsSF = {
-    center: new google.maps.LatLng(37.7933, -122.4167),
-    zoom: 12
-}
-
 var locations = {
 
     "world": [ "World",
@@ -186,6 +201,32 @@ var locations = {
 function set_location(loc)
 {
     map.fitBounds(new google.maps.LatLngBounds(loc[1], loc[2]));
+}
+
+function id_check(feature)
+{
+    if ((feature.getProperty("ccid") == search_id)
+	|| (feature.getProperty("igid") == search_id)) {
+
+	map.panTo(feature.getGeometry().get())
+	map.setZoom(15)
+
+	console.log("found it")
+	
+	// fake a click -- trigger ain't working
+	// google.maps.event.trigger(feature, "click");
+	var event = {
+	    "feature" : feature,
+	    "latLng"  : feature.getGeometry().get(),
+	};
+	click_event(event);
+    }
+}
+
+// iterate over map features looking for global "search_id"
+function set_location_by_id()
+{
+    map.data.forEach(id_check)
 }
 
 function location_select()
@@ -247,13 +288,20 @@ function get_init_map_position()
 function set_init_map_position()
 {
     locname = getURLParameter("loc");
-
+    id = getURLParameter("id");
+    
     if (locname == null)
 	locname = "world";
 
     if (!(locname in locations))
 	locname = "world";
-    
+
+    // if the user specified a location, save it
+    if (id !== null)
+	search_id = id
+
+    // we can't evaluate IDs until the JSON is loaded. Set a default
+    // location
     loc = locations[locname];
     set_location(loc);
 
@@ -270,7 +318,6 @@ function maps_init()
 
     // set the bounds
     set_init_map_position();
-
     
     //listen for click events
     map.data.addListener('click', click_event);
