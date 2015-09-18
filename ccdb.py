@@ -222,6 +222,7 @@ def InstaUpdate(cc, i):
     l = i["location"]
     url = "https://instagram.com/explore/locations/%s/" % l["id"]
     cc["igpost"]["url"] = url
+    cc["igid"] = CCIG_PREFIX + str(l["id"])
     
 # Make a CC arg list from an instagram record
 def InstaCC(i):
@@ -238,6 +239,9 @@ def InstaCC(i):
     # to the pic and the image link to the location.
     args["igpost"] = i["posts"][0]
     args["igpost"]["url"] = url
+
+    # populate the insta-id
+    args["igid"] = CCIG_PREFIX + str(l["id"])
     
     return args
 
