@@ -264,6 +264,7 @@ def ccs2geojson(ccs):
 CCDB = [
 
     CCS(
+        ccid = "ccw8sS8natWs",
         name = "b. Patisserie",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
@@ -273,6 +274,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccXnwIdiObwT",
         name = "Ritual Coffee Roasters",
         rating = "cromulent",
         location = "Mission",
@@ -283,6 +285,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccfsSuNpaYjY",
         name = "Ritual Coffee Roasters",
         rating = "cromulent",
         location = "Hayes Valley",
@@ -293,6 +296,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccdk_2O_p_in",
         name = "Craftsman and Wolves",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
@@ -302,6 +306,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccgALbfcxnCU",
         name = "Craftsman and Wolves",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
@@ -311,6 +316,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccA3zu7i4rVC",
         name = "The Mill",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-mill-san-francisco",
@@ -321,6 +327,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc5qKFwzgPP0",
         name = "Pinhole Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/pinhole-coffee-san-francisco-3",
@@ -331,6 +338,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccS-fxOpNJLo",
         name = "Bright Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/bright-coffee-monterey",
@@ -340,6 +348,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc11VzXrwhyb",
         name = "DeLise",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/delise-san-francisco",
@@ -350,6 +359,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccVZxkFFirPT",
         name = "Le Marais Bakery",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/le-marais-bakery-san-francisco-4",
@@ -360,6 +370,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccMjuUsCQuoq",
         name = "Snowbird Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/snowbird-coffee-san-francisco",
@@ -370,6 +381,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccI9VQhB0_v9",
         name = "Linea Caffe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/linea-caffe-san-francisco",
@@ -380,6 +392,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc5o0tCuU_TE",
         name = "Jane on Larkin",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/jane-on-larkin-san-francisco-2",
@@ -390,6 +403,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cczQvs2rugmj",
         name = "Jane on Fillmore",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/jane-on-fillmore-san-francisco",
@@ -401,6 +415,7 @@ CCDB = [
 
 
     CCS(
+        ccid = "ccSAhn9E1RvR",
         name = "Contraband Coffee Bar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/contraband-coffee-bar-san-francisco",
@@ -411,6 +426,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccR_p6YFpw2e",
         name = "The Brew",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-brew-san-francisco",
@@ -421,6 +437,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccjvDFzkXUOO",
         name = "Bitter+Sweet",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/bitter-sweet-cupertino",
@@ -431,6 +448,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccXuvkXj4kNK",
         name = "Saint Frank Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/saint-frank-coffee-san-francisco-2",
@@ -441,6 +459,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccMVdr13QZs",
         name = "Coffee Bar",
         location = "Bryant",
         rating = "cromulent",
@@ -452,6 +471,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccAjko9zIZUZ",
         name = "Coffee Bar",
         location = "Montgomery",
         rating = "cromulent",
@@ -463,6 +483,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccmFIMGwLo50",
         name = "Coffee Bar",
         location = "Kearny",
         rating = "cromulent",
@@ -474,6 +495,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccyRNf07GQtx",
         name = "Coffeebar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/coffeebar-truckee-3",
@@ -484,6 +506,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc3Wp4gG5TJX",
         name = "Coffeebar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/coffeebar-reno-reno-2",
@@ -494,6 +517,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccLiCujGNiLO",
         name = "I.V. Coffee Lab",
         rating = "insta-find",
         yelp = "http://www.yelp.com/biz/i-v-coffee-lab-incline-village",
@@ -504,6 +528,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cchhQ0DfouBo",
         name = "Wrecking Ball Coffee Roasters",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2",
@@ -514,6 +539,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccwF263nHkS8",
         name = "Outerlands",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/outerlands-san-francisco",
@@ -525,6 +551,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccm9Qo2NCunz",
         name = "Sextant Coffee Roasters",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/sextant-coffee-roasters-san-francisco",
@@ -535,6 +562,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccKxsosdgdoN",
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "SOMA",
@@ -546,6 +574,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccRr9AQkVgoU",
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Mission",
@@ -557,6 +586,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccfq2r8JaCVl",
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Ferry Building",
@@ -568,6 +598,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccuFsreEEMRB",
         name = "Sightglass Coffee",
         rating = "cromulent",
         location = "Divisadero",
@@ -579,6 +610,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc8VZZjQBG81",
         name = "Sightglass Coffee",
         rating = "unverified",
         location = "SFMOMA",
@@ -591,6 +623,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccsx6pSDhXxX",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Ferry Building",
@@ -602,6 +635,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccEPYkUfhFpR",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Hayes Valley",
@@ -613,6 +647,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccmyEdkXFlmP",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Heath Ceramics",
@@ -624,6 +659,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccFXVTBx0gxF",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Market Square",
@@ -635,6 +671,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc5hYc9P1aF8",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Mint Plaza",
@@ -646,6 +683,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccZ2qELiefHs",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Palo Alto",
@@ -657,6 +695,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccSm1872E5cQ",
         name = "Blue Bottle Coffee",
         rating = "cromulent",
         location = "Sansome",
@@ -668,6 +707,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccfHeSSCRblx",
         name = "Blue Bottle Coffee",
         location = "W.C. Morse",
         rating = "cromulent",
@@ -679,6 +719,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc1P2LhRN5qG",
         name = "Blue Bottle Coffee",
         location = "Webster Street",
         rating = "cromulent",
@@ -690,6 +731,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccTyALVKcoM1",
         name = "Reveille Coffee Co",
         location = "Castro",
         rating = "cromulent",
@@ -700,6 +742,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccII6QoCWaJ9",
         name = "Reveille Coffee Co",
         location = "North Beach",
         rating = "cromulent",
@@ -710,6 +753,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccLJbSUyN2cj",
         name = "Reveille Coffee Co",
         location = "Jackson Square",
         rating = "cromulent",
@@ -721,6 +765,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccBzXQu9dfYg",
         name = "Andytown Coffee Roasters",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/andytown-coffee-roasters-san-francisco",
@@ -731,6 +776,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccgo-E-1Rgbh",
         name = "Marla Bakery",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/marla-bakery-san-francisco-2",
@@ -741,6 +787,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc1u-2cK8P96",
         name = "Hollow",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/hollow-san-francisco",
@@ -751,6 +798,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccq4Og2lpRio",
         name = "Hooker's Sweet Treats",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",
@@ -761,6 +809,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cckWbYDb47Sk",
         name = "Mercury",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/mercury-cafe-san-francisco",
@@ -771,6 +820,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccu7Jo4mF4rR",
         name = "Scarlet City Espresso Bar",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/scarlet-city-espresso-bar-emeryville",
@@ -781,6 +831,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccmkik5BqCuD",
         name = "Big Sur Bakery & Restaurant",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/big-sur-bakery-and-restaurant-big-sur-2",
@@ -791,6 +842,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccw1AeC7d-WP",
         name = "Home",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/home-san-francisco-16",
@@ -800,6 +852,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccY5KLmtZOui",
         name = "Red Door Coffee",
         rating = "unverified",
         location = "111 Mina",
@@ -810,6 +863,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cczT96QbN0iX",
         name = "Red Door Coffee",
         rating = "unverified" ,
         location = "505 Howard",
@@ -820,6 +874,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccBPktGNmUI2",
         name = "Coffee Cultures",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/coffee-cultures-san-francisco",
@@ -830,6 +885,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc_aNvJSAWWk",
         name = "Farley's",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/farleys-san-francisco",
@@ -840,6 +896,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cchu16k-OXCl",
         name = "Four Barrel Coffee",
         location = "Mission",
         rating = "cromulent",
@@ -851,6 +908,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cclWoeomJ6Rr",
         name = "Four Barrel Coffee Cart",
         location = "Mission",
         rating = "cromulent",
@@ -862,6 +920,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccxNLf9wYnDF",
         name = "Four Barrel Coffee",
         location = "Portola",
         rating = "cromulent",
@@ -872,6 +931,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccoBy4kjUkC4",
         name = "Chocolate Fish Coffee Roasters",
         rating = "unverified",
         location = "East Sacramento",
@@ -882,6 +942,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccv0YtTzRb6C",
         name = "Chocolate Fish Coffee Roasters",
         rating = "unverified",
         location = "Downtown",
@@ -892,6 +953,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc5S3ThchGQy",
         name = "Temple Coffee Roasters",
         rating = "unverified",
         location = "Midtown",
@@ -903,6 +965,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccpEQ6-uitOq",
         name = "Temple Coffee Roasters",
         rating = "unverified",
         location = "Downtown",
@@ -913,6 +976,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccUCGexfMDYc",
         name = "Temple Coffee Roasters",
         rating = "unverified",
         location = "Arden Arcade",
@@ -923,6 +987,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccx5qmLjPJi0",
         name = "Elite Audio Coffee Bar",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/elite-audio-coffee-bar-san-francisco",
@@ -933,6 +998,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccGUmEyy-UVH",
         name = "Chapel Hill Coffee",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/chapel-hill-coffee-san-francisco",
@@ -943,6 +1009,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccWnK52TbJ4d",
         name = "Workshop Cafe",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/workshop-cafe-san-francisco",
@@ -953,6 +1020,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccODqU7dbxKx",
         name = "Cibo",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/cibo-sausalito",
@@ -963,6 +1031,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cczByXRWLCOA",
         name = "Front Cafe",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/front-cafe-san-francisco-3",
@@ -973,6 +1042,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccopya9bQOEQ",
         name = "Paramo Coffee Company",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/paramo-coffee-company-san-francisco-2",
@@ -983,6 +1053,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc5OHKDo9fVg",
         name = "Trouble Coffee and Coconut Club",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/trouble-coffee-company-san-francisco",
@@ -993,6 +1064,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccsoA3Clhr2k",
         name = "Espresso Cielo",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/espresso-cielo-santa-monica",
@@ -1003,6 +1075,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccZfwVFkqF1O",
         name = "Mountain Grounds",
         rating = "insta-find",
         yelp = "http://www.yelp.com/biz/mountain-grounds-martinez",
@@ -1014,6 +1087,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cchn8UdqbPML",
         name = "Pacific Bay Coffee Co.",
         rating = "insta-find",
         yelp = "http://www.yelp.com/biz/pacific-bay-coffee-co-and-micro-roastery-walnut-creek",
@@ -1024,6 +1098,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccNiq36NEAPk",
         name = "Aviano Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/aviano-coffee-denver",
@@ -1034,6 +1109,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccWLcwJ12sD1",
         name = "Novo Coffee",
         location = "Gilpin",
         rating = "cromulent",
@@ -1045,6 +1121,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccz0s2Kq9f-e",
         name = "Thump Coffee",
         location = "Denver",
         rating = "insta-find",
@@ -1056,6 +1133,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccMe1vaiJiNC",
         name = "Modern Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/modern-coffee-oakland",
@@ -1066,6 +1144,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccG50D8X4CV1",
         name = "Awaken Cafe",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/awaken-cafe-oakland-2",
@@ -1076,6 +1155,7 @@ CCDB = [
     ),
     
     CCS(
+        ccid = "ccNy5eOi5f9J",
         name = "Crema Coffee Roasting Company",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
@@ -1087,6 +1167,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccpWdIrch6s-",
         name = "Dana Street Roasting Company",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/dana-street-roasting-mountain-view",
@@ -1096,6 +1177,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc0WdKeIMBs2",
         name = "Heart Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/heart-portland-5",
@@ -1106,6 +1188,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccnIEhpSAzv2",
         name = "Barista PDX",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/barista-portland-5",
@@ -1116,6 +1199,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccQbcwYTrZ0F",
         name = "Public Domain",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/public-domain-coffee-portland",
@@ -1126,6 +1210,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc3o-xvW2kOw",
         name = "The Rose Establishment",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-rose-establishment-salt-lake-city",
@@ -1137,6 +1222,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccCYs7j0IkK4",
         name = "Wild Flour Bakery",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/wild-flour-bakery-banff",
@@ -1148,6 +1234,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccW_cdB1HQc2",
         name = "Joe Coffee",
         location = "West Village",
         rating = "unverified",
@@ -1159,6 +1246,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccWGV7tHGGSk",
         name = "Cafe Grumpy",
         location = "Grand Central Terminal",
         rating = "unverified",
@@ -1170,6 +1258,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccc7eRqCYZAn",
         name = "Voyageur du Temps",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/voyageur-du-temps-los-altos",
@@ -1181,6 +1270,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc_909hSV7nT",
         name = "Red Berry Coffee Bar",
         rating = "unverified",
         yelp = "http://www.yelp.com/biz/red-berry-coffee-bar-los-altos",
@@ -1191,6 +1281,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccP1bKbH9WRM",
         name = "Toby's Estate Coffee & Tea",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/tobys-estate-chippendale",
@@ -1201,6 +1292,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc4EkKx8Cxav",
         name = "Toby's Estate",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/tobys-estate-coffee-bondi-junction",
@@ -1211,6 +1303,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccm734N5eyGj",
         name = "Workshop Espresso",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/workshop-espresso-sydney",
@@ -1220,6 +1313,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccMwJMRfVyH1",
         name = "Campos Coffee",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/campos-coffee-newtown",
@@ -1230,6 +1324,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccijNQ5BRF82",
         name = "The Cove Dining Co",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-cove-dining-abbotsford",
@@ -1239,6 +1334,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccavkk8gJJib",
         name = "Lyons R.A.W. Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/lyons-r-a-w-drummoyne",
@@ -1248,6 +1344,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccm8Y-aEaj06",
         name = "Sonoma Bakery Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/sonoma-bakery-glebe",
@@ -1257,6 +1354,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccn9y-UimOIH",
         name = "Sonoma Bakery Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/sonoma-bakery-cafe-waterloo-waterloo",
@@ -1266,6 +1364,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc-EERnL-G0E",
         name = "Sonoma Bakery Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/sonoma-bakery-cafe-alexandria-alexandria",
@@ -1275,6 +1374,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cclOqEG7Ik-A",
         name = "Sonoma Bakery Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/sonoma-woollahra-woollahra",
@@ -1284,6 +1384,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cckJlh-dw_gg",
         name = "Big Brekky",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/big-brekky-petersham",
@@ -1293,6 +1394,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccpUbwGUZS7L",
         name = "Brewing Now",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/brewing-now-kingsford",
@@ -1302,6 +1404,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccYMbRP1NOAj",
         name = "Fresh Ground",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/fresh-ground-sandwiches-and-espresso-randwick",
@@ -1311,6 +1414,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccW0_ItsM5jI",
         name = "Cafe Brioso (Coffee Cart)",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/cafe-brioso-kensington",
@@ -1320,6 +1424,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cc3vp9mKTXCD",
         name = "The Gentlemen Baristas",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-gentlemen-baristas-london",
@@ -1330,6 +1435,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccmdpXUQr9Cp",
         name = "The Table Cafe",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/the-table-london-2",
@@ -1340,6 +1446,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "ccw-CYnwjCin",
         name = "Lonsdale Street Roasters",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/lonsdale-street-roasters-braddon",
@@ -1533,6 +1640,8 @@ CCSTOK = "CCS("
 
 def ccid_fixup():
 
+    fixups = 0
+    
     # search the db for items without a ccid
     # and add them to a list
     idxlist = []
@@ -1540,7 +1649,10 @@ def ccid_fixup():
         if ("ccid" not in CCDB[n]):
             idxlist.append(n)
 
-
+    if (len(idxlist) == 0):
+        print "All CCDB entries have ids. Nothing to fixup"
+        return
+    
     # crack open ourselves and search for "CCS(" lines
     idx = 0
     fl = open(__file__, "r")
@@ -1556,10 +1668,14 @@ def ccid_fixup():
             # if we need to fix up this CCS
             if(idx in idxlist):
                 # keep the same indentation, with a tab
-                indent = ln[:ln.find(CCSTOK)] + "\t"
+                indent = ln[:ln.find(CCSTOK)] * 2
+                
                 # make a line of it
                 outbuf += (indent + 'ccid = "%s",\n' % genid(CCID_PREFIX))
 
+                # accounting is fun
+                fixups += 1
+                
             # move onto next CCS
             idx += 1
 
@@ -1567,7 +1683,9 @@ def ccid_fixup():
     #yolo
     fl = open(__file__, "w")
     fl.write(outbuf)
-        
+
+    print "Fixed up %d entries" % fixups
+
 ###
 ##  database health checking
 #
