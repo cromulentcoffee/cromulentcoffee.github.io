@@ -545,7 +545,7 @@ CCDB = [
     CCS(
         ccid = "ccwF263nHkS8",
         name = "Outerlands",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/outerlands-san-francisco",
         address = "4001 Judah St San Francisco, CA 94122",
         url = "http://outerlandssf.com",
@@ -1026,7 +1026,7 @@ CCDB = [
     CCS(
         ccid = "cczByXRWLCOA",
         name = "Front Cafe",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/front-cafe-san-francisco-3",
         address = "150 Mississippi St, San Francisco, CA 94107",
         url = "https://www.frontsf.com",
@@ -1475,7 +1475,9 @@ def geojson_generate():
         else:
             InstaUpdate(m, j)
 
-        
+            # dump a warning if the two entries are bad
+            disagreement(j, m)
+            
     # build the geojson feature list from the DB
     features = []
     for cc in ccdb:
@@ -1542,6 +1544,17 @@ def read_insta_db():
 
     return json.loads(s)
 
+# check if the insta data and the
+# ccdb disagree. eg. if IG is cromulent and ccdb unverified
+def disagreement(j, m):
+
+    # Validate a rating inversion
+    if ((j["rating"] == "cromulent")
+        and (m["rating"] == "unverified")):
+        print "WARN: %s has a rating disagreement" % m["name"]
+        return True
+
+    return False
 
 def insta_check():
     js = read_insta_db()
@@ -1555,6 +1568,7 @@ def insta_check():
     # for each insta item
     unmatched = []
     matched = []
+    disagreeing = []
     for j in js:
         m = find_closest_ccs(j, ccl)
 
@@ -1563,8 +1577,10 @@ def insta_check():
         else:
             matched.append(j)
 
+            if (disagreement(j, m)):
+                disagreeing.append(j)
 
-    print "%d matched, %d unmatched" % (len(matched), len(unmatched))
+    print "%d matched, %d unmatched, %d disagreeing" % (len(matched), len(unmatched), len(disagreeing))
 
 ###
 ##  ccid generation
