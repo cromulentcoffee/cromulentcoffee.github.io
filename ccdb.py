@@ -555,17 +555,6 @@ CCDB = [
     ),
 
     CCS(
-        ccid = "ccm9Qo2NCunz",
-        name = "Sextant Coffee Roasters",
-        rating = "unverified",
-        yelp = "http://www.yelp.com/biz/sextant-coffee-roasters-san-francisco",
-        address = "1415 Folsom St San Francisco, CA 94103",
-        url = "http://sextantcoffee.com",
-        twitter = "sextantcoffee",
-        ig = "sextantcoffee",
-    ),
-
-    CCS(
         ccid = "ccKxsosdgdoN",
         name = "Sightglass Coffee",
         rating = "cromulent",
