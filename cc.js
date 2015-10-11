@@ -112,7 +112,7 @@ function click_event(event)
     }
 
     if (id !== null) {
-	info += '<a href=index.html?id=' + id + '><img src="link.png" alt="Link" /></a>';
+	info += '<a href="index.html?id=' + id + '"><img src="link.png" alt="Link" /></a>';
     }
 
     
