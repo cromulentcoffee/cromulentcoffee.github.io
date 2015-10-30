@@ -1437,6 +1437,28 @@ CCDB = [
         ig = "lonsdalestreetroasters",
     ),
 
+    CCS(
+        ccid = "cccUT7Wv1UgF",
+        name = "Nelson the Seagull",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/nelson-the-seagull-vancouver",
+        address = "315 Carrall Street Vancouver, BC V6A 0A7 Canada",
+        url = "http://www.nelsontheseagull.com/",
+        twitter = "gastownseagull",
+        ig = "nelsontheseagull",
+    ),
+
+    CCS(
+        ccid = "cc5z1VMv44C5",
+        name = "Pallet Coffee Roasters",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/pallet-coffee-roasters-vancouver",
+        address = "323 Semlin Dr, Vancouver, BC V5L, Canada",
+        url = "http://www.palletcoffeeroasters.com/",
+        twitter = "palletcoffee",
+        ig = "palletcoffee",
+    ),
+
 ]
 
 ###
