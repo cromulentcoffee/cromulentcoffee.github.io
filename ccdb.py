@@ -1146,18 +1146,6 @@ CCDB = [
         twitter = "awakencafe",
         ig = None,
     ),
-    
-    CCS(
-        ccid = "ccNy5eOi5f9J",
-        name = "Crema Coffee Roasting Company",
-        rating = "cromulent",
-        yelp = "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
-        address = "950 The Alameda San Jose, CA 95126",
-        # These guys aren't very social. Facebook.
-        # under construction: http://www.cremacoffeeco.com
-        url = "https://www.facebook.com/CremaCoffeeCo",
-        ig = None,
-    ),
 
     CCS(
         ccid = "ccpWdIrch6s-",
