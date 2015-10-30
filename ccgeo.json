@@ -187,9 +187,9 @@
                 "address": "231 Cortland Ave San Francisco, CA 94110",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/253042947/",
-                    "link": "https://instagram.com/p/9TwrSmIQPs/",
+                    "link": "https://instagram.com/p/9cd-dToQPj/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/c0.120.960.960/12070907_1645584249034072_1038420366_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/12093790_1637467019867294_1036050580_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -2111,24 +2111,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.9082164,
-                    37.33134930000001
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "cromulent",
-                "ccid": "ccNy5eOi5f9J",
-                "yelp": "http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose",
-                "url": "https://www.facebook.com/CremaCoffeeCo",
-                "address": "950 The Alameda San Jose, CA 95126",
-                "name": "Crema Coffee Roasting Company"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -122.0790203,
                     37.3924124
                 ]
@@ -3199,8 +3181,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -105.03907225,
-                    40.5618774
+                    -105.03824379,
+                    40.562382668
                 ]
             },
             "type": "Feature",
@@ -3583,8 +3565,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    100.569195931,
-                    13.731893268
+                    100.569200011,
+                    13.731893532
                 ]
             },
             "type": "Feature",
@@ -4687,8 +4669,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.031947282,
-                    38.916392035
+                    -77.031947353,
+                    38.916391214
                 ]
             },
             "type": "Feature",
@@ -4816,9 +4798,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/434458/",
-                    "link": "https://instagram.com/p/8TKXR8QDZ6/",
+                    "link": "https://instagram.com/p/9YkXZdQDRB/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11939371_489049307964048_258473430_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/12080407_443478685850094_1320630728_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -5887,8 +5869,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -80.892261482,
-                    35.476604332
+                    -80.8927994,
+                    35.47649
                 ]
             },
             "type": "Feature",
@@ -5896,9 +5878,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/155623855/",
-                    "link": "https://instagram.com/p/0k6bSMQo_M/",
+                    "link": "https://instagram.com/p/vPYkuyhh7H/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/s150x150/e15/11049403_1447291912229405_1097075394_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/s150x150/e15/10747933_373770986107224_338011948_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -6103,8 +6085,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.4417725,
-                    -28.1129093
+                    153.441323671,
+                    -28.112859227
                 ]
             },
             "type": "Feature",
@@ -6127,8 +6109,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    135.49565911,
-                    34.67042687
+                    135.49465227,
+                    34.67098023
                 ]
             },
             "type": "Feature",
@@ -6367,8 +6349,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.444459213,
-                    -28.077062284
+                    153.444459208,
+                    -28.077061945
                 ]
             },
             "type": "Feature",
@@ -6439,8 +6421,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.957969513,
-                    40.713896251
+                    -73.957970989,
+                    40.713895065
                 ]
             },
             "type": "Feature",
@@ -6727,8 +6709,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.450126509,
-                    -28.089861872
+                    153.4499359,
+                    -28.0898972
                 ]
             },
             "type": "Feature",
@@ -7471,8 +7453,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.578598,
-                    45.481041
+                    -73.578336906,
+                    45.480923245
                 ]
             },
             "type": "Feature",
@@ -8623,8 +8605,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.8594894,
-                    -31.9311504
+                    115.859226636,
+                    -31.931228453
                 ]
             },
             "type": "Feature",
@@ -8647,8 +8629,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -96.789087195,
-                    32.79525754
+                    -96.789087762,
+                    32.795260978
                 ]
             },
             "type": "Feature",
@@ -9079,8 +9061,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.900093769,
-                    -31.979987834
+                    115.899971,
+                    -31.980135
                 ]
             },
             "type": "Feature",
@@ -9439,8 +9421,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.958799998,
-                    40.78394668
+                    -73.958840823,
+                    40.783877546
                 ]
             },
             "type": "Feature",
@@ -10240,9 +10222,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/413355101/",
-                    "link": "https://instagram.com/p/6vZg-sHtTq/",
+                    "link": "https://instagram.com/p/8-K1JKywum/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/11849888_532332853585432_1302140582_n.jpg",
+                        "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/12139856_1000031350053341_958969889_n.jpg",
                         "width": 150,
                         "height": 150
                     }
@@ -10895,7 +10877,7 @@
                         "height": 150
                     }
                 },
-                "name": "Chow Bella Group",
+                "name": "Chow Bella Caf\u00e9",
                 "igid": "ig305251538"
             }
         },
@@ -11671,8 +11653,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.121228448,
-                    -33.777860463
+                    151.121227755,
+                    -33.777858187
                 ]
             },
             "type": "Feature",
@@ -11959,8 +11941,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9881439,
-                    -37.846241
+                    144.988632202,
+                    -37.8463248
                 ]
             },
             "type": "Feature",
@@ -14551,8 +14533,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.499754608,
-                    34.018584813
+                    -118.49975514,
+                    34.018584911
                 ]
             },
             "type": "Feature",
@@ -14887,8 +14869,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -84.5222397,
-                    42.7338715
+                    -84.522403586,
+                    42.73371334
                 ]
             },
             "type": "Feature",
