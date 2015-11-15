@@ -48,12 +48,12 @@
         ],
         "2066 Chestnut Street, San Francisco, CA 94123, USA"
     ],
-    "235 400 W Salt Lake City, UT 84101": [
+    "3655 Lawton St. San Francsico": [
         [
-            -111.9022209,
-            40.7640053
+            -122.5022956,
+            37.7566759
         ],
-        "235 400 West, Salt Lake City, UT 84101, USA"
+        "3655 Lawton Street, San Francisco, CA 94122, USA"
     ],
     "281 Lighthouse Ave Monterey, CA 93940": [
         [
@@ -146,12 +146,12 @@
         ],
         "2340 Polk Street, San Francisco, CA 94109, USA"
     ],
-    "89 EAST 42ND STREET, LEXINGTON PASSAGE, NEW YORK, NY 10017": [
+    "768 Sansome St San Francisco, CA 94111": [
         [
-            -73.9748908,
-            40.7530692
+            -122.401649,
+            37.797361
         ],
-        "Lexington Avenue, New York, NY 10017, USA"
+        "768 Sansome Street, San Francisco, CA 94111, USA"
     ],
     "432b Octavia St San Francisco, CA 94102": [
         [
@@ -188,6 +188,13 @@
         ],
         "The University of New South Wales, Sydney NSW 2052, Australia"
     ],
+    "315 Carrall Street Vancouver, BC V6A 0A7 Canada": [
+        [
+            -123.1043913,
+            49.2804295
+        ],
+        "315 Carrall St, Vancouver, BC V6B, Canada"
+    ],
     "1315 18th St San Francisco, CA 94107": [
         [
             -122.3959956,
@@ -215,6 +222,13 @@
             -33.8916693
         ],
         "480/500 Oxford Street, Bondi Junction NSW 2022, Australia"
+    ],
+    "32-36 City Rd Chippendale NSW 2008 Australia": [
+        [
+            151.194475,
+            -33.88589
+        ],
+        "32/36 City Road, Chippendale NSW 2008, Australia"
     ],
     "301 Divisadero St. San Francisco, CA 94117": [
         [
@@ -279,6 +293,13 @@
         ],
         "1026 Valencia Street, San Francisco, CA 94110, USA"
     ],
+    "323 Semlin Dr, Vancouver, BC V5L, Canada": [
+        [
+            -123.0639827,
+            49.2816988
+        ],
+        "323 Semlin Dr, Vancouver, BC V5L 4H9, Canada"
+    ],
     "101 Montgomery Street, San Francisco, CA 94104": [
         [
             -122.4025967,
@@ -286,19 +307,19 @@
         ],
         "101 Montgomery Street, San Francisco, CA 94104, USA"
     ],
-    "442 Hyde St San Francisco, CA 94109": [
+    "316 Stanmore Rd Petersham NSW 2049 Australia": [
         [
-            -122.4160427,
-            37.7850861
+            151.1580401,
+            -33.8960481
         ],
-        "442 Hyde Street, San Francisco, CA 94109, USA"
+        "316 Stanmore Road, Petersham NSW 2049, Australia"
     ],
-    "768 Sansome St San Francisco, CA 94111": [
+    "89 EAST 42ND STREET, LEXINGTON PASSAGE, NEW YORK, NY 10017": [
         [
-            -122.401649,
-            37.797361
+            -73.9748908,
+            40.7530692
         ],
-        "768 Sansome Street, San Francisco, CA 94111, USA"
+        "Lexington Avenue, New York, NY 10017, USA"
     ],
     "925 Larkin St San Francisco, CA 94109": [
         [
@@ -363,12 +384,12 @@
         ],
         "315 Linden Street, San Francisco, CA 94102, USA"
     ],
-    "3655 Lawton St. San Francsico": [
+    "235 400 W Salt Lake City, UT 84101": [
         [
-            -122.5022956,
-            37.7566759
+            -111.9022209,
+            40.7640053
         ],
-        "3655 Lawton Street, San Francisco, CA 94122, USA"
+        "235 400 West, Salt Lake City, UT 84101, USA"
     ],
     "1429 Broadway Oakland, CA 94612": [
         [
@@ -440,13 +461,6 @@
         ],
         "411 13th Street, Oakland, CA 94612, USA"
     ],
-    "1415 Folsom St San Francisco, CA 94103": [
-        [
-            -122.4129209,
-            37.7724539
-        ],
-        "1415 Folsom Street, San Francisco, CA 94103, USA"
-    ],
     "2436 Polk St San Francisco, CA 94109": [
         [
             -122.4222261,
@@ -517,12 +531,12 @@
         ],
         "893B Folsom Street, San Francisco, CA 94107, USA"
     ],
-    "744 W Dana St Mountain View, CA 94041": [
+    "2821 California St San Francisco, CA 94115": [
         [
-            -122.0790203,
-            37.3924124
+            -122.4409084,
+            37.7880105
         ],
-        "744 West Dana Street, Mountain View, CA 94041, USA"
+        "2821 California Street, San Francisco, CA 94115, USA"
     ],
     "400 P Street, Ste 1203, Sacramento, CA 95814": [
         [
@@ -552,12 +566,12 @@
         ],
         "32/44 Birmingham Street, Alexandria NSW 2015, Australia"
     ],
-    "San Francisco Ferry Building, San Francisco, CA, 94111": [
+    "3960 Adeline St Emeryville, CA 94608": [
         [
-            -122.3933928,
-            37.7957917
+            -122.2782145,
+            37.8306732
         ],
-        "Sausalito - San Francisco Ferry Building, San Francisco, CA 94111, USA"
+        "3960 Adeline Street, Emeryville, CA 94608, USA"
     ],
     "2829 S St Sacramento, CA 95816": [
         [
@@ -692,12 +706,12 @@
         ],
         "3417 18th Street, San Francisco, CA 94110, USA"
     ],
-    "32-36 City Rd Chippendale NSW 2008 Australia": [
+    "1415 Folsom St San Francisco, CA 94103": [
         [
-            151.194475,
-            -33.88589
+            -122.4129209,
+            37.7724539
         ],
-        "32/36 City Road, Chippendale NSW 2008, Australia"
+        "1415 Folsom Street, San Francisco, CA 94103, USA"
     ],
     "1890 Bryant St San Francisco, CA 94110": [
         [
@@ -713,19 +727,19 @@
         ],
         "1355 Market Street, San Francisco, CA 94103, USA"
     ],
-    "316 Stanmore Rd Petersham NSW 2049 Australia": [
+    "442 Hyde St San Francisco, CA 94109": [
         [
-            151.1580401,
-            -33.8960481
+            -122.4160427,
+            37.7850861
         ],
-        "316 Stanmore Road, Petersham NSW 2049, Australia"
+        "442 Hyde Street, San Francisco, CA 94109, USA"
     ],
-    "2821 California St San Francisco, CA 94115": [
+    "744 W Dana St Mountain View, CA 94041": [
         [
-            -122.4409084,
-            37.7880105
+            -122.0790203,
+            37.3924124
         ],
-        "2821 California Street, San Francisco, CA 94115, USA"
+        "744 West Dana Street, Mountain View, CA 94041, USA"
     ],
     "47540 Hwy 1, Big Sur, CA 93920": [
         [
@@ -734,12 +748,12 @@
         ],
         "47540 California 1, Big Sur, CA 93920, USA"
     ],
-    "3960 Adeline St Emeryville, CA 94608": [
+    "San Francisco Ferry Building, San Francisco, CA, 94111": [
         [
-            -122.2782145,
-            37.8306732
+            -122.3933928,
+            37.7957917
         ],
-        "3960 Adeline Street, Emeryville, CA 94608, USA"
+        "Sausalito - San Francisco Ferry Building, San Francisco, CA 94111, USA"
     ],
     "950 The Alameda San Jose, CA 95126": [
         [
