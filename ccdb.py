@@ -1459,6 +1459,32 @@ CCDB = [
         ig = "palletcoffee",
     ),
 
+    CCS(
+        ccid = "ccmFxQ97zZQP",
+        name = "Arturo's Underground Cafe",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/arturos-underground-cafe-austin-2",
+        address = "314 W 17th St, Austin, TX 78701",
+    ),
+
+    CCS(
+        ccid = "ccwwTCzd9qa2",
+        name = "House Cafe",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/house-cafe-austin",
+        address = "2105 San Antonio St, Austin, TX 78705",
+        url = "housecafeaustin.com",
+    ),
+
+    CCS(
+        ccid = "ccV8fyRXA-WC",
+        name = "Bru",
+        rating = "unverified",
+        yelp = "http://www.yelp.com/biz/bru-austin",
+        address = "1301 Rio Grande, Austin, TX 78701",
+        url = "bruaustin.com",
+    ),
+
 ]
 
 ###
