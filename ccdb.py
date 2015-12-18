@@ -1486,6 +1486,7 @@ CCDB = [
     ),
 
     CCS(
+        ccid = "cctC2SBU5L8m",
         name = "Craftsman and Wolves Pacific",
         rating = "cromulent",
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco-5",

@@ -2780,6 +2780,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.4224284,
+                    37.7949035
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "ccid": "cctC2SBU5L8m",
+                "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco-5",
+                "url": "http://www.craftsman-wolves.com",
+                "twitter": "craftsmanwolves",
+                "address": "1643 Pacific Avenue, San Francisco, CA 94109",
+                "ig": "craftsmanwolves",
+                "name": "Craftsman and Wolves Pacific"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -122.661987,
                     45.541069
                 ]
