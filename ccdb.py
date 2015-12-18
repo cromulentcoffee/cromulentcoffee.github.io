@@ -1485,6 +1485,16 @@ CCDB = [
         url = "bruaustin.com",
     ),
 
+    CCS(
+        name = "Craftsman and Wolves Pacific",
+        rating = "cromulent",
+        yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco-5",
+        address = "1643 Pacific Avenue, San Francisco, CA 94109",
+        url = "http://www.craftsman-wolves.com",
+        ig = "craftsmanwolves",
+        twitter = "craftsmanwolves",
+    ),
+
 ]
 
 ###
