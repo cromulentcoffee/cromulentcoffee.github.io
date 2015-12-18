@@ -171,7 +171,7 @@ if (__name__ == "__main__"):
     post_list = get_post_list()
 
     # Pull the list of #cc likes
-    print "Pulling post list..."
+    print "Pulling like list..."
     like_list = get_like_list()
     
     # Translate that to something we want to save
