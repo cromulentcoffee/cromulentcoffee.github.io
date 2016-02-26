@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import credentials
 import urllib
 import json
 import sys
@@ -155,16 +156,24 @@ def get_like_list():
 #
 
 def usage():
-    print "usage: %s <auth-token>" % sys.argv[0]
+    print "usage: %s" % sys.argv[0]
     sys.exit(1)
 
 if (__name__ == "__main__"):
 
-    if (len(sys.argv) <= 1):
+    if (len(sys.argv) != 1):
         usage()
         
     # This needs to be gotten live
-    access_token = sys.argv[1]
+    # access_token = sys.argv[1]
+    cred = credentials.get_credentials("ig")
+    if (cred is None):
+        print "Could not credentials in file %s. See credentials.py" % credentials.CCAUTH
+        sys.exit(1)
+    if ("auth-token" not in cred):
+        print "Could not find auth-toke in ig credentials. See credentials.py"
+        sys.exit(1)
+    access_token = cred["auth-token"]
 
     # Pull the list of #cc postings
     print "Pulling post list..."
