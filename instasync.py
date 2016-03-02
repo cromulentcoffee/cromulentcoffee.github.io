@@ -15,6 +15,63 @@ CCUID = 1993210575
 access_token = None
 
 ###
+##  Managing the pending list of tweets
+#
+
+PENDING_FILE = "pending-posts.json"
+
+def new_pending_post_list():
+
+    np = {}
+
+    # the most recent timestamp of a post we've made
+    np["newest-post"] = 0
+
+    # list of pending posts to tweet
+    np["pending-tweets"] = []
+
+    return np
+
+def read_pending_post_list():
+
+    try:
+        fl = open(PENDING_FILE)
+        pending = json.load(fl)
+    except:
+        print "Error reading pending post list, starting fresh"
+        pending = new_pending_post_list()
+
+    return pending
+
+def update_pending_post_list(pending, post):
+
+    ctime = int(post["created_time"])
+    if (ctime <= pending["newest-post"]):
+        # already seen image
+        return
+
+    # track the highest number we've seen for next time
+    if (pending.get("next-newest-post", ctime) <= ctime):
+        pending["next-newest-post"] = ctime
+
+    # make a list record and add it
+    pending["pending-tweets"].append(post["link"])
+
+def save_pending_post_list(pending):
+
+    # check if we updated the timestamp
+    if (pending.get("next-newest-post") is not None):
+        pending["newest-post"] = pending["next-newest-post"]
+        del pending["next-newest-post"]
+
+    # write the file
+    fl = open(PENDING_FILE, "w")
+    fl.write(json.dumps(pending,
+                        indent=4, separators=(',', ': ')))
+
+    print "%d pending tweets" % len(pending["pending-tweets"])
+
+###
 ##  Class representing an Instagram location
 #
 
@@ -89,7 +146,7 @@ def http_get_js(url):
 ##  Pulling the post list
 #
 
-def get_list_by_url(url, rating):
+def get_list_by_url(url, rating, pending):
     
     # list of posted items
     pl = {}
@@ -107,6 +164,8 @@ def get_list_by_url(url, rating):
         ds = js["data"]
         for d in ds:
             tcount += 1
+            if (pending is not None):
+                update_pending_post_list(pending, d)
             try:
                 (k, v) = img2cache(d)
             except:
@@ -136,19 +195,19 @@ def get_list_by_url(url, rating):
     return pl
 
     
-def get_post_list():
+def get_post_list(pending):
 
     # base URL of our most recent posts
     url = "https://api.instagram.com/v1/users/%s/media/recent?access_token=%s" % (CCUID, access_token)
 
-    return get_list_by_url(url, "cromulent")
+    return get_list_by_url(url, "cromulent", pending)
     
 def get_like_list():
     
     # base URL of our likes
     url = "https://api.instagram.com/v1/users/self/media/liked?access_token=%s" % access_token
 
-    return get_list_by_url(url, "insta-find")
+    return get_list_by_url(url, "insta-find", None)
 
     
 ###
@@ -165,7 +224,6 @@ if (__name__ == "__main__"):
         usage()
         
     # This needs to be gotten live
-    # access_token = sys.argv[1]
     cred = credentials.get_credentials("ig")
     if (cred is None):
         print "Could not credentials in file %s. See credentials.py" % credentials.CCAUTH
@@ -175,9 +233,12 @@ if (__name__ == "__main__"):
         sys.exit(1)
     access_token = cred["auth-token"]
 
+    # get the list of pending posts
+    pending = read_pending_post_list()
+
     # Pull the list of #cc postings
     print "Pulling post list..."
-    post_list = get_post_list()
+    post_list = get_post_list(pending)
 
     # Pull the list of #cc likes
     print "Pulling like list..."
@@ -190,6 +251,7 @@ if (__name__ == "__main__"):
         j = post_list[p].get_rep()
         sl.append(j)
 
+
     for l in like_list.keys():
         j = like_list[l].get_rep()
         sl.append(j)
@@ -198,3 +260,6 @@ if (__name__ == "__main__"):
     fl = open("insta-posts.json", "w")
     fl.write(json.dumps(sl,
                         indent=4, separators=(',', ': ')))
+
+    # and the pending posts
+    save_pending_post_list(pending)
