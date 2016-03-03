@@ -4,6 +4,7 @@ import credentials
 import urllib
 import json
 import sys
+import re
 
 ## Pull down a list of places by their location and
 ## save it out. ccdb will combine them after the fact.
@@ -32,14 +33,17 @@ def new_pending_post_list():
 
     return np
 
-def read_pending_post_list():
+def read_pending_post_list(make_new = True):
 
     try:
         fl = open(PENDING_FILE)
         pending = json.load(fl)
     except:
         print "Error reading pending post list, starting fresh"
-        pending = new_pending_post_list()
+        if (make_new):
+            pending = new_pending_post_list()
+        else:
+            pending = None
 
     return pending
 
@@ -122,7 +126,80 @@ def img2locinfo(ii):
     
     return l
 
+###
+##  name decoding
+#
+
+NAME_RE = "(@[a-zA-Z0-9_]+)(.*)"
+HASH_RE = "(#[^.?:/\#!@#$%^&*\(\)]+)(.*)"
+
+def parse_token(prefix, regex, tok):
+
+    # pass through other words
+    if (tok[0] != prefix):
+        return (False, None, None)
+
+    # regex into the name and the suffix
+    m = re.search(regex, tok)
+
+    if (m is None):
+        print tok
+
+    igname = m.group(1)
+    suffix = m.group(2) # empty string if no suffix
+
+    return (True, igname, suffix)
+
+def parse_name(tok):
+
+    return parse_token("@", NAME_RE, tok)
+
+###
+##  stats
+#
+
+class Stats:
+    def __init__(self):
+        self.ht_list = {}
+        self.at_list = {}
+
+    def add_ht(self, ht):
+        self.ht_list[ht] = self.ht_list.get(ht, 0) + 1
+
+    def add_at(self, at):
+        self.at_list[at] = self.at_list.get(at, 0) + 1
+
+stats = Stats()
+
+def add_to_stats(d):
+    t = d["caption"]["text"]
+
+    toks = t.split()
+
+    for tok in toks:
+        (is_ht, name, suffix) = parse_token("#", HASH_RE, tok)
+
+        if (is_ht):
+            stats.add_ht(name)
+            continue
     
+        (is_at, name, suffix) = parse_name(tok)
+
+        if (is_at):
+            stats.add_at(name)
+            continue
+
+## debug
+def print_at_list():
+
+    l = []
+    for k in stats.at_list:
+        d = { "ig": k,
+              "twitter" : "" }
+        l.append(d)
+
+    print l
+
 ###
 ##  Talk http/json
 #
@@ -143,10 +220,10 @@ def http_get_js(url):
     return js
 
 ###
-##  Pulling the post list
+##  Pulling posts and the post list
 #
 
-def get_list_by_url(url, rating, pending):
+def get_list_by_url(url, rating, pending, stats):
     
     # list of posted items
     pl = {}
@@ -164,8 +241,16 @@ def get_list_by_url(url, rating, pending):
         ds = js["data"]
         for d in ds:
             tcount += 1
+
+            # deal with pending tweets
             if (pending is not None):
                 update_pending_post_list(pending, d)
+
+            # maybe collect stats
+            if (stats):
+                add_to_stats(d)
+
+            # turn into a short form
             try:
                 (k, v) = img2cache(d)
             except:
@@ -197,19 +282,61 @@ def get_list_by_url(url, rating, pending):
     
 def get_post_list(pending):
 
+    check_access_token()
+
     # base URL of our most recent posts
     url = "https://api.instagram.com/v1/users/%s/media/recent?access_token=%s" % (CCUID, access_token)
 
-    return get_list_by_url(url, "cromulent", pending)
+    return get_list_by_url(url, "cromulent", pending, True)
     
 def get_like_list():
+
+    check_access_token()
     
     # base URL of our likes
     url = "https://api.instagram.com/v1/users/self/media/liked?access_token=%s" % access_token
 
-    return get_list_by_url(url, "insta-find", None)
+    return get_list_by_url(url, "insta-find", None, False)
 
-    
+def get_post_by_url(post):
+
+    check_access_token()
+
+    toks = post.split("/")
+    shortcode = toks[-2]
+
+    # URL of the media object
+    url = "https://api.instagram.com/v1/media/shortcode/%s?access_token=%s" % (shortcode, access_token)
+
+    # pull it down
+    js = http_get_js(url)
+
+    return js["data"]
+
+###
+##  credentials
+#
+
+def read_access_token():    
+
+    global access_token
+
+    # FIXME: embiggen the access token type we use
+    cred = credentials.get_credentials("ig")
+    if (cred is None):
+        print "Could not credentials in file %s. See credentials.py" % credentials.CCAUTH
+        sys.exit(1)
+    if ("auth-token" not in cred):
+        print "Could not find auth-toke in ig credentials. See credentials.py"
+        sys.exit(1)
+    access_token = cred["auth-token"]
+
+def check_access_token():
+
+    if (access_token is None):
+        read_access_token()
+
+
 ###
 ##  Entrypoint
 #
@@ -223,15 +350,8 @@ if (__name__ == "__main__"):
     if (len(sys.argv) != 1):
         usage()
         
-    # This needs to be gotten live
-    cred = credentials.get_credentials("ig")
-    if (cred is None):
-        print "Could not credentials in file %s. See credentials.py" % credentials.CCAUTH
-        sys.exit(1)
-    if ("auth-token" not in cred):
-        print "Could not find auth-toke in ig credentials. See credentials.py"
-        sys.exit(1)
-    access_token = cred["auth-token"]
+    # pull our credentials
+    read_access_token()
 
     # get the list of pending posts
     pending = read_pending_post_list()
@@ -239,6 +359,10 @@ if (__name__ == "__main__"):
     # Pull the list of #cc postings
     print "Pulling post list..."
     post_list = get_post_list(pending)
+
+    # XXX: fixme
+    # dump the at list
+    # print_at_list()
 
     # Pull the list of #cc likes
     print "Pulling like list..."
@@ -263,3 +387,4 @@ if (__name__ == "__main__"):
 
     # and the pending posts
     save_pending_post_list(pending)
+

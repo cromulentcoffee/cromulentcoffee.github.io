@@ -265,6 +265,7 @@ def ccs2geojson(ccs):
 ##  v.1 database in Python
 #
 
+## main database of location and cromulence
 CCDB = [
 
     CCS(
@@ -275,6 +276,7 @@ CCDB = [
         url = "bpatisserie.com/",
         address = "2821 California St San Francisco, CA 94115",
         ig = "bpatisserie",
+        twitter = "b_patisserie",
     ),
 
     CCS(
@@ -285,7 +287,8 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco",
         url = "https://www.ritualroasters.com/",
         address = "1026 Valencia Street San Francisco, CA 94110",
-        ig = "ritualcoffee" 
+        ig = "ritualcoffee",
+        twitter = "ritualcoffee"
     ),
 
     CCS(
@@ -296,7 +299,8 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco-5",
         url = "https://www.ritualroasters.com/",
         address = "432b Octavia St San Francisco, CA 94102",
-        ig = "ritualcoffee" 
+        ig = "ritualcoffee",
+        twitter = "ritualcoffee"
     ),
 
     CCS(
@@ -306,17 +310,8 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
         url = "http://www.craftsman-wolves.com",
         address = "746 Valencia St San Francisco, CA 94110",
-        ig = "craftsmanwolves" 
-    ),
-
-    CCS(
-        ccid = "ccgALbfcxnCU",
-        name = "Craftsman and Wolves",
-        rating = "cromulent",
-        yelp = "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
-        url = "http://www.craftsman-wolves.com",
-        address = "746 Valencia St San Francisco, CA 94110",
-        ig = "craftsmanwolves"  
+        ig = "craftsmanwolves",
+        twitter = "craftsmanwolves"
     ),
 
     CCS(
@@ -538,7 +533,7 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/wrecking-ball-coffee-roasters-san-francisco-2",
         address = "2271 Union St San Francisco, CA 94123",
         url = "http://www.wreckingballcoffee.com",
-        ig = "wreckingball_",
+        ig = "wreckingballcoffee",
         twitter = "wrecking_ball",
     ),
 
@@ -1497,6 +1492,89 @@ CCDB = [
     ),
 
 ]
+
+## Translation table for @ names in various services
+
+CCATDB = [
+    {'twitter': '', 'ig': u'@fiddlerscoffee'},
+    {'twitter': '', 'ig': u'@calipressjuice'},
+    {'twitter': '', 'ig': u'@chansbros'},
+    {'twitter': '', 'ig': u'@terarosacoffee'},
+    {'twitter': '', 'ig': u'@herkimercoffee'},
+    {'twitter': '', 'ig': u'@habitualcoffee'},
+    {'twitter': '', 'ig': u'@overt_denver'},
+    {'twitter': '', 'ig': u'@stumptowncoffee'},
+    {'twitter': '', 'ig': u'@hacoffeebar'},
+    {'twitter': '', 'ig': u'@vertigocoffeeroasters'},
+    {'twitter': '', 'ig': u'@latteartgram'},
+    {'twitter': '', 'ig': u'@brew_coffeeandbeer'},
+    {'twitter': '', 'ig': u'@blacktoastcafe'},
+    {'twitter': '', 'ig': u'@pabloandrustys'},
+    {'twitter': '', 'ig': u'@7seedscoffee'},
+    {'twitter': '', 'ig': u'@thelittlemarionette'},
+    {'twitter': '', 'ig': u'@littlegremlincoffee'},
+    {'twitter': '', 'ig': u'@porchandparlour'},
+    {'twitter': '', 'ig': u'@fiftyfiftysf'},
+    {'twitter': '', 'ig': u'@abbottstespresso'},
+    {'twitter': '', 'ig': u'@single_o'},
+    {'twitter': '', 'ig': u'@thecurator_'},
+    {'twitter': '', 'ig': u'@oregan_coffee'},
+    {'twitter': '', 'ig': u'@extractocoffee'},
+    {'twitter': '', 'ig': u'@coffeebarredding'},
+    {'twitter': '', 'ig': u'@blackeyecoffee'},
+    {'twitter': '', 'ig': u'@revolverespresso'},
+    {'twitter': '', 'ig': u'@case_coffee_roasters'},
+    {'twitter': '', 'ig': u'@yardstickcoffee'},
+    {'twitter': '', 'ig': u'@troublecoffeeco'},
+    {'twitter': '', 'ig': u'@wanderinggoatcoffee'},
+    {'twitter': '', 'ig': u'@lussolab_samchung'},
+    {'twitter': '', 'ig': u'@tailor_coffee'},
+    {'twitter': '', 'ig': u'@madaynecoffee'},
+    {'twitter': '', 'ig': u'@threewilliamscafe'},
+    {'twitter': '', 'ig': u'@tocofresh'},
+    {'twitter': '', 'ig': u'@saintsimoncoffee'},
+    {'twitter': '', 'ig': u'@vervecoffee'},
+
+    {'twitter': 'KeepCup', 'ig': u'@keepcup'},
+    {'twitter': 'sodhousebakery', 'ig': u'@sodhousebakery'},
+    {'twitter': 'facebook', 'ig': u'@facebook'},
+    {'twitter': 'slipstreamdc', 'ig': u'@slipstreamdc'},
+    {'twitter': 'NickCho', 'ig': u'@nickcho_'},
+
+    # No twitter handle
+    {'text': 'DeLise SF', 'ig': u'@DeLiseSF'}, # doesn't have one??
+    {'text': 'Bright Coffee', 'ig': u'@brightcoffeeca'},
+    {'text': 'Westfield', 'ig': u'@westfieldsyd'},
+    {'text': 'Spearhead Coffee', 'ig': u'@spearheadcoffee'},
+
+    ]
+
+def at_translate(from_name, from_svc, to_svc, prefix = "@"):
+
+    # accept prefixed or non-prefixed names
+    from_name2 = from_name
+    if (from_name2[0] == "@"):
+        from_name2 = from_name2[1:]
+
+    to_name = None
+    dbs = [CCDB, CCATDB]
+
+    for db in dbs:
+        # search the db
+        for e in db:
+            if ((from_svc in e)
+                and ((e[from_svc] == from_name)
+                     or (e[from_svc] == from_name2))
+                and (to_svc in e)):
+                to_name = e[to_svc]
+                break
+
+        # return if valid
+        if ((to_name is not None)
+            and (to_name != "")):
+            return prefix + to_name
+    
+    return None
 
 ###
 ##  database generation
