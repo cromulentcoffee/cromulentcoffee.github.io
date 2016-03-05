@@ -7,6 +7,8 @@
 import sys
 import ccdb
 import tweepy
+import urllib
+import tempfile
 import instasync
 import credentials
 
@@ -14,7 +16,7 @@ import credentials
 ##  actual tweeting
 #
 
-def post_tweet(t):
+def get_api():
     # pull the credentials
     cred = credentials.get_credentials("twitter")
     if (cred is None):
@@ -26,9 +28,34 @@ def post_tweet(t):
 
     api = tweepy.API(auth)
 
-    public_tweets = api.home_timeline()
-    for tweet in public_tweets:
-        print tweet.text
+    return api
+
+def url2tmpfile(url):
+
+    # make a temp file
+    fl = tempfile.NamedTemporaryFile(suffix=".jpg")
+
+    # get a file-like object to the source image
+    nw = urllib.urlopen(t.imgurl)
+
+    fl.write(nw.read())
+
+    print "file: %s" % fl.name
+
+    return (fl.name, fl)
+
+def post_tweet(t):
+
+    # cache the image
+    (fname, fl) = url2tmpfile(t.imgurl)
+
+    # create a session
+    api = get_api()
+    
+    # post it
+    r = api.update_with_media(fname, t.tweet)
+
+    return True
 
 ###
 ##  name translation
@@ -220,9 +247,34 @@ def make_tweet(p):
     return o
 
 ###
+##  argument parsing
+#
+
+VALID_ARGS = ["test", "post", "verify"]
+
+def usage():
+        print "usage: %s [test|post|verify]" % sys.argv[0]
+        sys.exit(1)
+
+def parse_args():
+
+    if (len(sys.argv) == 1):
+        return "test"
+
+    if (len(sys.argv) > 2):
+        usage()
+
+    if (sys.argv[1] not in VALID_ARGS):
+        usage()
+
+    return sys.argv[1]
+
+###
 ##  entrypoint
 #
 if (__name__ == "__main__"):
+
+    op = parse_args()
 
     # read the pending list
     pending = instasync.read_pending_post_list(False)
@@ -240,16 +292,40 @@ if (__name__ == "__main__"):
         sys.exit(0)
 
     # iterate over the pending list, trying to post
-    count = 0
-    for p in plist:
+    good = 0
+    skip = 0
+    for i in range(0, len(plist)):
+        p = plist[i]
         t = make_tweet(p)
 
         if (t is None):
             print "Can't tweet %s" % p
+            skip + 1
             continue
         
         print "Can tweet %s: %s (%d)" % (p, t.tweet, len(t.tweet))
+        good += 1
 
-        count += 1
-        # if (count > 5):
-        #    break
+        # bail if we can print something
+        if (op == "test"):
+            print "Found a valid tweet after %d skips" % skip
+            sys.exit(1)
+
+        # do a post
+        if (op == "post"):
+            # post the tweet
+            r = post_tweet(t)
+            if (r):
+                del plist[i]
+                instasync.save_pending_post_list(pending)
+                sys.exit(0)
+            else:
+                sys.exit(1)
+
+        # fall through on "verify" to process all
+
+
+    if (op == "verify"):
+        print "Verification done. %d / %d postable" % (good, len(plist))
+    else:
+        print "No valid tweets to post"

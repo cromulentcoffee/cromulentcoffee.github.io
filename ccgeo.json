@@ -15,6 +15,7 @@
                 "ccid": "ccw8sS8natWs",
                 "yelp": "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
                 "url": "bpatisserie.com/",
+                "twitter": "b_patisserie",
                 "igid": "ig216005792",
                 "address": "2821 California St San Francisco, CA 94115",
                 "igpost": {
@@ -44,6 +45,7 @@
                 "ccid": "ccXnwIdiObwT",
                 "yelp": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco",
                 "url": "https://www.ritualroasters.com/",
+                "twitter": "ritualcoffee",
                 "igid": "ig1261393",
                 "location": "Mission",
                 "address": "1026 Valencia Street San Francisco, CA 94110",
@@ -74,6 +76,7 @@
                 "ccid": "ccfsSuNpaYjY",
                 "yelp": "http://www.yelp.com/biz/ritual-coffee-roasters-san-francisco-5",
                 "url": "https://www.ritualroasters.com/",
+                "twitter": "ritualcoffee",
                 "igid": "ig219677748",
                 "location": "Hayes Valley",
                 "address": "432b Octavia St San Francisco, CA 94102",
@@ -104,25 +107,7 @@
                 "ccid": "ccdk_2O_p_in",
                 "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
                 "url": "http://www.craftsman-wolves.com",
-                "address": "746 Valencia St San Francisco, CA 94110",
-                "ig": "craftsmanwolves",
-                "name": "Craftsman and Wolves"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.4218206,
-                    37.7609695
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "cromulent",
-                "ccid": "ccgALbfcxnCU",
-                "yelp": "http://www.yelp.com/biz/craftsman-and-wolves-san-francisco",
-                "url": "http://www.craftsman-wolves.com",
+                "twitter": "craftsmanwolves",
                 "address": "746 Valencia St San Francisco, CA 94110",
                 "ig": "craftsmanwolves",
                 "name": "Craftsman and Wolves"
@@ -711,7 +696,7 @@
                         "height": 150
                     }
                 },
-                "ig": "wreckingball_",
+                "ig": "wreckingballcoffee",
                 "name": "Wrecking Ball Coffee Roasters"
             }
         },
@@ -6257,9 +6242,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/217987276/",
-                    "link": "https://www.instagram.com/p/9t8XCEk4n9/",
+                    "link": "https://www.instagram.com/p/6dsOnmsXf_UyyZfz9bJcKnhcnQWS6EMfWD3Mk0/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11939309_890679251045971_659766784_n.jpg?ig_cache_key=MTExMTgxMDE0ODU5MzI3MzM0MQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12269976_1632842433634391_1767328189_n.jpg?ig_cache_key=MTA1MzE5MjQwNjUxODgyMjkxMQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -9386,6 +9371,30 @@
                 },
                 "name": "Verve Coffee Roasters",
                 "igid": "ig25077"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.6996689,
+                    10.7732201
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/39096822/",
+                    "link": "https://www.instagram.com/p/6EQq2HslBq5fxjmyfToM_i_XIhMzRapGcXt3k0/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "L'usine Le Loi",
+                "igid": "ig39096822"
             }
         },
         {
