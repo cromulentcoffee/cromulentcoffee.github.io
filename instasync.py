@@ -58,8 +58,9 @@ def update_pending_post_list(pending, post):
     if (pending.get("next-newest-post", ctime) <= ctime):
         pending["next-newest-post"] = ctime
 
-    # make a list record and add it
-    pending["pending-tweets"].append(post["link"])
+    # make a list record and add it to the top of the list
+    # pending["pending-tweets"].append(post["link"])
+    pending["pending-tweets"].insert(0, post["link"])
 
 def save_pending_post_list(pending):
 
