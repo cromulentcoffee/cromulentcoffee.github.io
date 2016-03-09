@@ -238,6 +238,11 @@ def get_list_by_url(url, rating, pending, stats):
         # pull the first page
         js = http_get_js(url)
 
+        # inform the user
+        # print ".",
+        sys.stdout.write(".")
+        sys.stdout.flush()
+
         # Decode the returned list
         ds = js["data"]
         for d in ds:
@@ -276,6 +281,7 @@ def get_list_by_url(url, rating, pending, stats):
         if ("next_url" in pag):
             url = pag['next_url']
 
+    print
     print "Found %d posts, %d with locations" % (tcount, lcount)
             
     return pl
