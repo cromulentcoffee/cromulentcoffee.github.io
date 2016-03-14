@@ -766,7 +766,7 @@ CCDB = [
     CCS(
         ccid = "ccgo-E-1Rgbh",
         name = "Marla Bakery",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/marla-bakery-san-francisco-2",
         address = "3619 Balboa St San Francisco, CA 94121",
         url = "http://www.marlabakery.com",
@@ -999,7 +999,7 @@ CCDB = [
     CCS(
         ccid = "ccWnK52TbJ4d",
         name = "Workshop Cafe",
-        rating = "unverified",
+        rating = "cromulent",
         yelp = "http://www.yelp.com/biz/workshop-cafe-san-francisco",
         address = "180 Montgomery St, Ste 100, San Francisco, CA 94104",
         url = "http://www.workshopcafe.com",
