@@ -55,6 +55,12 @@ def post_tweet(t):
     # post it
     r = api.update_with_media(fname, t.tweet)
 
+    print r
+
+    s = r.id
+    print "id_str: %s" % s
+    print "URL: https://twitter.com/cromulentcoffee/status/%s" % s
+
     return True
 
 ###
@@ -91,10 +97,13 @@ CC_HASHTAGS = ["#cappuccino", "#latte", "#gibraltar",
 KILL_HASHTAGS = ["#coffeebreak", "#coffeelover", "#coffeetime",
                  "#coffeeaddict", "#caffeine"]
 
-TWEET_MAX = 140
-
 def get_url_len():
     return 24 # XXX: FIXME: consult twitter for length
+
+def get_media_len():
+    return 24 # XXX: FIXME: consult twitter for length
+
+TWEET_MAX = 140 - get_media_len()
 
 # FIXME
 def caption2tweet(cap, has_url):
@@ -204,11 +213,11 @@ class PostObject():
 
         # append if we've gotten this far
         if (self.ccurl is None):
-            if (len(ttext) > 140):
+            if (len(ttext) > TWEET_MAX):
                 raise RuntimeError("Generated oversized tweet!")
             self.tweet = ttext
         else:
-            if ((len(ttext) + get_url_len()) > 140):
+            if ((len(ttext) + get_url_len()) > TWEET_MAX):
                 raise RuntimeError("Generated oversized tweet with URL!")
             self.tweet = "%s %s" % (ttext, self.ccurl)
 
