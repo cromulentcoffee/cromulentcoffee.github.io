@@ -110,11 +110,14 @@ def img2cache(ii):
     if (ii["location"] is not None):
         # some of the data is really shitty...
         if ("id" not in ii["location"]):
-            print "id on %s missing in location?" % d["link"]
+            # print "id on %s missing in location?" % d["link"]
+            pass
         elif ("latitude" not in ii["location"]):
-            print "lat on %s missing in location?" % d["link"]
+            # print "lat on %s missing in location?" % d["link"]
+            pass
         elif ("longitude" not in ii["location"]):
-            print "lng on %s missing in location?" % d["link"]
+            # print "lng on %s missing in location?" % d["link"]
+            pass
         else:
             locid = ii["location"]["id"]
             

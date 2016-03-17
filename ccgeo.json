@@ -2969,6 +2969,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -118.44166,
+                    34.03822
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1078331/",
+                    "link": "https://www.instagram.com/p/BC1by2ys1_T/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12822524_191793454525671_949382770_n.jpg?ig_cache_key=MTIwMzk5MDcxNzQ1Mzc4NzA5MQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Balconi Coffee Company",
+                "igid": "ig1078331"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -120.22237,
                     39.32488
                 ]
@@ -3227,6 +3251,30 @@
                 },
                 "name": "Saint Simon Coffee Co.",
                 "igid": "ig247675538"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.32105,
+                    34.09837
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/90298990/",
+                    "link": "https://www.instagram.com/p/BDD8vF4iQOG/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12798100_1558277394501174_1697187827_n.jpg?ig_cache_key=MTIwODA3NjI0Mzk4ODcxMDI3OA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Coffee Commissary",
+                "igid": "ig90298990"
             }
         },
         {
@@ -3923,6 +3971,30 @@
                 },
                 "name": "Extracto Coffee Roasters",
                 "igid": "ig25994"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.3442249,
+                    34.0937679
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/759627660/",
+                    "link": "https://www.instagram.com/p/BDCKnhVCQNO/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12826141_549540695215065_1486402092_n.jpg?ig_cache_key=MTIwNzU3NDM0NjM5OTgxMDM4Mg%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "OTUS Thai Kitchen & Coffee",
+                "igid": "ig759627660"
             }
         },
         {
@@ -4769,24 +4841,48 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -76.941059018,
-                    38.981386241
+                    98.967143311,
+                    18.799189004
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/878046967/",
-                    "link": "https://www.instagram.com/p/4X3cExtN5g/",
+                    "url": "https://instagram.com/explore/locations/778813526/",
+                    "link": "https://www.instagram.com/p/2d6-pjRHmE/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11376570_781752315256979_1193444373_n.jpg?ig_cache_key=MTAxNTUyNDA2MjgyNzY5OTgwOA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11242538_844684078912524_448599533_n.jpg?ig_cache_key=OTgxMTk5Njg1NzU2OTQyNzI0.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "RED PIPE Organic CAFE",
-                "igid": "ig878046967"
+                "name": "Doppio Ristr8to2",
+                "igid": "ig778813526"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.79361,
+                    1.33769
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/65551425/",
+                    "link": "https://www.instagram.com/p/4bZoaHKZS7/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11333751_834412193304934_439936371_n.jpg?ig_cache_key=MTAxNjUxODg2ODg4MTQ3ODg0Mw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "PasarBella Singapore",
+                "igid": "ig65551425"
             }
         },
         {
@@ -5042,9 +5138,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/533114951/",
-                    "link": "https://www.instagram.com/p/BA_Z6SgwBmr/",
+                    "link": "https://www.instagram.com/p/9ul-GgD4yi/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12627904_964304563636008_542467108_n.jpg?ig_cache_key=MTE3MDc2ODM4NDkwODg1OTgxOQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071127_609441469193720_1372049993_n.jpg?ig_cache_key=MTExMTk5MzE1MzMxNTkwMDU3OA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -8417,24 +8513,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    103.79361,
-                    1.33769
+                    -76.941059018,
+                    38.981386241
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/65551425/",
-                    "link": "https://www.instagram.com/p/4bZoaHKZS7/",
+                    "url": "https://instagram.com/explore/locations/878046967/",
+                    "link": "https://www.instagram.com/p/4X3cExtN5g/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11333751_834412193304934_439936371_n.jpg?ig_cache_key=MTAxNjUxODg2ODg4MTQ3ODg0Mw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11376570_781752315256979_1193444373_n.jpg?ig_cache_key=MTAxNTUyNDA2MjgyNzY5OTgwOA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "PasarBella Singapore",
-                "igid": "ig65551425"
+                "name": "RED PIPE Organic CAFE",
+                "igid": "ig878046967"
             }
         },
         {
@@ -11561,24 +11657,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    98.967143311,
-                    18.799189004
+                    -21.92935,
+                    64.14581
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/778813526/",
-                    "link": "https://www.instagram.com/p/2d6-pjRHmE/",
+                    "url": "https://instagram.com/explore/locations/235423859/",
+                    "link": "https://www.instagram.com/p/BBh9eeyPz8J/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11242538_844684078912524_448599533_n.jpg?ig_cache_key=OTgxMTk5Njg1NzU2OTQyNzI0.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677312_1676660149271855_1864016408_n.jpg?ig_cache_key=MTE4MDQ5NDk1MjgyNDUyMDQ1Nw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Doppio Ristr8to2",
-                "igid": "ig778813526"
+                "name": "Kaffibrennslan",
+                "igid": "ig235423859"
             }
         },
         {
@@ -13185,7 +13281,7 @@
                         "height": 150
                     }
                 },
-                "name": "Repose Coffee Bar",
+                "name": "Repose Coffee",
                 "igid": "ig518425432"
             }
         },
@@ -13697,8 +13793,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.6845093,
-                    45.5269699
+                    -122.684258047,
+                    45.527006464
                 ]
             },
             "type": "Feature",
@@ -15497,6 +15593,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -157.824913,
+                    21.275582
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/279653427/",
+                    "link": "https://www.instagram.com/p/BB8NDznxW4S/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12716931_1110333015678726_417404278_n.jpg?ig_cache_key=MTE4Nzg4MTgzNzkxMDEyNjA5OA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "KAI COFFEE HAWAII",
+                "igid": "ig279653427"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -81.7089767,
                     41.4842796
                 ]
@@ -15563,30 +15683,6 @@
                 },
                 "name": "Bitbox Boardgame Cafe \u0e1a\u0e34\u0e17\u0e1a\u0e2d\u0e01\u0e0b\u0e4c \u0e1a\u0e2d\u0e23\u0e4c\u0e14\u0e40\u0e01\u0e21\u0e04\u0e32\u0e40\u0e1f\u0e48",
                 "igid": "ig513096760"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.441658,
-                    34.0382195
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/1078331/",
-                    "link": "https://www.instagram.com/p/BC1by2ys1_T/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12822524_191793454525671_949382770_n.jpg?ig_cache_key=MTIwMzk5MDcxNzQ1Mzc4NzA5MQ%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Balconi Coffee Company",
-                "igid": "ig1078331"
             }
         },
         {
@@ -18395,30 +18491,6 @@
                 },
                 "name": "Laughing Man",
                 "igid": "ig5721447"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    106.8271,
-                    -6.17547
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/256656892/",
-                    "link": "https://www.instagram.com/p/23WJfXhifP/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11243073_1000452413312991_927625058_n.jpg?ig_cache_key=OTg4MzU2MDUyNDEwMzEyNjU1.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Revolver Coffee Shop, Seminyak, Bali",
-                "igid": "ig256656892"
             }
         },
         {
@@ -24257,24 +24329,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.92935,
-                    64.14581
+                    106.8271,
+                    -6.17547
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/235423859/",
-                    "link": "https://www.instagram.com/p/BBh9eeyPz8J/",
+                    "url": "https://instagram.com/explore/locations/256656892/",
+                    "link": "https://www.instagram.com/p/23WJfXhifP/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677312_1676660149271855_1864016408_n.jpg?ig_cache_key=MTE4MDQ5NDk1MjgyNDUyMDQ1Nw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11243073_1000452413312991_927625058_n.jpg?ig_cache_key=OTg4MzU2MDUyNDEwMzEyNjU1.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Kaffibrennslan",
-                "igid": "ig235423859"
+                "name": "Revolver Coffee Shop, Seminyak, Bali",
+                "igid": "ig256656892"
             }
         },
         {
