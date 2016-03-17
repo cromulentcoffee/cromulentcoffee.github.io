@@ -58,8 +58,7 @@ def post_tweet(t):
     print r
 
     s = r.id
-    print "id_str: %s" % s
-    print "URL: https://twitter.com/cromulentcoffee/status/%s" % s
+    print "Tweet URL: https://twitter.com/cromulentcoffee/status/%s" % s
 
     return True
 

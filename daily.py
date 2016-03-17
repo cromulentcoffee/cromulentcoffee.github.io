@@ -1,18 +1,18 @@
 #!/bin/sh
 
-echo "Pulling instagram data"
+echo "[DAILY] Pulling instagram data"
 ./instasync.py || exit 1
 
-echo "Generating geojson file"
+echo "[DAILY] Generating geojson file"
 ./ccdb.py --geojson || exit 1
 
-echo "Making a tweet"
+echo "[DAILY] Making a tweet"
 ./tweet.py post || exit 1
 
-echo "Commiting updates to repo"
-git commit -a -m "Daily instasync & tweet post" || exit 1
+echo "[DAILY] Commiting updates to repo"
+git commit -a -m "[DAILY] Daily instasync & tweet post" || exit 1
 
-echo "Pushing live"
+echo "[DAILY] Pushing live"
 git push origin HEAD || exit 1
 
-echo "done"
+echo "[DAILY] done"
