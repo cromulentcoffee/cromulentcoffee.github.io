@@ -1535,6 +1535,11 @@ CCATDB = [
     {'twitter': '', 'ig': u'@saintsimoncoffee'},
     {'twitter': '', 'ig': u'@vervecoffee'},
 
+    {'twitter': 'commissaryLA', 'ig': u'@coffeecommissary'},
+    {'twitter': 'BalconiCoffee', 'ig': u'@balconicoffee'},
+    {'twitter': 'CafeDemitasse', 'ig': u'@cafe_demitasse'},
+    {'twitter': 'KreuzbergCa', 'ig': '@kreuzbergcalifornia'},
+    {'twitter': 'happygirl_co', 'ig': "@happygirlkitchen"},
     {'twitter': 'dinosaur_coffee', 'ig': u'@dinosaur_coffee'},
     {'twitter': 'TOMS', 'ig': u'@toms'},
     {'twitter': 'KeepCup', 'ig': u'@keepcup'},
@@ -1544,6 +1549,7 @@ CCATDB = [
     {'twitter': 'NickCho', 'ig': u'@nickcho_'},
 
     # No twitter handle
+    {'tet': '#OtusThaiKitchen', 'ig': u'@otus_thaikitchen'},
     {'text': 'TOMS flagship', 'ig': u'@tomsflagship'},
     {'text': 'DeLise SF', 'ig': u'@DeLiseSF'}, # doesn't have one??
     {'text': 'Bright Coffee', 'ig': u'@brightcoffeeca'},

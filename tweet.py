@@ -55,7 +55,7 @@ def post_tweet(t):
     # post it
     r = api.update_with_media(fname, t.tweet)
 
-    print r
+    # print r
 
     s = r.id
     print "Tweet URL: https://twitter.com/cromulentcoffee/status/%s" % s
