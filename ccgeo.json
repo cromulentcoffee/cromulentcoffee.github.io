@@ -3660,9 +3660,9 @@
                 "rating": "cromulent",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/218628895/",
-                    "link": "https://www.instagram.com/p/BDJodx0iQCd/",
+                    "link": "https://www.instagram.com/p/BCl4_qzt0BL/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12818954_1109200949143139_123787004_n.jpg?ig_cache_key=MTIwOTY3NTk0MzE0NTcwMTUzMw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12749883_716996765069500_764167165_n.jpg?ig_cache_key=MTE5OTYxNTU0MTY2MDU2NTU3OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -8403,30 +8403,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.62984734,
-                    3.120235638
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/306148269/",
-                    "link": "https://www.instagram.com/p/4s0p8wOUb_/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11423005_663270510481816_367991738_n.jpg?ig_cache_key=MTAyMTQyMjc5NjY1Njk1MzA4Nw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Strangers at 47",
-                "igid": "ig306148269"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -87.6259613,
                     41.881012
                 ]
@@ -10077,6 +10053,30 @@
                 },
                 "name": "\ud83c\udfa7 Bob Dylan - Beyond the horizon",
                 "igid": "ig790270473"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.6137017,
+                    -6.9026869
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/318902502/",
+                    "link": "https://www.instagram.com/p/2JBCVKGRwR/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11176090_823573244377392_1544511800_n.jpg?ig_cache_key=OTc1MzE1MzUyNTA1ODgzNjY1.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cups Coffee Shop,Trunojoyo Bandung",
+                "igid": "ig318902502"
             }
         },
         {
@@ -14013,30 +14013,6 @@
                 },
                 "name": "Lemon Middle & Orange",
                 "igid": "ig214768511"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.6137017,
-                    -6.9026869
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/318902502/",
-                    "link": "https://www.instagram.com/p/2JBCVKGRwR/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11176090_823573244377392_1544511800_n.jpg?ig_cache_key=OTc1MzE1MzUyNTA1ODgzNjY1.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Cups Coffee Shop,Trunojoyo Bandung",
-                "igid": "ig318902502"
             }
         },
         {
@@ -18387,8 +18363,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.37386,
-                    48.86813
+                    2.373809445,
+                    48.868217308
                 ]
             },
             "type": "Feature",
@@ -18723,8 +18699,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.086771715,
-                    51.524684436
+                    -0.086776135,
+                    51.524702594
                 ]
             },
             "type": "Feature",
@@ -20661,6 +20637,30 @@
                 },
                 "name": "Stumptown Coffee Roasters",
                 "igid": "ig801365517"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.62984734,
+                    3.120235638
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/306148269/",
+                    "link": "https://www.instagram.com/p/4s0p8wOUb_/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11423005_663270510481816_367991738_n.jpg?ig_cache_key=MTAyMTQyMjc5NjY1Njk1MzA4Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Strangers at 47",
+                "igid": "ig306148269"
             }
         },
         {
