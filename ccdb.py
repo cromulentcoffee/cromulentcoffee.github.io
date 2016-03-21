@@ -1549,6 +1549,7 @@ CCATDB = [
     {'twitter': 'NickCho', 'ig': u'@nickcho_'},
 
     # No twitter handle
+    {'twitter': '#CoffeeCoffeeLA', 'ig': u'@coffeecoffeela'},
     {'tet': '#OtusThaiKitchen', 'ig': u'@otus_thaikitchen'},
     {'text': 'TOMS flagship', 'ig': u'@tomsflagship'},
     {'text': 'DeLise SF', 'ig': u'@DeLiseSF'}, # doesn't have one??
