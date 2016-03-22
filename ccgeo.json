@@ -6891,6 +6891,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -79.39541,
+                    43.64562
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1018628325/",
+                    "link": "https://www.instagram.com/p/BBddxslsVNzQtiYN8zhKBG8K6lfSZay0zE4XBQ0/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12534231_1123157314383201_1167038269_n.jpg?ig_cache_key=MTE3OTIyOTYzNTkyMTEzODU0Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Quantum",
+                "igid": "ig1018628325"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -122.36075,
                     47.6325
                 ]
@@ -9123,6 +9147,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -117.9877777,
+                    33.8952065
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1021968801/",
+                    "link": "https://www.instagram.com/p/BCJeSvyNNf5/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c50.0.979.979/12751265_156288921422411_2078967419_n.jpg?ig_cache_key=MTE5MTYxNjgwNjA3MDMxMDkwNQ%3D%3D.2.c",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Stereoscope Coffee Company",
+                "igid": "ig1021968801"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     101.6995468,
                     3.1582799
                 ]
@@ -9813,6 +9861,30 @@
                 },
                 "name": "Verve Coffee Roasters",
                 "igid": "ig25077"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.6996689,
+                    10.7732201
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/39096822/",
+                    "link": "https://www.instagram.com/p/6EQq2HslBq5fxjmyfToM_i_XIhMzRapGcXt3k0/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "L'usine Le Loi",
+                "igid": "ig39096822"
             }
         },
         {
@@ -10773,6 +10845,30 @@
                 },
                 "name": "Ballard Firehouse Coffee",
                 "igid": "ig250612310"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.902771,
+                    1.3171099
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/579852114/",
+                    "link": "https://www.instagram.com/p/-Nyz_azY9c/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12269714_106262046407836_1784841586_n.jpg?ig_cache_key=MTEyMDc3NTM1NzM5OTQwNDM4MA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "BLACK&INK",
+                "igid": "ig579852114"
             }
         },
         {
@@ -18363,8 +18459,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.373809445,
-                    48.868217308
+                    2.37386,
+                    48.86813
                 ]
             },
             "type": "Feature",
@@ -18699,8 +18795,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.086776135,
-                    51.524702594
+                    -0.086771715,
+                    51.524684436
                 ]
             },
             "type": "Feature",
@@ -19251,24 +19347,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -1.3163413,
-                    51.0630684
+                    126.972818049,
+                    37.563379454
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/9007000/",
-                    "link": "https://www.instagram.com/p/9BfZWkxc1H/",
+                    "url": "https://instagram.com/explore/locations/311811992/",
+                    "link": "https://www.instagram.com/p/BCpCo_nR9U2/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11257908_1502542430040941_883848178_n.jpg?ig_cache_key=MTA5OTI5Nzg2NTcyMzEzNzM1MQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12825707_1694745684135479_832026855_n.jpg?ig_cache_key=MTIwMDUwMjM4ODg0Nzc5MzQ2Mg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Caracoli Winchester",
-                "igid": "ig9007000"
+                "name": "52 Roasters Lab",
+                "igid": "ig311811992"
             }
         },
         {
@@ -23835,24 +23931,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    103.902771,
-                    1.3171099
+                    -1.3163413,
+                    51.0630684
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/579852114/",
-                    "link": "https://www.instagram.com/p/-Nyz_azY9c/",
+                    "url": "https://instagram.com/explore/locations/9007000/",
+                    "link": "https://www.instagram.com/p/9BfZWkxc1H/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12269714_106262046407836_1784841586_n.jpg?ig_cache_key=MTEyMDc3NTM1NzM5OTQwNDM4MA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11257908_1502542430040941_883848178_n.jpg?ig_cache_key=MTA5OTI5Nzg2NTcyMzEzNzM1MQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "BLACK&INK",
-                "igid": "ig579852114"
+                "name": "Caracoli Winchester",
+                "igid": "ig9007000"
             }
         },
         {
