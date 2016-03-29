@@ -8091,6 +8091,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.3247165,
+                    47.702489919
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/270663/",
+                    "link": "https://www.instagram.com/p/-Jl_PzuQqBXZWdVLRZTu13lzzev7j58BJOnhE0/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.135.1080.1080/12237176_116248778740347_239442126_n.jpg?ig_cache_key=MTExOTU5MzA1NjQwMDExNjM1Mw%3D%3D.2.c",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Jewel Box Caf\u00e9",
+                "igid": "ig270663"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -123.109581686,
                     49.283815667
                 ]
@@ -10587,24 +10611,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    99.977810741,
-                    12.459334508
+                    151.0488434,
+                    -33.848629
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/331242041/",
-                    "link": "https://www.instagram.com/p/89qih8yIA_/",
+                    "url": "https://instagram.com/explore/locations/305251538/",
+                    "link": "https://www.instagram.com/p/8UWv_LRASn/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071107_1693541370879784_1208985042_n.jpg?ig_cache_key=MTA5ODIyMDk3NTAxNzE5NzYzMQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12063162_873044269483759_970161533_n.jpg?ig_cache_key=MTA4NjU5MzQ2NDc3NjUyNDk2Nw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "No Name Caff Thailand",
-                "igid": "ig331242041"
+                "name": "Leaf Cafe & Co Lidcombe",
+                "igid": "ig305251538"
             }
         },
         {
@@ -16539,30 +16563,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.0488434,
-                    -33.848629
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/305251538/",
-                    "link": "https://www.instagram.com/p/8UWv_LRASn/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12063162_873044269483759_970161533_n.jpg?ig_cache_key=MTA4NjU5MzQ2NDc3NjUyNDk2Nw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "The Sugar Hill Cafe",
-                "igid": "ig305251538"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     174.778636332,
                     -41.295527698
                 ]
@@ -19251,6 +19251,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    99.977810741,
+                    12.459334508
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/331242041/",
+                    "link": "https://www.instagram.com/p/89qih8yIA_/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071107_1693541370879784_1208985042_n.jpg?ig_cache_key=MTA5ODIyMDk3NTAxNzE5NzYzMQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "No Name Caff Thailand",
+                "igid": "ig331242041"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     101.6218646,
                     3.1158244
                 ]
@@ -20964,9 +20988,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/651386401/",
-                    "link": "https://www.instagram.com/p/878GpxMEy7/",
+                    "link": "https://www.instagram.com/p/6guYydOquz/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12106210_511516319014120_1419014816_n.jpg?ig_cache_key=MTA5NzczNTI3NDE1MTAzODEzOQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11849462_592568614216708_515328759_n.jpg?ig_cache_key=MTA1NDA0NjMyNjM4OTEyNDAxOQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
