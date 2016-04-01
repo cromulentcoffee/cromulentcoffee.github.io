@@ -6901,6 +6901,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -79.39541,
+                    43.64562
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1018628325/",
+                    "link": "https://www.instagram.com/p/BBddxslsVNz/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12534231_1123157314383201_1167038269_n.jpg?ig_cache_key=MTE3OTIyOTYzNTkyMTEzODU0Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Quantum",
+                "igid": "ig1018628325"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -122.36075,
                     47.6325
                 ]
@@ -13029,16 +13053,16 @@
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/5681938/",
-                    "link": "https://www.instagram.com/p/3vWquqR45A/",
+                    "url": "https://instagram.com/explore/locations/385123308/",
+                    "link": "https://www.instagram.com/p/-IPWkEJEs_/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11380878_402037036649068_925456409_n.jpg?ig_cache_key=MTAwNDEyMDkzNTI2OTYzMzYwMA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11372345_1517933645197705_978454999_n.jpg?ig_cache_key=MTExOTIxMjAyODY1MTkxNjA5NQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "CafeRedStone",
-                "igid": "ig5681938"
+                "igid": "ig385123308"
             }
         },
         {
@@ -19477,30 +19501,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    103.849712814,
-                    1.29992108
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/923026836/",
-                    "link": "https://www.instagram.com/p/6838dsg94x/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11887221_1022487771119295_1360709532_n.jpg?ig_cache_key=MTA2MTk2OTY1OTc2NDY2MTgwOQ%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Curious Palette",
-                "igid": "ig923026836"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     115.8583984,
                     -31.9302197
                 ]
@@ -20734,9 +20734,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/512941574/",
-                    "link": "https://www.instagram.com/p/BBS6YdEA3xQ/",
+                    "link": "https://www.instagram.com/p/BB-p-JGpj49/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c236.0.608.608/12547151_2243128685826136_44158511_n.jpg?ig_cache_key=MTE3NjI1OTIxOTg2ODA1NjY1Ng%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12716910_1559125094379311_1899607716_n.jpg?ig_cache_key=MTE4ODU3MTk0MTk2MjEzNzE0OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -21022,9 +21022,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/651386401/",
-                    "link": "https://www.instagram.com/p/6guYydOquz/",
+                    "link": "https://www.instagram.com/p/878GpxMEy7/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11849462_592568614216708_515328759_n.jpg?ig_cache_key=MTA1NDA0NjMyNjM4OTEyNDAxOQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12106210_511516319014120_1419014816_n.jpg?ig_cache_key=MTA5NzczNTI3NDE1MTAzODEzOQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -21757,24 +21757,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -76.3076706,
-                    40.0381813
+                    -115.3576813,
+                    51.0894508
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/112573/",
-                    "link": "https://www.instagram.com/p/-5fiCnCHLF/",
+                    "url": "https://instagram.com/explore/locations/238804925/",
+                    "link": "https://www.instagram.com/p/9Osz-xSWru/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12327953_924107824334055_485986203_n.jpg?ig_cache_key=MTEzMzA3NTQ1OTk2Njc5MjM4OQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071031_1655800694688147_586412623_n.jpg?ig_cache_key=MTEwMzAxNjA0NDg5MTA0MDQ5NA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Prince Street Cafe",
-                "igid": "ig112573"
+                "name": "Bicycle Cafe Canmore",
+                "igid": "ig238804925"
             }
         },
         {
@@ -24973,24 +24973,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -115.3576813,
-                    51.0894508
+                    -76.3076706,
+                    40.0381813
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/238804925/",
-                    "link": "https://www.instagram.com/p/9Osz-xSWru/",
+                    "url": "https://instagram.com/explore/locations/112573/",
+                    "link": "https://www.instagram.com/p/-5fiCnCHLF/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071031_1655800694688147_586412623_n.jpg?ig_cache_key=MTEwMzAxNjA0NDg5MTA0MDQ5NA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12327953_924107824334055_485986203_n.jpg?ig_cache_key=MTEzMzA3NTQ1OTk2Njc5MjM4OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Bicycle Cafe Canmore",
-                "igid": "ig238804925"
+                "name": "Prince Street Cafe",
+                "igid": "ig112573"
             }
         },
         {
