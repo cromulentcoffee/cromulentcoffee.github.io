@@ -3013,6 +3013,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -22.424564393,
+                    63.840055749
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/463708208/",
+                    "link": "https://www.instagram.com/p/BDvO3jbiQFT/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12912417_518132271708556_329649387_n.jpg?ig_cache_key=MTIyMDI1OTQxNDMwNTk5NzEzOQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Kaffih\u00fas Bryggjan",
+                "igid": "ig463708208"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -118.44166,
                     34.03822
                 ]
@@ -6645,16 +6669,16 @@
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/217987276/",
-                    "link": "https://www.instagram.com/p/6dsOnmsXf_/",
+                    "url": "https://instagram.com/explore/locations/13490/",
+                    "link": "https://www.instagram.com/p/u6va8aMCCv/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12269976_1632842433634391_1767328189_n.jpg?ig_cache_key=MTA1MzE5MjQwNjUxODgyMjkxMQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/12519423_467270186804691_2074544814_n.jpg?ig_cache_key=ODQ1MTk2NDM5ODQxNjc3NDg3.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Stumptown Coffee @ Ace Hotel",
-                "igid": "ig217987276"
+                "igid": "ig13490"
             }
         },
         {
@@ -15445,6 +15469,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    106.637678146,
+                    -6.242012223
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/527401954/",
+                    "link": "https://www.instagram.com/p/-GtX20msgu/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.135.1080.1080/10919188_398158510395495_919473937_n.jpg?ig_cache_key=MTExODc4MTEwODk1MzcyOTA3MA%3D%3D.2.c",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "turning point",
+                "igid": "ig527401954"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.415451,
                     -28.0775604
                 ]
@@ -20863,30 +20911,6 @@
                 },
                 "name": "Crema",
                 "igid": "ig213734919"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.1604538,
-                    32.7165184
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/4666891/",
-                    "link": "https://www.instagram.com/p/8Lyd3AqYOu/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11875407_862918753799000_1071568925_n.jpg?ig_cache_key=MTA4NDE4MjA4OTU3MDAyNjQxNA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Elixir Espresso Bar",
-                "igid": "ig4666891"
             }
         },
         {
