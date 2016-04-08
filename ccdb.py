@@ -1503,6 +1503,7 @@ CCATDB = [
     {'twitter': '', 'ig': u'@littlegremlincoffee'},
     {'twitter': '', 'ig': u'@oregan_coffee'},
 
+    {'twitter': 'RvkRoasters', 'ig': u'@reykjavik_roasters'},
     {'twitter': 'single_o', 'ig': u'@single_o'},
     {'twitter': 'TheCurator_', 'ig': u'@thecurator_'},
     {'twitter': 'ExtractoCoffee', 'ig': u'@extractocoffee'},
