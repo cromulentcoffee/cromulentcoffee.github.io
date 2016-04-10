@@ -3191,6 +3191,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -21.92935,
+                    64.14581
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/235423859/",
+                    "link": "https://www.instagram.com/p/BBh9eeyPz8J/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677312_1676660149271855_1864016408_n.jpg?ig_cache_key=MTE4MDQ5NDk1MjgyNDUyMDQ1Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Kaffibrennslan",
+                "igid": "ig235423859"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     126.97783,
                     37.56826
                 ]
@@ -4433,6 +4457,30 @@
                 },
                 "name": "Coffee Coffee",
                 "igid": "ig469672946"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -21.932388843,
+                    64.146010645
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/565246/",
+                    "link": "https://www.instagram.com/p/BEA1Qp7iQFu/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12445907_1717188878493072_944004867_n.jpg?ig_cache_key=MTIyNTIxMzMzOTY0Mzc0MDUyNg%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Mokka-Kaffi",
+                "igid": "ig565246"
             }
         },
         {
@@ -5711,30 +5759,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.92935,
-                    64.14581
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/235423859/",
-                    "link": "https://www.instagram.com/p/BBh9eeyPz8J/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677312_1676660149271855_1864016408_n.jpg?ig_cache_key=MTE4MDQ5NDk1MjgyNDUyMDQ1Nw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Kaffibrennslan",
-                "igid": "ig235423859"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     121.025021816,
                     14.560026757
                 ]
@@ -5921,30 +5945,6 @@
                 },
                 "name": "Blue Bottle Coffee",
                 "igid": "ig47242"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9940643,
-                    -37.8685799
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/837650574/",
-                    "link": "https://www.instagram.com/p/8JszHpK9J0/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11909307_1632480693706916_454135004_n.jpg?ig_cache_key=MTA4MzU5NDIxMjMwNjA0NzYwNA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Common Ground L.E.S",
-                "igid": "ig837650574"
             }
         },
         {
@@ -6521,6 +6521,30 @@
                 },
                 "name": "Leo and Ted",
                 "igid": "ig1019719711"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.407084411,
+                    43.656640326
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/815295/",
+                    "link": "https://www.instagram.com/p/BEBeaejF9rI/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12907249_1155495207823869_1268284213_n.jpg?ig_cache_key=MTIyNTM5NDMzNDUyNDIzNDQ0MA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Manic Coffee and Gelato",
+                "igid": "ig815295"
             }
         },
         {
@@ -12575,6 +12599,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.439675,
+                    37.800238
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/254495865/",
+                    "link": "https://www.instagram.com/p/0_IyThRaMd/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11094484_356450047878432_2118779901_n.jpg?ig_cache_key=OTU0NTIwMjg3MzMxMDY2NjUz.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Super Duper Burgers",
+                "igid": "ig254495865"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.8963776,
                     -33.8504601
                 ]
@@ -16856,9 +16904,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/52330/",
-                    "link": "https://www.instagram.com/p/BBtgQCEBqqg/",
+                    "link": "https://www.instagram.com/p/BEBNesnLV1g/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12750061_799301463507791_427922337_n.jpg?ig_cache_key=MTE4Mzc0NDExNjI4MzMyMDk5Mg%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.88.897.897/12940741_1729366600676885_1818062090_n.jpg?ig_cache_key=MTIyNTMxOTg1NzcxMjM1NjcwNA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -17087,24 +17135,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.439675,
-                    37.800238
+                    -115.3576813,
+                    51.0894508
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/254495865/",
-                    "link": "https://www.instagram.com/p/0_IyThRaMd/",
+                    "url": "https://instagram.com/explore/locations/238804925/",
+                    "link": "https://www.instagram.com/p/9Osz-xSWru/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11094484_356450047878432_2118779901_n.jpg?ig_cache_key=OTU0NTIwMjg3MzMxMDY2NjUz.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071031_1655800694688147_586412623_n.jpg?ig_cache_key=MTEwMzAxNjA0NDg5MTA0MDQ5NA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Super Duper Burgers",
-                "igid": "ig254495865"
+                "name": "Bicycle Cafe Canmore",
+                "igid": "ig238804925"
             }
         },
         {
@@ -21272,9 +21320,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/651386401/",
-                    "link": "https://www.instagram.com/p/878GpxMEy7/",
+                    "link": "https://www.instagram.com/p/6guYydOquz/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12106210_511516319014120_1419014816_n.jpg?ig_cache_key=MTA5NzczNTI3NDE1MTAzODEzOQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11849462_592568614216708_515328759_n.jpg?ig_cache_key=MTA1NDA0NjMyNjM4OTEyNDAxOQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -22031,24 +22079,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -115.3576813,
-                    51.0894508
+                    -77.050125,
+                    38.80538
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/238804925/",
-                    "link": "https://www.instagram.com/p/9Osz-xSWru/",
+                    "url": "https://instagram.com/explore/locations/239681135/",
+                    "link": "https://www.instagram.com/p/BEBqI8UrV_Y/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12071031_1655800694688147_586412623_n.jpg?ig_cache_key=MTEwMzAxNjA0NDg5MTA0MDQ5NA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c1.0.742.742/12965777_873439659450804_1216088569_n.jpg?ig_cache_key=MTIyNTQ0NTkwNjEwMjE4MTg0OA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Bicycle Cafe Canmore",
-                "igid": "ig238804925"
+                "name": "Misha's Coffeehouse & Roaster",
+                "igid": "ig239681135"
             }
         },
         {

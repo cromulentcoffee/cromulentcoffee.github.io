@@ -1544,6 +1544,7 @@ CCATDB = [
     {'twitter': 'habitualph', 'ig': u'@habitualcoffee'},
 
     # No twitter handle
+    {'text': '#kaffibrennslan', 'ig': u'@kaffibrennslan'},
     {'text': '#TocoFresh', 'ig': u'@tocofresh'},
     {'text': '#madayne', 'ig': u'@madaynecoffee'},
     {'text': '#TailorCoffee', 'ig': u'@tailor_coffee'},
