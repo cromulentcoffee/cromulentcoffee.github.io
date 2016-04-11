@@ -5087,6 +5087,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -86.016313,
+                    30.280544
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/238015043/",
+                    "link": "https://www.instagram.com/p/42IAv0C6g7/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/12912760_1714019335553998_1747404860_n.jpg?ig_cache_key=MTAyNDA0MTIwMDk4NDUwMDI4Mw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Amavida Coffee",
+                "igid": "ig238015043"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -76.941059018,
                     38.981386241
                 ]
@@ -21599,24 +21623,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.996228874,
-                    33.847231076
+                    151.143526366,
+                    -33.833555622
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1660479/",
-                    "link": "https://www.instagram.com/p/7rIfHSRuRMrw2BldqN6YTdoPqi6JEJvTbWZHY0/",
+                    "url": "https://instagram.com/explore/locations/358071399/",
+                    "link": "https://www.instagram.com/p/5tvEojx4wo/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11875332_799563536807692_2024678153_n.jpg?ig_cache_key=MTA3NDk5MDI1ODU1NjY5MTUzMg%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11356799_928913660502471_227446994_n.jpg?ig_cache_key=MTAzOTY5NDExNTYwNjMzNDUwNA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Coffee Code",
-                "igid": "ig1660479"
+                "name": "Three Beans Hunters Hill",
+                "igid": "ig358071399"
             }
         },
         {
@@ -23801,30 +23825,6 @@
                 },
                 "name": "Bartavelle Coffee & Wine Bar",
                 "igid": "ig27721494"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.143526366,
-                    -33.833555622
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/358071399/",
-                    "link": "https://www.instagram.com/p/5tvEojx4wo/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11356799_928913660502471_227446994_n.jpg?ig_cache_key=MTAzOTY5NDExNTYwNjMzNDUwNA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Three Beans Hunters Hill",
-                "igid": "ig358071399"
             }
         },
         {
