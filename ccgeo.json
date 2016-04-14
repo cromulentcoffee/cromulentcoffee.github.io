@@ -2921,8 +2921,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    126.96667,
-                    37.53333
+                    127.001505395,
+                    37.538165635
                 ]
             },
             "type": "Feature",
@@ -3425,8 +3425,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.208995228,
-                    -33.872341421
+                    151.208997407,
+                    -33.872342384
                 ]
             },
             "type": "Feature",
@@ -3953,8 +3953,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.272608042,
-                    -33.8906291
+                    151.273163105,
+                    -33.890730114
                 ]
             },
             "type": "Feature",
@@ -4217,8 +4217,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.906494083,
-                    36.618554941
+                    -121.90654,
+                    36.61846
                 ]
             },
             "type": "Feature",
@@ -4673,8 +4673,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.338582925,
-                    43.661336414
+                    -79.3383636,
+                    43.6612396
                 ]
             },
             "type": "Feature",
@@ -4697,8 +4697,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.611039689,
-                    3.192372324
+                    101.61115,
+                    3.19256
                 ]
             },
             "type": "Feature",
@@ -4721,8 +4721,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.453278065,
-                    31.212783107
+                    121.453298878,
+                    31.212802076
                 ]
             },
             "type": "Feature",
@@ -4745,8 +4745,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9780579,
-                    22.4012299
+                    113.9779056,
+                    22.4011684
                 ]
             },
             "type": "Feature",
@@ -4817,8 +4817,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -66.0543,
-                    18.40366
+                    -66.054453305,
+                    18.403511702
                 ]
             },
             "type": "Feature",
@@ -4889,8 +4889,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.693044761,
-                    35.687003147
+                    139.693042215,
+                    35.68699597
                 ]
             },
             "type": "Feature",
@@ -5009,8 +5009,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.353646062,
-                    40.574434821
+                    -122.3539124,
+                    40.574501
                 ]
             },
             "type": "Feature",
@@ -5105,8 +5105,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.587754957,
-                    46.769984546
+                    23.5877914,
+                    46.7700798
                 ]
             },
             "type": "Feature",
@@ -5273,8 +5273,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.068928753,
-                    -33.84734794
+                    151.068886419,
+                    -33.847271851
                 ]
             },
             "type": "Feature",
@@ -5801,8 +5801,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -159.353048948,
-                    21.960812172
+                    -159.353238018,
+                    21.961425342
                 ]
             },
             "type": "Feature",
@@ -5969,8 +5969,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.12979,
-                    32.7492
+                    -117.1297913,
+                    32.7491989
                 ]
             },
             "type": "Feature",
@@ -6113,8 +6113,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.8576965,
-                    -31.9516354
+                    115.8576935,
+                    -31.9516359
                 ]
             },
             "type": "Feature",
@@ -6161,24 +6161,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.738775251,
-                    -6.186694682
+                    106.738420035,
+                    -6.188156315
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/807082693/",
-                    "link": "https://www.instagram.com/p/3WOmodkRMA/",
+                    "url": "https://instagram.com/explore/locations/837352788/",
+                    "link": "https://www.instagram.com/p/-u06LJnfNg/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11352137_382613428594099_497792406_n.jpg?ig_cache_key=OTk3MDQ4NTk0OTQ2MTM0Nzg0.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11421857_1637844643130812_1815931336_n.jpg?ig_cache_key=MTEzMDA3MzI1MjYzNzMwNzc0NA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Crematology Coffee Roasters",
-                "igid": "ig807082693"
+                "igid": "ig837352788"
             }
         },
         {
@@ -6257,8 +6257,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    18.47434,
-                    50.00504
+                    18.46257075,
+                    50.00271555
                 ]
             },
             "type": "Feature",
@@ -6641,8 +6641,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.182509902,
-                    -33.893865538
+                    151.182444781,
+                    -33.893994167
                 ]
             },
             "type": "Feature",
@@ -6761,8 +6761,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.8933523,
-                    52.354619
+                    4.893494457,
+                    52.354717767
                 ]
             },
             "type": "Feature",
@@ -6953,30 +6953,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    126.980037634,
-                    37.565069494
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/711183810/",
-                    "link": "https://www.instagram.com/p/2qqcA_Ps-3/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11265689_428657327315757_895621822_n.jpg?ig_cache_key=OTg0Nzg2MTExNjkzNzcwNjc5.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "The Cupping room-Wan Chai ",
-                "igid": "ig711183810"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -79.39541,
                     43.64562
                 ]
@@ -6986,9 +6962,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/1018628325/",
-                    "link": "https://www.instagram.com/p/BBddxslsVNz/",
+                    "link": "https://www.instagram.com/p/BDTbbv-oYoD/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12534231_1123157314383201_1167038269_n.jpg?ig_cache_key=MTE3OTIyOTYzNTkyMTEzODU0Nw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10817821_546622995519194_1609442443_n.jpg?ig_cache_key=MTIxMjQzMzM3ODg5MTEwNjgxOQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -7121,8 +7097,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.361593822,
-                    34.086082347
+                    -118.361839,
+                    34.085712
                 ]
             },
             "type": "Feature",
@@ -7169,8 +7145,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9607697,
-                    40.7719994
+                    -73.960949019,
+                    40.772162744
                 ]
             },
             "type": "Feature",
@@ -7289,8 +7265,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.760293487,
-                    -36.865289022
+                    174.76036,
+                    -36.86546
                 ]
             },
             "type": "Feature",
@@ -7337,8 +7313,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -3.001447829,
-                    53.468143857
+                    -3.001444842,
+                    53.46814859
                 ]
             },
             "type": "Feature",
@@ -7553,8 +7529,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.960347067,
-                    -37.83124775
+                    144.9603119,
+                    -37.8312988
                 ]
             },
             "type": "Feature",
@@ -7641,7 +7617,7 @@
                         "height": 150
                     }
                 },
-                "name": "Gold Choice Barista Aeon Alma",
+                "name": "Simple Space Coffee",
                 "igid": "ig832975127"
             }
         },
@@ -7721,8 +7697,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.97044139,
-                    40.757453134
+                    -73.970337,
+                    40.757542
                 ]
             },
             "type": "Feature",
@@ -7961,30 +7937,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -87.962490432,
-                    41.904960671
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/931514671/",
-                    "link": "https://www.instagram.com/p/5zhmmasGwI/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11426373_1443225966006079_1173644426_n.jpg?ig_cache_key=MTA0MTMyMzcyNjk3NzY1Nzg2NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Mission Coffee Co. ",
-                "igid": "ig931514671"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -105.004037777,
                     39.764660306
                 ]
@@ -8033,8 +7985,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.66483,
-                    33.50066
+                    -117.664355446,
+                    33.500997128
                 ]
             },
             "type": "Feature",
@@ -8273,8 +8225,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.840219571,
-                    -31.94258603
+                    115.840206188,
+                    -31.942635325
                 ]
             },
             "type": "Feature",
@@ -8345,8 +8297,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.959612066,
-                    40.715103834
+                    -73.959588336,
+                    40.715095578
                 ]
             },
             "type": "Feature",
@@ -8393,8 +8345,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.1168002,
-                    4.6181933
+                    101.11742675,
+                    4.6188623
                 ]
             },
             "type": "Feature",
@@ -8561,8 +8513,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.043619441,
-                    -33.864343511
+                    151.04362891,
+                    -33.86434387
                 ]
             },
             "type": "Feature",
@@ -8849,8 +8801,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.10077,
-                    49.25913
+                    -123.100895304,
+                    49.258938735
                 ]
             },
             "type": "Feature",
@@ -9161,8 +9113,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.4217834,
-                    37.8056717
+                    -122.42178,
+                    37.80567
                 ]
             },
             "type": "Feature",
@@ -9209,8 +9161,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.73953,
-                    38.54471
+                    -121.73942743,
+                    38.544678143
                 ]
             },
             "type": "Feature",
@@ -9329,8 +9281,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.6995468,
-                    3.1582799
+                    101.69955,
+                    3.15828
                 ]
             },
             "type": "Feature",
@@ -9401,8 +9353,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.8055487,
-                    -6.2779093
+                    106.80577,
+                    -6.2775999
                 ]
             },
             "type": "Feature",
@@ -9561,7 +9513,7 @@
                         "height": 150
                     }
                 },
-                "name": "Queenmamamarket",
+                "name": "Queenmama Market",
                 "igid": "ig994718142"
             }
         },
@@ -10049,8 +10001,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.5,
-                    31.2
+                    121.445747715,
+                    31.2355086
                 ]
             },
             "type": "Feature",
@@ -10265,8 +10217,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.8873701,
-                    52.3718109
+                    4.88739,
+                    52.37181
                 ]
             },
             "type": "Feature",
@@ -10697,8 +10649,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9946747,
-                    -37.8450203
+                    144.9946711,
+                    -37.8450198
                 ]
             },
             "type": "Feature",
@@ -10913,8 +10865,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.367472502,
-                    48.861629947
+                    2.3671832,
+                    48.8619041
                 ]
             },
             "type": "Feature",
@@ -11225,8 +11177,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.616952463,
-                    3.031251432
+                    101.616919869,
+                    3.031219092
                 ]
             },
             "type": "Feature",
@@ -11417,8 +11369,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.099904833,
-                    35.567308594
+                    -121.09973,
+                    35.5674
                 ]
             },
             "type": "Feature",
@@ -11849,8 +11801,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.746378001,
-                    -32.0542325
+                    115.746379076,
+                    -32.054203621
                 ]
             },
             "type": "Feature",
@@ -12041,8 +11993,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.07096,
-                    -33.84637
+                    151.071063021,
+                    -33.846052147
                 ]
             },
             "type": "Feature",
@@ -12473,8 +12425,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.42353,
-                    37.778
+                    -122.4236603,
+                    37.7780685
                 ]
             },
             "type": "Feature",
@@ -12569,8 +12521,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.896356701,
-                    -33.85076399
+                    150.8963776,
+                    -33.8504601
                 ]
             },
             "type": "Feature",
@@ -12857,8 +12809,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    100.339475,
-                    5.42159
+                    100.3398,
+                    5.42226
                 ]
             },
             "type": "Feature",
@@ -12881,8 +12833,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.928160444,
-                    64.142382613
+                    -21.92813551,
+                    64.142388911
                 ]
             },
             "type": "Feature",
@@ -13265,8 +13217,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.4422226,
-                    41.2672691
+                    -73.442005232,
+                    41.267348539
                 ]
             },
             "type": "Feature",
@@ -13409,8 +13361,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.711546579,
-                    3.157379984
+                    101.711540304,
+                    3.157380171
                 ]
             },
             "type": "Feature",
@@ -13769,8 +13721,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.554885385,
-                    25.039653056
+                    121.55503,
+                    25.04
                 ]
             },
             "type": "Feature",
@@ -14033,8 +13985,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.375048122,
-                    47.694566127
+                    -122.37506,
+                    47.69452
                 ]
             },
             "type": "Feature",
@@ -14153,8 +14105,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.983965633,
-                    40.753607953
+                    -73.98416,
+                    40.75308
                 ]
             },
             "type": "Feature",
@@ -14483,30 +14435,6 @@
                 },
                 "name": "Limestone Coffee",
                 "igid": "ig135576451"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.169138333,
-                    40.990111667
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/430222215/",
-                    "link": "https://www.instagram.com/p/zCz7-wGCdC/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10986109_633867176759450_331869063_n.jpg?ig_cache_key=OTE5NTI1Njk2MTM3MDc4NTk0.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "CoffeeManifesto",
-                "igid": "ig430222215"
             }
         },
         {
@@ -14945,8 +14873,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.8295,
-                    52.34316
+                    4.828766978,
+                    52.34298216
                 ]
             },
             "type": "Feature",
@@ -15042,7 +14970,7 @@
                 "type": "Point",
                 "coordinates": [
                     -0.1096124,
-                    51.5258255
+                    51.5258261
                 ]
             },
             "type": "Feature",
@@ -15233,8 +15161,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -2.364328497,
-                    51.382647795
+                    -2.3645961,
+                    51.3826955
                 ]
             },
             "type": "Feature",
@@ -15377,8 +15305,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.837780016,
-                    -12.46119255
+                    130.8379974,
+                    -12.4610004
                 ]
             },
             "type": "Feature",
@@ -15401,8 +15329,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.764957907,
-                    35.680764804
+                    139.764936557,
+                    35.680687161
                 ]
             },
             "type": "Feature",
@@ -15713,8 +15641,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    100.537977745,
-                    13.906381812
+                    100.537978069,
+                    13.906379516
                 ]
             },
             "type": "Feature",
@@ -16025,8 +15953,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.268364,
-                    37.8091354
+                    -122.268325,
+                    37.80916
                 ]
             },
             "type": "Feature",
@@ -16313,8 +16241,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.960345,
-                    -37.8121324
+                    144.96042488,
+                    -37.811958173
                 ]
             },
             "type": "Feature",
@@ -17057,8 +16985,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    20.392291125,
-                    44.802477755
+                    20.3916102,
+                    44.8026289
                 ]
             },
             "type": "Feature",
@@ -17105,8 +17033,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -115.35768,
-                    51.08945
+                    -115.3576813,
+                    51.0894508
                 ]
             },
             "type": "Feature",
@@ -17393,8 +17321,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.8138733,
-                    -6.2354102
+                    106.813656144,
+                    -6.235534218
                 ]
             },
             "type": "Feature",
@@ -17585,8 +17513,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.080998285,
-                    4.606341985
+                    101.080964284,
+                    4.606199511
                 ]
             },
             "type": "Feature",
@@ -17627,30 +17555,6 @@
                 },
                 "name": "Bespecialty",
                 "igid": "ig336897208"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -4.253801107,
-                    55.859255294
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/1320479/",
-                    "link": "https://www.instagram.com/p/Ol7jyvNjaV/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11192600_1577868845796033_2139865980_n.jpg?ig_cache_key=MjYyODc4MDk3Njc2MDU2MjEz.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Tinderbox",
-                "igid": "ig1320479"
             }
         },
         {
@@ -17921,8 +17825,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.1363446,
-                    51.5198669
+                    -0.136379891,
+                    51.519740368
                 ]
             },
             "type": "Feature",
@@ -17993,8 +17897,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -75.169548,
-                    39.9491501
+                    -75.16955,
+                    39.94915
                 ]
             },
             "type": "Feature",
@@ -18251,6 +18155,30 @@
                 },
                 "name": "Revelator Coffee Company",
                 "igid": "ig583406838"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.710363,
+                    3.143277
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/782857464/",
+                    "link": "https://www.instagram.com/p/2hb2jtmNOj/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11240467_465593666950445_2104629102_n.jpg?ig_cache_key=OTgyMTg4NjkwMTk2OTc2NTQ3.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "kedai Kopi Goyang Kaki Dan Lepak",
+                "igid": "ig782857464"
             }
         },
         {
@@ -18545,8 +18473,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.919419383,
-                    40.725100704
+                    -73.91940618,
+                    40.72510213
                 ]
             },
             "type": "Feature",
@@ -19001,30 +18929,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.7386692,
-                    -6.1882605
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/837352788/",
-                    "link": "https://www.instagram.com/p/-u06LJnfNg/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11421857_1637844643130812_1815931336_n.jpg?ig_cache_key=MTEzMDA3MzI1MjYzNzMwNzc0NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Crematology Coffee",
-                "igid": "ig837352788"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     102.236445,
                     2.196595
                 ]
@@ -19169,8 +19073,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -95.392505241,
-                    29.744761469
+                    -95.3925299,
+                    29.74494
                 ]
             },
             "type": "Feature",
@@ -19673,8 +19577,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.071298365,
-                    60.794189138
+                    11.07114608,
+                    60.794049699
                 ]
             },
             "type": "Feature",
@@ -19721,8 +19625,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.0894775,
-                    44.0445557
+                    -123.0894793,
+                    44.0445549
                 ]
             },
             "type": "Feature",
@@ -19745,8 +19649,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.204651467,
-                    -33.868740343
+                    151.2047401,
+                    -33.868635
                 ]
             },
             "type": "Feature",
@@ -19817,8 +19721,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -80.144841,
-                    26.128547
+                    -80.144928693,
+                    26.129177502
                 ]
             },
             "type": "Feature",
@@ -19841,8 +19745,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.092926,
-                    -33.8721085
+                    151.09293,
+                    -33.87211
                 ]
             },
             "type": "Feature",
@@ -20321,8 +20225,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.093606361,
-                    -33.808452418
+                    151.093612808,
+                    -33.808449448
                 ]
             },
             "type": "Feature",
@@ -20993,8 +20897,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.406757,
-                    52.524769
+                    13.406583413,
+                    52.524647944
                 ]
             },
             "type": "Feature",
@@ -21017,8 +20921,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.345875494,
-                    47.751752048
+                    -122.345932,
+                    47.7517891
                 ]
             },
             "type": "Feature",
@@ -21161,8 +21065,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.76459974,
-                    -6.25910826
+                    106.839,
+                    -6.2173
                 ]
             },
             "type": "Feature",
@@ -21281,8 +21185,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.713670078,
-                    35.665278808
+                    139.713668599,
+                    35.665280048
                 ]
             },
             "type": "Feature",
@@ -21449,8 +21353,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.362773746,
-                    34.08363161
+                    -118.362773517,
+                    34.083632052
                 ]
             },
             "type": "Feature",
@@ -21593,8 +21497,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.088775593,
-                    44.05428662
+                    -123.088433,
+                    44.054462
                 ]
             },
             "type": "Feature",
@@ -22001,8 +21905,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.031487,
-                    38.917156
+                    -77.031945847,
+                    38.916396196
                 ]
             },
             "type": "Feature",
@@ -22265,8 +22169,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.99794,
-                    40.73283
+                    -73.9980316,
+                    40.7327003
                 ]
             },
             "type": "Feature",
@@ -22571,30 +22475,6 @@
                 },
                 "name": "Downtown Local",
                 "igid": "ig143503370"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.978177622,
-                    -37.794820354
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/800675508/",
-                    "link": "https://www.instagram.com/p/25E2vVzfaT/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11262635_1429290464057102_472569563_n.jpg?ig_cache_key=OTg4ODQyOTQ3MDU0MDA3OTU1.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "www.theguardian.com/observer-ethical-awards ",
-                "igid": "ig800675508"
             }
         },
         {
@@ -22985,8 +22865,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.0809443,
-                    51.4969833
+                    -0.081017509,
+                    51.49721098
                 ]
             },
             "type": "Feature",
@@ -23057,8 +22937,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.677166435,
-                    45.562582831
+                    -122.6772232,
+                    45.5624695
                 ]
             },
             "type": "Feature",
@@ -23081,8 +22961,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.35507,
-                    47.68242
+                    -122.355072,
+                    47.6824188
                 ]
             },
             "type": "Feature",
@@ -23097,7 +22977,7 @@
                         "height": 150
                     }
                 },
-                "name": "Herkimer Coffee - Phinney",
+                "name": "Herkimer Coffee",
                 "igid": "ig238300892"
             }
         },
@@ -23273,8 +23153,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.405584459,
-                    52.540117174
+                    13.40584908,
+                    52.53993921
                 ]
             },
             "type": "Feature",
@@ -23465,8 +23345,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.08654,
-                    -33.8477
+                    151.086525552,
+                    -33.848002916
                 ]
             },
             "type": "Feature",
@@ -23537,8 +23417,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.5034,
-                    48.71988
+                    -122.5032654,
+                    48.7198944
                 ]
             },
             "type": "Feature",
@@ -23561,8 +23441,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.403990865,
-                    52.551385726
+                    13.4043398,
+                    52.5511818
                 ]
             },
             "type": "Feature",
@@ -24161,8 +24041,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.941664865,
-                    64.148428663
+                    -21.94165287,
+                    64.148370908
                 ]
             },
             "type": "Feature",
@@ -24329,8 +24209,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.039801937,
-                    38.898350615
+                    -77.039800191,
+                    38.898516337
                 ]
             },
             "type": "Feature",
@@ -24353,8 +24233,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -1.315844731,
-                    51.062828183
+                    -1.3163413,
+                    51.0630684
                 ]
             },
             "type": "Feature",
@@ -24425,8 +24305,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.75272,
-                    45.43012
+                    -122.7527237,
+                    45.4301186
                 ]
             },
             "type": "Feature",
@@ -24449,8 +24329,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.859989137,
-                    33.658771737
+                    -117.859982607,
+                    33.65877722
                 ]
             },
             "type": "Feature",
@@ -24689,8 +24569,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.13766,
-                    32.69563
+                    -117.137867837,
+                    32.695847112
                 ]
             },
             "type": "Feature",
@@ -24969,7 +24849,7 @@
                         "height": 150
                     }
                 },
-                "name": "Man Versus Machine",
+                "name": "Man Versus Machine coffee roasters",
                 "igid": "ig393170836"
             }
         },
@@ -25505,8 +25385,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.703869828,
-                    35.663534922
+                    139.703869815,
+                    35.663535809
                 ]
             },
             "type": "Feature",
@@ -25523,6 +25403,30 @@
                 },
                 "name": "Streamer Coffee Company",
                 "igid": "ig85987"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.962481631,
+                    41.905036317
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/936429544/",
+                    "link": "https://www.instagram.com/p/5Z_qV6sG-L/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11376141_1467818136851563_1836211804_n.jpg?ig_cache_key=MTAzNDEzNzU3NjEzOTY4MTY3NQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "One Line Coffee",
+                "igid": "ig936429544"
             }
         },
         {
@@ -25625,8 +25529,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.1487551,
-                    34.1446924
+                    -118.1487579,
+                    34.1446915
                 ]
             },
             "type": "Feature",
