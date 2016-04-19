@@ -2810,9 +2810,9 @@
                 "address": "1643 Pacific Avenue, San Francisco, CA 94109",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/1023021058/",
-                    "link": "https://www.instagram.com/p/BBq2MX1iQJS/",
+                    "link": "https://www.instagram.com/p/BEW4cWaiQMa/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12725061_1687235464825423_409117893_n.jpg?ig_cache_key=MTE4Mjk5NjE5Njg3NzczMDM4Ng%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12976274_1607430866246277_143641132_n.jpg?ig_cache_key=MTIzMTQxOTc4Njk0OTg4Njc0Ng%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -3185,24 +3185,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    126.97783,
-                    37.56826
+                    126.977,
+                    37.5689
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "cromulent",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/604694142/",
-                    "link": "https://www.instagram.com/p/BC4bQBNkP3r/",
+                    "url": "https://instagram.com/explore/locations/1024171377/",
+                    "link": "https://www.instagram.com/p/BCW8_mhs-e5/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797625_1703296533270183_70150883_n.jpg?ig_cache_key=MTIwNDgzMjc0ODM5MDM4MzA4Mw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12724833_1577817579208028_538321246_n.jpg?ig_cache_key=MTE5NTQxMTAwNDU5ODc3MzY4OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "52LAB",
-                "igid": "ig604694142"
+                "igid": "ig1024171377"
             }
         },
         {
@@ -3323,30 +3323,6 @@
                 },
                 "name": "Saint Simon Coffee Co.",
                 "igid": "ig247675538"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.977,
-                    37.5689
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "cromulent",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/1024171377/",
-                    "link": "https://www.instagram.com/p/BCW8_mhs-e5/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12724833_1577817579208028_538321246_n.jpg?ig_cache_key=MTE5NTQxMTAwNDU5ODc3MzY4OQ%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Fourb \uad11\ud654\ubb38",
-                "igid": "ig1024171377"
             }
         },
         {
@@ -3929,8 +3905,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.71805,
-                    38.4433099
+                    -122.718052,
+                    38.443311
                 ]
             },
             "type": "Feature",
@@ -4409,8 +4385,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.6934967,
-                    42.1864891
+                    -122.6936035,
+                    42.186409
                 ]
             },
             "type": "Feature",
@@ -4697,8 +4673,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.3383636,
-                    43.6612396
+                    -79.338582925,
+                    43.661336414
                 ]
             },
             "type": "Feature",
@@ -5897,6 +5873,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.07976,
+                    -27.53669
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/621742209/",
+                    "link": "https://www.instagram.com/p/BEW32McBIqN/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12907412_984341894953076_24988445_n.jpg?ig_cache_key=MTIzMTQxNzE2NDg5NzIyNTM1Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Blacksmith Specialty Coffee",
+                "igid": "ig621742209"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     37.62714255,
                     55.758763788
                 ]
@@ -6585,7 +6585,7 @@
                         "height": 150
                     }
                 },
-                "name": "Manic Coffee and Gelato",
+                "name": "Manic Coffee - Toronto",
                 "igid": "ig815295"
             }
         },
@@ -7505,8 +7505,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.234242853,
-                    34.045920409
+                    -118.23528,
+                    34.04564
                 ]
             },
             "type": "Feature",
@@ -8081,8 +8081,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.057379919,
-                    -37.830566801
+                    145.057379627,
+                    -37.830566615
                 ]
             },
             "type": "Feature",
@@ -8729,8 +8729,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.047665637,
-                    36.961028721
+                    -122.047472,
+                    36.9610835
                 ]
             },
             "type": "Feature",
@@ -9449,8 +9449,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    25.5929508,
-                    49.5522003
+                    25.5929499,
+                    49.5522
                 ]
             },
             "type": "Feature",
@@ -10289,8 +10289,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.171749158,
-                    -33.875872585
+                    151.17198,
+                    -33.87587
                 ]
             },
             "type": "Feature",
@@ -10961,8 +10961,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.18654155,
-                    -8.71466572
+                    115.16554107,
+                    -8.69701459
                 ]
             },
             "type": "Feature",
@@ -11681,8 +11681,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.796718434,
-                    35.710206845
+                    139.796875392,
+                    35.710290344
                 ]
             },
             "type": "Feature",
@@ -12905,8 +12905,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.8841267,
-                    52.370491
+                    4.8841265,
+                    52.3704898
                 ]
             },
             "type": "Feature",
@@ -13553,8 +13553,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.424570673,
-                    38.896337533
+                    -77.424573679,
+                    38.896338859
                 ]
             },
             "type": "Feature",
@@ -13913,8 +13913,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -96.8269144,
-                    32.7433049
+                    -96.6972931,
+                    32.8391972
                 ]
             },
             "type": "Feature",
@@ -13929,7 +13929,7 @@
                         "height": 150
                     }
                 },
-                "name": "Cultivar Coffee",
+                "name": "Cultivar Coffee Bar & Roaster",
                 "igid": "ig2966368"
             }
         },
@@ -14033,8 +14033,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.847398786,
-                    -31.948209571
+                    115.847559899,
+                    -31.948175457
                 ]
             },
             "type": "Feature",
@@ -15041,8 +15041,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.432422723,
-                    -28.030743699
+                    153.432425126,
+                    -28.030742349
                 ]
             },
             "type": "Feature",
@@ -15065,8 +15065,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.95996878,
-                    45.874453325
+                    -123.959966333,
+                    45.874450473
                 ]
             },
             "type": "Feature",
@@ -15257,8 +15257,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.837780016,
-                    -12.46119255
+                    130.83799,
+                    -12.461
                 ]
             },
             "type": "Feature",
@@ -15473,8 +15473,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.76913,
-                    -36.86101
+                    174.7694799,
+                    -36.86088
                 ]
             },
             "type": "Feature",
@@ -16073,8 +16073,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.46288,
-                    42.99127
+                    -71.462905,
+                    42.991028
                 ]
             },
             "type": "Feature",
@@ -16577,8 +16577,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -99.162018008,
-                    19.415409242
+                    -99.16236,
+                    19.41537
                 ]
             },
             "type": "Feature",
@@ -17201,8 +17201,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    102.629197715,
-                    17.972822829
+                    102.629186017,
+                    17.972821523
                 ]
             },
             "type": "Feature",
@@ -18041,8 +18041,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.229848817,
-                    34.033430926
+                    -118.229852769,
+                    34.033423033
                 ]
             },
             "type": "Feature",
@@ -18233,8 +18233,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -80.693815703,
-                    40.887762979
+                    -80.69381,
+                    40.88767
                 ]
             },
             "type": "Feature",
@@ -18329,8 +18329,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9591217,
-                    40.7179222
+                    -73.959348891,
+                    40.717895583
                 ]
             },
             "type": "Feature",
@@ -19625,8 +19625,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.8583984,
-                    -31.9302197
+                    115.8583726,
+                    -31.9302044
                 ]
             },
             "type": "Feature",
@@ -19721,32 +19721,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.250111304,
-                    34.045846607
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/311164316/",
-                    "link": "https://www.instagram.com/p/1Oco5Mk3yv/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10956776_1574562866150824_203874901_n.jpg?ig_cache_key=OTU4ODI5NzI2MTcyMTUwOTU5.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "downtown los angeles",
-                "igid": "ig311164316"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.380226463,
-                    33.83886539
+                    -84.380230443,
+                    33.83886282
                 ]
             },
             "type": "Feature",
@@ -21281,8 +21257,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.682449273,
-                    45.519269796
+                    -122.682442819,
+                    45.519262545
                 ]
             },
             "type": "Feature",
@@ -21377,8 +21353,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -159.349006342,
-                    21.978485084
+                    -159.349011698,
+                    21.978483479
                 ]
             },
             "type": "Feature",
@@ -21947,6 +21923,30 @@
                 },
                 "name": "Bar Nine",
                 "igid": "ig213292650"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.97783,
+                    37.56826
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/604694142/",
+                    "link": "https://www.instagram.com/p/BC4bQBNkP3r/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797625_1703296533270183_70150883_n.jpg?ig_cache_key=MTIwNDgzMjc0ODM5MDM4MzA4Mw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "52LAB",
+                "igid": "ig604694142"
             }
         },
         {
@@ -23537,8 +23537,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.693616349,
-                    3.070466445
+                    101.693615185,
+                    3.070470023
                 ]
             },
             "type": "Feature",
@@ -24353,8 +24353,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.75272,
-                    45.43012
+                    -122.752724,
+                    45.430119
                 ]
             },
             "type": "Feature",
@@ -25049,8 +25049,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.353002042,
-                    43.669194967
+                    -79.352830142,
+                    43.669291885
                 ]
             },
             "type": "Feature",
@@ -25265,8 +25265,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.060130427,
-                    47.493653176
+                    19.06,
+                    47.49356
                 ]
             },
             "type": "Feature",
@@ -25649,8 +25649,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.005324366,
-                    -33.818665227
+                    151.005318954,
+                    -33.818641914
                 ]
             },
             "type": "Feature",
