@@ -2873,8 +2873,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.017074204,
-                    14.55698108
+                    121.017321285,
+                    14.556799161
                 ]
             },
             "type": "Feature",
@@ -3193,16 +3193,16 @@
             "properties": {
                 "rating": "cromulent",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1024171377/",
-                    "link": "https://www.instagram.com/p/BCW8_mhs-e5/",
+                    "url": "https://instagram.com/explore/locations/604694142/",
+                    "link": "https://www.instagram.com/p/BC4bQBNkP3r/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12724833_1577817579208028_538321246_n.jpg?ig_cache_key=MTE5NTQxMTAwNDU5ODc3MzY4OQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797625_1703296533270183_70150883_n.jpg?ig_cache_key=MTIwNDgzMjc0ODM5MDM4MzA4Mw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "52LAB",
-                "igid": "ig1024171377"
+                "igid": "ig604694142"
             }
         },
         {
@@ -3737,8 +3737,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.249259817,
-                    34.050857105
+                    -118.24961365,
+                    34.051035996
                 ]
             },
             "type": "Feature",
@@ -3809,8 +3809,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.453210765,
-                    37.781654405
+                    -122.453211037,
+                    37.781654506
                 ]
             },
             "type": "Feature",
@@ -4457,8 +4457,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.932388843,
-                    64.146010645
+                    -21.932386693,
+                    64.146010151
                 ]
             },
             "type": "Feature",
@@ -5321,8 +5321,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.0052,
-                    -33.814255
+                    151.005623695,
+                    -33.813065325
                 ]
             },
             "type": "Feature",
@@ -11825,8 +11825,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.578336906,
-                    45.480923245
+                    -73.578327937,
+                    45.480924756
                 ]
             },
             "type": "Feature",
@@ -13289,8 +13289,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.744830904,
-                    -32.054490214
+                    115.74493303,
+                    -32.054575579
                 ]
             },
             "type": "Feature",
@@ -13499,6 +13499,30 @@
                 },
                 "name": "Stumptown Coffee Roasters",
                 "igid": "ig862268209"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.396202,
+                    37.793538
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1026990901/",
+                    "link": "https://www.instagram.com/p/BB2iGDcxBne/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12751104_500919300080939_501769270_n.jpg?ig_cache_key=MTE4NjI4NTUwMTQ2MDc4MTUzNA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Paramo Coffee",
+                "igid": "ig1026990901"
             }
         },
         {
@@ -14393,8 +14417,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.352472495,
-                    48.429536883
+                    -123.35237,
+                    48.42925
                 ]
             },
             "type": "Feature",
@@ -14417,8 +14441,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.872048,
-                    42.326781
+                    -122.87194,
+                    42.3269
                 ]
             },
             "type": "Feature",
@@ -15161,8 +15185,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -2.3645961,
-                    51.3826955
+                    -2.364328497,
+                    51.382647795
                 ]
             },
             "type": "Feature",
@@ -16106,9 +16130,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/1020947485/",
-                    "link": "https://www.instagram.com/p/BDzLkEQqBKU/",
+                    "link": "https://www.instagram.com/p/BEkT2GeqBJQ/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.128.1080.1080/12407179_452538094941915_1833042027_n.jpg?ig_cache_key=MTIyMTM3MDc4MDkzNDczODU4MA%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.114.1080.1080/12940073_513030045563734_201479757_n.jpg?ig_cache_key=MTIzNTE5OTQ3ODQ5ODU5NTQwOA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -18977,8 +19001,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    12.5735998,
-                    55.6809502
+                    12.57365,
+                    55.68087
                 ]
             },
             "type": "Feature",
@@ -20465,8 +20489,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -96.727359099,
-                    32.992227379
+                    -96.727357456,
+                    32.992227209
                 ]
             },
             "type": "Feature",
@@ -21905,8 +21929,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.050339005,
-                    38.805280241
+                    -77.050125,
+                    38.80538
                 ]
             },
             "type": "Feature",
@@ -22019,30 +22043,6 @@
                 },
                 "name": "Bar Nine",
                 "igid": "ig213292650"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.97783,
-                    37.56826
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/604694142/",
-                    "link": "https://www.instagram.com/p/BC4bQBNkP3r/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797625_1703296533270183_70150883_n.jpg?ig_cache_key=MTIwNDgzMjc0ODM5MDM4MzA4Mw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "52LAB",
-                "igid": "ig604694142"
             }
         },
         {
@@ -22385,8 +22385,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.95693263,
-                    -37.80950956
+                    144.957073983,
+                    -37.809373255
                 ]
             },
             "type": "Feature",
@@ -23513,8 +23513,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.086435904,
-                    -33.831247534
+                    151.086427569,
+                    -33.831249935
                 ]
             },
             "type": "Feature",
@@ -25433,8 +25433,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.038565641,
-                    44.940279479
+                    -123.038572222,
+                    44.940276384
                 ]
             },
             "type": "Feature",
