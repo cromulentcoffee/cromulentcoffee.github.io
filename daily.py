@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "[DAILY] Synching to master"
+git pull || exit 1
+
 echo "[DAILY] Pulling instagram data"
 ./instasync.py || exit 1
 
