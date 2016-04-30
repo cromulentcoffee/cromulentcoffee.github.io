@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "[DAILY] moving current dir"
+cd `dirname $0`
+
 echo "[DAILY] Synching to master"
 git pull || exit 1
 
