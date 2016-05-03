@@ -1,7 +1,20 @@
 #!/bin/sh
 
-echo "[DAILY] moving current dir"
-cd `dirname $0`
+if [ -t 1 ] ; then
+    echo "[DAILY] running in interactive (terminal) mode"
+else
+    echo "[DAILY] running in batch mode -- `date`"
+
+    SCRIPT_PATH=`dirname $0`
+    echo "[DAILY] moving current dir to $SCRIPT_PATH"
+    cd $SCRIPT_PATH
+
+    echo "[DAILY] waiting 30 sec for network to come up"
+    sleep 30
+    echo "[DAILY] that'll do?"
+fi
+
+exit 1
 
 echo "[DAILY] Synching to master"
 git pull || exit 1
