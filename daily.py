@@ -14,8 +14,6 @@ else
     echo "[DAILY] that'll do?"
 fi
 
-exit 1
-
 echo "[DAILY] Synching to master"
 git pull || exit 1
 
