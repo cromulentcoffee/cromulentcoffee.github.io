@@ -9,8 +9,13 @@ else
     echo "[DAILY] moving current dir to $SCRIPT_PATH"
     cd $SCRIPT_PATH
 
-    echo "[DAILY] waiting 60 sec for network to come up"
-    sleep 60
+    echo "[DAILY] waiting 30 sec for network to come up"
+    sleep 30
+
+    echo "[DAILY] making some pings"
+    ping -c 5 google.com
+    ping -c 5 github.com
+
     echo "[DAILY] that'll do?"
 fi
 
