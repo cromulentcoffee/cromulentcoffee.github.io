@@ -4783,24 +4783,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.05392,
-                    14.61107
+                    113.9780579,
+                    22.4012299
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/637826733/",
-                    "link": "https://www.instagram.com/p/3Dw9qmiNq7/",
+                    "url": "https://instagram.com/explore/locations/308435629/",
+                    "link": "https://www.instagram.com/p/3bTmRRhB89/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11380291_681371591967056_2074145777_n.jpg?ig_cache_key=OTkxODUxNjg2ODE1OTE0Njgz.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11379274_678549948916452_1892429293_n.jpg?ig_cache_key=OTk4NDc3OTM1MTY0MDA2MjA1.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Kuppa Roastery and Cafe",
-                "igid": "ig637826733"
+                "name": "Cafe Heato",
+                "igid": "ig308435629"
             }
         },
         {
@@ -7159,8 +7159,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.1326752,
-                    -35.2724991
+                    149.13278916868,
+                    -35.27257470626
                 ]
             },
             "type": "Feature",
@@ -10591,8 +10591,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.33936988,
-                    48.88421974
+                    2.33935,
+                    48.8841782
                 ]
             },
             "type": "Feature",
@@ -10936,9 +10936,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/925686353/",
-                    "link": "https://www.instagram.com/p/8-mCpDnxxD/",
+                    "link": "https://www.instagram.com/p/9njJFMzaue/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12142287_1497934967200534_424744557_n.jpg?ig_cache_key=MTA5ODQ4MjY2NjQxNTUyOTAyNw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11925831_521372098030790_269803023_n.jpg?ig_cache_key=MTExMDAxMDM4ODg1NjgxMDM5OA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -13351,30 +13351,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9780579,
-                    22.4012299
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/308435629/",
-                    "link": "https://www.instagram.com/p/3bTmRRhB89/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11379274_678549948916452_1892429293_n.jpg?ig_cache_key=OTk4NDc3OTM1MTY0MDA2MjA1.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Cafe Heato",
-                "igid": "ig308435629"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -79.40552,
                     43.65714
                 ]
@@ -13951,8 +13927,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -97.749363559144,
-                    30.267991115478
+                    -97.749365496524,
+                    30.267992009585
                 ]
             },
             "type": "Feature",
@@ -15055,8 +15031,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.9375862,
-                    32.7872559
+                    -79.937660859281,
+                    32.787272686853
                 ]
             },
             "type": "Feature",
@@ -19975,6 +19951,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -79.377249508271,
+                    43.650668899229
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/953152925/",
+                    "link": "https://www.instagram.com/p/BCiEDvwxkb1/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12826073_1684152931859154_782694833_n.jpg?ig_cache_key=MTE5ODUzODMwMDQ2MjYxNDI2MQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Clockwork Coffee",
+                "igid": "ig953152925"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -84.380230442883,
                     33.8388628197
                 ]
@@ -20983,8 +20983,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    24.01961681494,
-                    35.518684451345
+                    24.01961236673,
+                    35.518686408859
                 ]
             },
             "type": "Feature",
@@ -25567,8 +25567,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.6332626,
-                    45.5045815
+                    -122.63276223211,
+                    45.504820901842
                 ]
             },
             "type": "Feature",
