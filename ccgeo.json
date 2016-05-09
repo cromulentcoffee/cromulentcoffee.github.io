@@ -659,9 +659,9 @@
                 "address": "907 Tahoe Blvd, Ste 20A, Incline Village, NV 89451",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/33785752/",
-                    "link": "https://www.instagram.com/p/2H-oyWC8U0/",
+                    "link": "https://www.instagram.com/p/BFJsXqUi8TS/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11199525_861006660601177_110866609_n.jpg?ig_cache_key=OTc1MDIzMzI2MDY4NzIwOTQ4.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.134.1080.1080/13126676_828304853980466_837990121_n.jpg?ig_cache_key=MTI0NTcyMTkxMTk4MDk2NzEyMg%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -3007,6 +3007,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.97725,
+                    40.74772
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/215258675/",
+                    "link": "https://www.instagram.com/p/_ww3s0C5pJ/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/926514_1656582354592637_420101929_n.jpg?ig_cache_key=MTE0ODYzMjgzODkwMTA0NTgzMw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Perk Kafe",
+                "igid": "ig215258675"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -118.44166,
                     34.03822
                 ]
@@ -3343,6 +3367,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -73.975464155032,
+                    40.751987003893
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/348467871/",
+                    "link": "https://www.instagram.com/p/BFJo71DiQH3/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13166863_243384306020703_594284112_n.jpg?ig_cache_key=MTI0NTcwNjgwNTIyMTg1MTYzOQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cafe Grumpy Grand Central Station",
+                "igid": "ig348467871"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     126.98658958895,
                     37.536805149184
                 ]
@@ -3607,6 +3655,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -74.00082,
+                    40.7358199
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/118751835/",
+                    "link": "https://www.instagram.com/p/-1k1EgTWrT/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c99.0.881.881/12317831_530652720432145_676549048_n.jpg?ig_cache_key=MTEzMTk3Mjg1Nzk5NzEyNjM1NQ%3D%3D.2.c",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Bluestone Lane Collective Caf\u00e9",
+                "igid": "ig118751835"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.21179026973,
                     -33.86878046953
                 ]
@@ -3639,16 +3711,16 @@
             "properties": {
                 "rating": "cromulent",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/238300892/",
-                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
+                    "url": "https://instagram.com/explore/locations/1021214959/",
+                    "link": "https://www.instagram.com/p/-mcgnniQKB/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12256718_1264641803561357_359569693_n.jpg?ig_cache_key=MTEyNzcxNDE0MzU2NzY3NjAzMw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Herkimer Coffee",
-                "igid": "ig238300892"
+                "igid": "ig1021214959"
             }
         },
         {
@@ -3808,9 +3880,9 @@
                 "rating": "cromulent",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/851099433/",
-                    "link": "https://www.instagram.com/p/BE4R_noCQL6/",
+                    "link": "https://www.instagram.com/p/BC0xo1sxNQ_/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13102382_1677537005832594_1414068825_n.jpg?ig_cache_key=MTI0MDgyMDgzNjAwNTkwNTE0Ng%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797945_564092470429326_697783499_n.jpg?ig_cache_key=MTIwMzgwNTMxMTEzMjI5MjE1OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -4120,9 +4192,9 @@
                 "rating": "cromulent",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/329456516/",
-                    "link": "https://www.instagram.com/p/8mtss2oRo7/",
+                    "link": "https://www.instagram.com/p/9bK9p-HKNE/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c135.0.810.810/12070891_541589185992772_2109905550_n.jpg?ig_cache_key=MTA5MTc2MDk0MzU5NTA2Nzk2Mw%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c135.0.810.810/12120334_555244344640152_1036405438_n.jpg?ig_cache_key=MTEwNjUyNjM1MDg2ODI1OTY1Mg%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -4807,24 +4879,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9780579,
-                    22.4012299
+                    -76.641444536562,
+                    39.332360612227
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/308435629/",
-                    "link": "https://www.instagram.com/p/3bTmRRhB89/",
+                    "url": "https://instagram.com/explore/locations/22808591/",
+                    "link": "https://www.instagram.com/p/BEvdPgYzXpP/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11379274_678549948916452_1892429293_n.jpg?ig_cache_key=OTk4NDc3OTM1MTY0MDA2MjA1.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13108842_1721036044846329_460830452_n.jpg?ig_cache_key=MTIzODMzNzAzMTQ2NzAwNjU0Mw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Cafe Heato",
-                "igid": "ig308435629"
+                "name": "Artifact Coffee",
+                "igid": "ig22808591"
             }
         },
         {
@@ -5383,24 +5455,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.108074107143,
-                    38.880106094286
+                    -71.0579744,
+                    42.3568723
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/3207236/",
-                    "link": "https://www.instagram.com/p/BBxqNZ3vkpG/",
+                    "url": "https://instagram.com/explore/locations/743940164/",
+                    "link": "https://www.instagram.com/p/BERm0N_tX2H/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.54.1080.1080/12598992_1679573108951454_1114214288_n.jpg?ig_cache_key=MTE4NDkxMzgxNjA2MDU3ODM3NA%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12479133_1702881349929270_2126539653_n.jpg?ig_cache_key=MTIyOTkzNDg4NzQ1NjU3MDc1OQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Buzz Bakery Ballston Virginia",
-                "igid": "ig3207236"
+                "name": "Ogawa Coffee USA",
+                "igid": "ig743940164"
             }
         },
         {
@@ -5617,6 +5689,30 @@
                 },
                 "name": "the Missing Bean",
                 "igid": "ig2736215"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.617129800636,
+                    39.299305838309
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1202269/",
+                    "link": "https://www.instagram.com/p/BFEVSIlzXmG/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13166888_614962308652861_1391411129_n.jpg?ig_cache_key=MTI0NDIxMzAwMjIxMjU3MTUyNg%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Milk & Honey Baltimore",
+                "igid": "ig1202269"
             }
         },
         {
@@ -5911,8 +6007,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -159.35323801822,
-                    21.96142534168
+                    -159.35139085881,
+                    21.960975875506
                 ]
             },
             "type": "Feature",
@@ -6799,24 +6895,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.0778722,
-                    37.5566105
+                    -71.5652,
+                    42.8057
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/366696651/",
-                    "link": "https://www.instagram.com/p/_vd_4guds7/",
+                    "url": "https://instagram.com/explore/locations/234519180/",
+                    "link": "https://www.instagram.com/p/yncYc3PvsW/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c71.0.938.938/12346263_553118028169592_475596317_n.jpg?ig_cache_key=MTE0ODI2ODM2MzM1NzIxNTU0Nw%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10950459_440016402839028_1592400243_n.jpg?ig_cache_key=OTExODIyMjc1MTI3MjEyODIy.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Cafe One Way",
-                "igid": "ig366696651"
+                "name": "A & E Custom Coffee Roastery",
+                "igid": "ig234519180"
             }
         },
         {
@@ -7153,30 +7249,6 @@
                 },
                 "name": "Cacao Coffee House",
                 "igid": "ig624872"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.00082,
-                    40.7358199
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/118751835/",
-                    "link": "https://www.instagram.com/p/-1k1EgTWrT/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c99.0.881.881/12317831_530652720432145_676549048_n.jpg?ig_cache_key=MTEzMTk3Mjg1Nzk5NzEyNjM1NQ%3D%3D.2.c",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Bluestone Lane Collective Caf\u00e9",
-                "igid": "ig118751835"
             }
         },
         {
@@ -8671,6 +8743,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -119.02006831001,
+                    35.377302348139
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/595360/",
+                    "link": "https://www.instagram.com/p/2rq_TETaAW/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11259877_567488373353514_802306066_n.jpg?ig_cache_key=OTg1MDcwMDExMjY0Mzc2ODU0.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Dagny's Coffee Company",
+                "igid": "ig595360"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     114.16747,
                     22.32582
                 ]
@@ -9055,30 +9151,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.17207914719,
-                    -33.904586686462
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/78481806/",
-                    "link": "https://www.instagram.com/p/_Dd9pAu8-M/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12353268_445095995681591_997680832_n.jpg?ig_cache_key=MTEzNTg4MzMxMDMwMDEyMzAyMA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "West Juliett",
-                "igid": "ig78481806"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -0.071813491551918,
                     51.507141758703
                 ]
@@ -9223,24 +9295,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.0056236945,
-                    -33.813065325492
+                    -77.108074107143,
+                    38.880106094286
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/228107592/",
-                    "link": "https://www.instagram.com/p/6oNxSYRAUF/",
+                    "url": "https://instagram.com/explore/locations/3207236/",
+                    "link": "https://www.instagram.com/p/BBxqNZ3vkpG/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11934607_1029456827087146_427214135_n.jpg?ig_cache_key=MTA1NjE1NDY3NDIxMTg0OTQ3Nw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.54.1080.1080/12598992_1679573108951454_1114214288_n.jpg?ig_cache_key=MTE4NDkxMzgxNjA2MDU3ODM3NA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Badmanner Thymes Espresso",
-                "igid": "ig228107592"
+                "name": "Buzz Bakery Ballston Virginia",
+                "igid": "ig3207236"
             }
         },
         {
@@ -9271,8 +9343,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.7095233122,
-                    35.671723976387
+                    139.70952823378,
+                    35.671723567327
                 ]
             },
             "type": "Feature",
@@ -10081,6 +10153,30 @@
                 },
                 "name": "Verve Coffee Roasters",
                 "igid": "ig25077"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.940896,
+                    38.952445
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/35361272/",
+                    "link": "https://www.instagram.com/p/BC58JUITXmh/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12797913_981024588661102_1353797963_n.jpg?ig_cache_key=MTIwNTI1ODg5ODE3ODQwNjgxNw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Vigilante Coffee Co.",
+                "igid": "ig35361272"
             }
         },
         {
@@ -11383,30 +11479,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9767042,
-                    40.7479122
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/215258675/",
-                    "link": "https://www.instagram.com/p/_ww3s0C5pJ/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/926514_1656582354592637_420101929_n.jpg?ig_cache_key=MTE0ODYzMjgzODkwMTA0NTgzMw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Delectica",
-                "igid": "ig215258675"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     116.99460765,
                     23.67423067
                 ]
@@ -11479,8 +11551,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.09973,
-                    35.5674
+                    -121.09990483333,
+                    35.567308593884
                 ]
             },
             "type": "Feature",
@@ -11935,8 +12007,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.38677247774,
-                    39.894541875509
+                    116.38677478266,
+                    39.894543600337
                 ]
             },
             "type": "Feature",
@@ -12391,8 +12463,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.35586,
-                    48.8544
+                    2.3557762566238,
+                    48.854253396331
                 ]
             },
             "type": "Feature",
@@ -12865,6 +12937,30 @@
                 },
                 "name": "\ud314\uacf5\uc0b0 \ube14\ub8e8\ub9c8\uc6b4\ud2f4",
                 "igid": "ig930484975"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.021581,
+                    38.910609
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/255066865/",
+                    "link": "https://www.instagram.com/p/BEs5el_zXg5/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13117986_1287694757911343_88946407_n.jpg?ig_cache_key=MTIzNzYxNjc4ODY1NDM1NjUzNw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Compass Coffee",
+                "igid": "ig255066865"
             }
         },
         {
@@ -13393,6 +13489,30 @@
                 },
                 "name": "Studio 37 Coffee Bar",
                 "igid": "ig298035998"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9780579,
+                    22.4012299
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/308435629/",
+                    "link": "https://www.instagram.com/p/3bTmRRhB89/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11379274_678549948916452_1892429293_n.jpg?ig_cache_key=OTk4NDc3OTM1MTY0MDA2MjA1.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cafe Heato",
+                "igid": "ig308435629"
             }
         },
         {
@@ -15103,6 +15223,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -105.03835799839,
+                    40.562273478387
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1009709060/",
+                    "link": "https://www.instagram.com/p/7wtDIaKtYI/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11327454_976971625658129_1842405298_n.jpg?ig_cache_key=MTA3NjU1ODQzODIyMTkyNzk0NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Bindle Coffee",
+                "igid": "ig1009709060"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     135.508,
                     34.7114
                 ]
@@ -15775,8 +15919,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.00644004949,
-                    -33.731665859894
+                    151.00643819937,
+                    -33.731664771215
                 ]
             },
             "type": "Feature",
@@ -15913,6 +16057,30 @@
                 },
                 "name": "Revolver Coffee Shop, Seminyak, Bali",
                 "igid": "ig256656892"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0056236945,
+                    -33.813065325492
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/228107592/",
+                    "link": "https://www.instagram.com/p/6oNxSYRAUF/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11934607_1029456827087146_427214135_n.jpg?ig_cache_key=MTA1NjE1NDY3NDIxMTg0OTQ3Nw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Badmanner Thymes Espresso",
+                "igid": "ig228107592"
             }
         },
         {
@@ -16903,30 +17071,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.00015264759,
-                    37.536472205654
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/1021476026/",
-                    "link": "https://www.instagram.com/p/BBioxEgqBFE/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12543181_1567587210231928_1881449979_n.jpg?ig_cache_key=MTE4MDY4NTM0NjI4MjE0ODE2NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Anthracite \uc564\ud2b8\ub7ec\uc0ac\uc774\ud2b8 \ucee4\ud53c",
-                "igid": "ig1021476026"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.2077512156,
                     -33.869422002823
                 ]
@@ -17791,6 +17935,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    127.00015264759,
+                    37.536472205654
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1021476026/",
+                    "link": "https://www.instagram.com/p/BBioxEgqBFE/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12543181_1567587210231928_1881449979_n.jpg?ig_cache_key=MTE4MDY4NTM0NjI4MjE0ODE2NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Anthracite \uc564\ud2b8\ub7ec\uc0ac\uc774\ud2b8 \ucee4\ud53c",
+                "igid": "ig1021476026"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     100.91893410219,
                     13.284978998052
                 ]
@@ -17815,24 +17983,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.5652,
-                    42.8057
+                    127.0778722,
+                    37.5566105
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/234519180/",
-                    "link": "https://www.instagram.com/p/yncYc3PvsW/",
+                    "url": "https://instagram.com/explore/locations/366696651/",
+                    "link": "https://www.instagram.com/p/_vd_4guds7/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10950459_440016402839028_1592400243_n.jpg?ig_cache_key=OTExODIyMjc1MTI3MjEyODIy.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c71.0.938.938/12346263_553118028169592_475596317_n.jpg?ig_cache_key=MTE0ODI2ODM2MzM1NzIxNTU0Nw%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "A & E Custom Coffee Roastery",
-                "igid": "ig234519180"
+                "name": "Cafe One Way",
+                "igid": "ig366696651"
             }
         },
         {
@@ -19207,8 +19375,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.397083139509,
-                    43.650550295052
+                    -79.39657,
+                    43.65072
                 ]
             },
             "type": "Feature",
@@ -21751,24 +21919,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.14352636608,
-                    -33.833555621515
+                    -117.9962311,
+                    33.8471794
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/358071399/",
-                    "link": "https://www.instagram.com/p/5tvEojx4wo/",
+                    "url": "https://instagram.com/explore/locations/1660479/",
+                    "link": "https://www.instagram.com/p/7rIfHSRuRM/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11356799_928913660502471_227446994_n.jpg?ig_cache_key=MTAzOTY5NDExNTYwNjMzNDUwNA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11875332_799563536807692_2024678153_n.jpg?ig_cache_key=MTA3NDk5MDI1ODU1NjY5MTUzMg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Three Beans Hunters Hill",
-                "igid": "ig358071399"
+                "name": "Coffee Code",
+                "igid": "ig1660479"
             }
         },
         {
@@ -22615,8 +22783,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.981293926548,
-                    40.729118285698
+                    -73.98128093846,
+                    40.729093691372
                 ]
             },
             "type": "Feature",
@@ -23335,6 +23503,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.34512,
+                    47.67391
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/238300892/",
+                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Herkimer Coffee",
+                "igid": "ig238300892"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.96634485,
                     -37.7971016
                 ]
@@ -23977,6 +24169,30 @@
                 },
                 "name": "Bartavelle Coffee & Wine Bar",
                 "igid": "ig27721494"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.14352636608,
+                    -33.833555621515
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/358071399/",
+                    "link": "https://www.instagram.com/p/5tvEojx4wo/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11356799_928913660502471_227446994_n.jpg?ig_cache_key=MTAzOTY5NDExNTYwNjMzNDUwNA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Three Beans Hunters Hill",
+                "igid": "ig358071399"
             }
         },
         {
@@ -26071,24 +26287,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -105.03835799839,
-                    40.562273478387
+                    -76.5909338,
+                    39.2817751
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1009709060/",
-                    "link": "https://www.instagram.com/p/7wtDIaKtYI/",
+                    "url": "https://instagram.com/explore/locations/864595966/",
+                    "link": "https://www.instagram.com/p/BE6AZfRzXu_/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11327454_976971625658129_1842405298_n.jpg?ig_cache_key=MTA3NjU1ODQzODIyMTkyNzk0NA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.134.1080.1080/13151378_601956863315679_1550813745_n.jpg?ig_cache_key=MTI0MTMwNjM5ODg2NTU4NzEzNQ%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Bindle Coffee",
-                "igid": "ig1009709060"
+                "name": "Pitango Bakery + Caf\u00e9",
+                "igid": "ig864595966"
             }
         }
     ]
