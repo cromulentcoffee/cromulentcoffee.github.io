@@ -3711,16 +3711,16 @@
             "properties": {
                 "rating": "cromulent",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1021214959/",
-                    "link": "https://www.instagram.com/p/-mcgnniQKB/",
+                    "url": "https://instagram.com/explore/locations/238300892/",
+                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12256718_1264641803561357_359569693_n.jpg?ig_cache_key=MTEyNzcxNDE0MzU2NzY3NjAzMw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Herkimer Coffee",
-                "igid": "ig1021214959"
+                "igid": "ig238300892"
             }
         },
         {
@@ -4177,6 +4177,30 @@
                 },
                 "name": "Craftsman and Wolves",
                 "igid": "ig17219441"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.003234573762,
+                    40.741026811793
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1033071489/",
+                    "link": "https://www.instagram.com/p/BFM3nUxiQIK/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13129645_1141989722518059_29111955_n.jpg?ig_cache_key=MTI0NjYxNTc5MTc5ODM4NzIxMA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Terremotto Coffee",
+                "igid": "ig1033071489"
             }
         },
         {
@@ -5911,8 +5935,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -86.8085714,
-                    33.5155188
+                    -86.808643832525,
+                    33.515636792929
                 ]
             },
             "type": "Feature",
@@ -7903,8 +7927,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.970441390259,
-                    40.757453134149
+                    -73.970337,
+                    40.757542
                 ]
             },
             "type": "Feature",
@@ -8743,30 +8767,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -119.02006831001,
-                    35.377302348139
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/595360/",
-                    "link": "https://www.instagram.com/p/2rq_TETaAW/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11259877_567488373353514_802306066_n.jpg?ig_cache_key=OTg1MDcwMDExMjY0Mzc2ODU0.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Dagny's Coffee Company",
-                "igid": "ig595360"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     114.16747,
                     22.32582
                 ]
@@ -8935,8 +8935,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    55.384254855789,
-                    25.359838146842
+                    55.3842527085,
+                    25.359841875
                 ]
             },
             "type": "Feature",
@@ -9223,6 +9223,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -117.22556,
+                    32.902
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1226648/",
+                    "link": "https://www.instagram.com/p/BBa_NYzjE_f/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12547728_430836140459554_1942409995_n.jpg?ig_cache_key=MTE3ODUzMjI0OTQyODg0MDQxNQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Zumbar Coffee & Tea",
+                "igid": "ig1226648"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     138.6026764,
                     -34.9254799
                 ]
@@ -9391,8 +9415,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -71.466847613784,
-                    42.76463539851
+                    -71.466767101374,
+                    42.764564808035
                 ]
             },
             "type": "Feature",
@@ -10135,8 +10159,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.96487617267,
-                    36.964209329652
+                    -121.96487603742,
+                    36.964201046526
                 ]
             },
             "type": "Feature",
@@ -11080,7 +11104,7 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/925686353/",
-                    "link": "https://www.instagram.com/p/9njJFMzaueat6iur2yGgLjE_ZuNiLHs2UBt_k0/",
+                    "link": "https://www.instagram.com/p/9njJFMzaue/",
                     "thumb": {
                         "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11925831_521372098030790_269803023_n.jpg?ig_cache_key=MTExMDAxMDM4ODg1NjgxMDM5OA%3D%3D.2",
                         "width": 150,
@@ -11191,8 +11215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    137.3848753068,
-                    34.763714340995
+                    137.38486632588,
+                    34.763718695544
                 ]
             },
             "type": "Feature",
@@ -11551,8 +11575,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.09990483333,
-                    35.567308593884
+                    -121.09973,
+                    35.5674
                 ]
             },
             "type": "Feature",
@@ -12271,8 +12295,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.15417051191,
-                    -33.912529529838
+                    151.15417077908,
+                    -33.912529527006
                 ]
             },
             "type": "Feature",
@@ -13927,8 +13951,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.017143465529,
-                    38.902496844294
+                    -77.017132854974,
+                    38.902492508103
                 ]
             },
             "type": "Feature",
@@ -21319,8 +21343,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.300971,
-                    37.871567
+                    -122.30102135293,
+                    37.871544139265
                 ]
             },
             "type": "Feature",
@@ -22279,8 +22303,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96391485371,
-                    -37.811951307659
+                    144.9639911,
+                    -37.8119067
                 ]
             },
             "type": "Feature",
@@ -23503,30 +23527,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.34512,
-                    47.67391
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/238300892/",
-                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Herkimer Coffee",
-                "igid": "ig238300892"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     144.96634485,
                     -37.7971016
                 ]
@@ -23839,8 +23839,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.259,
-                    34.0771
+                    -118.25894555188,
+                    34.077368813412
                 ]
             },
             "type": "Feature",
@@ -25471,24 +25471,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.22556,
-                    32.902
+                    126.97281804879,
+                    37.56337945353
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1226648/",
-                    "link": "https://www.instagram.com/p/BBa_NYzjE_f/",
+                    "url": "https://instagram.com/explore/locations/311811992/",
+                    "link": "https://www.instagram.com/p/BCpCo_nR9U2/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12547728_430836140459554_1942409995_n.jpg?ig_cache_key=MTE3ODUzMjI0OTQyODg0MDQxNQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12825707_1694745684135479_832026855_n.jpg?ig_cache_key=MTIwMDUwMjM4ODg0Nzc5MzQ2Mg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Zumbar Coffee & Tea",
-                "igid": "ig1226648"
+                "name": "52 Roasters Lab",
+                "igid": "ig311811992"
             }
         },
         {
