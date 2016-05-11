@@ -1499,7 +1499,6 @@ CCATDB = [
 
     # Need context?
     {'twitter': '', 'ig': u'@stumptowncoffee'},
-    {'twitter': '', 'ig': u'@latteartgram'},
     {'twitter': '', 'ig': u'@littlegremlincoffee'},
     {'twitter': '', 'ig': u'@oregan_coffee'},
 
@@ -1571,7 +1570,7 @@ CCATDB = [
     {'text': 'Bright Coffee', 'ig': u'@brightcoffeeca'},
     {'text': 'Westfield', 'ig': u'@westfieldsyd'},
     {'text': 'Spearhead Coffee', 'ig': u'@spearheadcoffee'},
-
+    {'twitter': 'LatteArtGram', 'ig': u'@latteartgram'},
     ]
 
 def at_translate(from_name, from_svc, to_svc, prefix = "@"):
