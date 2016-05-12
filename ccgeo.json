@@ -7111,8 +7111,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9970474,
-                    40.720726
+                    -73.9970444,
+                    40.7207254
                 ]
             },
             "type": "Feature",
@@ -7327,8 +7327,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.361839,
-                    34.085712
+                    -118.36159601347,
+                    34.086082106672
                 ]
             },
             "type": "Feature",
@@ -7735,8 +7735,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9833679,
-                    -37.8565369
+                    144.983363,
+                    -37.856535
                 ]
             },
             "type": "Feature",
@@ -8215,8 +8215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.66435544612,
-                    33.500997127605
+                    -117.66483,
+                    33.50066
                 ]
             },
             "type": "Feature",
@@ -8407,8 +8407,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.10919375652,
-                    49.283639400164
+                    -123.1092026,
+                    49.2837438
                 ]
             },
             "type": "Feature",
@@ -8599,30 +8599,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.4092938,
-                    37.7902343
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/175908660/",
-                    "link": "https://www.instagram.com/p/6AZV0CEmAC/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11375165_1626624290946987_1914845047_n.jpg?ig_cache_key=MTA0NDk0NjU2MzY5MTA3NzYzNA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Beanstalk Cafe",
-                "igid": "ig175908660"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.4344788,
                     -28.0413704
                 ]
@@ -8767,8 +8743,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.04362891038,
-                    -33.864343870255
+                    151.04362661789,
+                    -33.864343169251
                 ]
             },
             "type": "Feature",
@@ -8785,6 +8761,30 @@
                 },
                 "name": "Flower Cafe Mattaniah",
                 "igid": "ig237660221"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.02006831001,
+                    35.377302348139
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/595360/",
+                    "link": "https://www.instagram.com/p/2rq_TETaAW/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11259877_567488373353514_802306066_n.jpg?ig_cache_key=OTg1MDcwMDExMjY0Mzc2ODU0.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Dagny's Coffee Company",
+                "igid": "ig595360"
             }
         },
         {
@@ -10423,8 +10423,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.9745789,
-                    40.7618332
+                    -73.9744746,
+                    40.7615658
                 ]
             },
             "type": "Feature",
@@ -13639,8 +13639,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.71154030355,
-                    3.1573801707711
+                    101.71154013612,
+                    3.1573799923831
                 ]
             },
             "type": "Feature",
@@ -13783,24 +13783,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31673,
-                    52.50255
+                    -122.4092938,
+                    37.7902343
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/254570292/",
-                    "link": "https://www.instagram.com/p/8P5ea6w1Bm/",
+                    "url": "https://instagram.com/explore/locations/175908660/",
+                    "link": "https://www.instagram.com/p/6AZV0CEmAC/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10617063_1517673811857563_382318275_n.jpg?ig_cache_key=MTA4NTMzODgxNDM1ODE3OTk0Mg%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11375165_1626624290946987_1914845047_n.jpg?ig_cache_key=MTA0NDk0NjU2MzY5MTA3NzYzNA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Set's",
-                "igid": "ig254570292"
+                "name": "Beanstalk Cafe",
+                "igid": "ig175908660"
             }
         },
         {
@@ -13984,9 +13984,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/861977418/",
-                    "link": "https://www.instagram.com/p/BBBA-KnGHHi/",
+                    "link": "https://www.instagram.com/p/BB5k0F3AvwX/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.117.938.938/12568324_1964826587074886_335584993_n.jpg?ig_cache_key=MTE3MTIyMTY1MDA5MzkyODkzMA%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677412_904650016316399_799877690_n.jpg?ig_cache_key=MTE4NzE0MTg4NjE2NzY3Nzk3NQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -14359,8 +14359,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.075926680666667,
-                    51.519923628667
+                    -0.075918802352941,
+                    51.519932441176
                 ]
             },
             "type": "Feature",
@@ -15583,8 +15583,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.958845441096,
-                    40.783822429452
+                    -73.958845009286,
+                    40.7838241475
                 ]
             },
             "type": "Feature",
@@ -17119,8 +17119,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.5469297,
-                    46.7522096
+                    23.5860308,
+                    46.7708394
                 ]
             },
             "type": "Feature",
@@ -17527,8 +17527,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.79763756326,
-                    46.197058655496
+                    -123.7975966755,
+                    46.197136084302
                 ]
             },
             "type": "Feature",
@@ -18199,8 +18199,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.3607999,
-                    48.87228
+                    2.3607088881134,
+                    48.872172457877
                 ]
             },
             "type": "Feature",
@@ -19471,8 +19471,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.39657,
-                    43.65072
+                    -79.397083139509,
+                    43.650550295052
                 ]
             },
             "type": "Feature",
@@ -24247,8 +24247,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.65707,
-                    45.57152
+                    -122.65714035,
+                    45.571703799111
                 ]
             },
             "type": "Feature",
@@ -24415,8 +24415,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.41640167517,
-                    36.318857079409
+                    127.41641571577,
+                    36.318872216983
                 ]
             },
             "type": "Feature",
@@ -24535,24 +24535,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.46059148786,
-                    34.041900479901
+                    13.31673,
+                    52.50255
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/48916276/",
-                    "link": "https://www.instagram.com/p/7yDy1Qmhgu/",
+                    "url": "https://instagram.com/explore/locations/254570292/",
+                    "link": "https://www.instagram.com/p/8P5ea6w1Bm/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10684279_229739324067062_706149842_n.jpg?ig_cache_key=MTA3NjkzOTk0ODE5NTE5MDgzMA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10617063_1517673811857563_382318275_n.jpg?ig_cache_key=MTA4NTMzODgxNDM1ODE3OTk0Mg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "8 Espressos",
-                "igid": "ig48916276"
+                "name": "Set's",
+                "igid": "ig254570292"
             }
         },
         {
@@ -25135,8 +25135,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.0887451,
-                    38.8906631
+                    -77.088977340023,
+                    38.890444685184
                 ]
             },
             "type": "Feature",
@@ -25735,8 +25735,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00357211787,
-                    -37.931513621639
+                    145.00357724622,
+                    -37.931514073649
                 ]
             },
             "type": "Feature",
