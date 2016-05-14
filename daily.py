@@ -17,15 +17,18 @@ else
     ping -c 5 github.com
 
     echo "[DAILY] that'll do?"
+
+    echo "[DAILY] running caffeinate"
+    caffeinate -t 600 &
 fi
 
 echo "[DAILY] Synching to master"
 git pull || exit 1
 
-echo "[DAILY] Pulling instagram data"
+echo "[DAILY] Pulling instagram data -- `date`"
 ./instasync.py || exit 1
 
-echo "[DAILY] Generating geojson file"
+echo "[DAILY] Generating geojson file -- `date`"
 ./ccdb.py --geojson || exit 1
 
 echo "[DAILY] Making a tweet"
