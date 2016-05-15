@@ -4711,8 +4711,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.40733,
-                    37.75292
+                    -122.40771194017,
+                    37.752994400237
                 ]
             },
             "type": "Feature",
@@ -4831,8 +4831,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -79.338582925085,
-                    43.661336414017
+                    -79.33836,
+                    43.66124
                 ]
             },
             "type": "Feature",
@@ -5527,8 +5527,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    55.197152316,
-                    25.147120352
+                    55.197017587333,
+                    25.147213520667
                 ]
             },
             "type": "Feature",
@@ -6583,8 +6583,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.5906399,
-                    3.07489
+                    101.5906204492,
+                    3.0755333567045
                 ]
             },
             "type": "Feature",
@@ -8455,8 +8455,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.84020618793,
-                    -31.942635325366
+                    115.84021473782,
+                    -31.94264393046
                 ]
             },
             "type": "Feature",
@@ -9127,8 +9127,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.45336686678,
-                    37.769574318713
+                    -122.45336739953,
+                    37.769569094507
                 ]
             },
             "type": "Feature",
@@ -9727,8 +9727,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.985779210113,
-                    40.752277103368
+                    -73.985778907993,
+                    40.752276329997
                 ]
             },
             "type": "Feature",
@@ -11575,8 +11575,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -95.628520832336,
-                    29.601048884403
+                    -95.628549674974,
+                    29.600896306637
                 ]
             },
             "type": "Feature",
@@ -13495,8 +13495,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    112.72950805273,
-                    -7.2582271018182
+                    112.72950294429,
+                    -7.258245015
                 ]
             },
             "type": "Feature",
@@ -14792,7 +14792,7 @@
                 "type": "Point",
                 "coordinates": [
                     -118.43938,
-                    34.284293
+                    34.28429
                 ]
             },
             "type": "Feature",
@@ -15751,8 +15751,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.76495501968,
-                    35.680763370073
+                    139.76493655715,
+                    35.680687161026
                 ]
             },
             "type": "Feature",
@@ -17407,8 +17407,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.25772142008,
-                    43.76836220552
+                    11.25850088203,
+                    43.768097691197
                 ]
             },
             "type": "Feature",
@@ -18913,30 +18913,6 @@
                 },
                 "name": "Eldorado Coffee Roasters",
                 "igid": "ig377013530"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    114.14436068951,
-                    22.287036549756
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/1016360219/",
-                    "link": "https://www.instagram.com/p/BBKrFO6F9EU/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12568293_560565890775229_578619780_n.jpg?ig_cache_key=MTE3Mzk0MDEyODQ4NzgyMTU4OA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "WINSTONS COFFEE",
-                "igid": "ig1016360219"
             }
         },
         {
@@ -20992,9 +20968,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/319540696/",
-                    "link": "https://www.instagram.com/p/BC6gSZfjp20/",
+                    "link": "https://www.instagram.com/p/BC876isKRWO/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/1390132_956780377724824_1868423616_n.jpg?ig_cache_key=MTIwNTQxNzg1MjA4Njk1MTM0OA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.134.1080.1080/12797620_1561830054127990_19966551_n.jpg?ig_cache_key=MTIwNjEwMjMwNzk1MDM2ODE0Mg%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -22879,6 +22855,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    114.14436068951,
+                    22.287036549756
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1016360219/",
+                    "link": "https://www.instagram.com/p/BEXhKV7m9jt/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12912808_229411537423977_553480186_n.jpg?ig_cache_key=MTIzMTU5ODg2OTM4NzQwMTQ1Mw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "WINSTONS COFFEE",
+                "igid": "ig1016360219"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     102.2376192086,
                     2.1939004631395
                 ]
@@ -22975,8 +22975,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.42931351377,
-                    37.748448886049
+                    -122.42907,
+                    37.7485
                 ]
             },
             "type": "Feature",
@@ -23527,8 +23527,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.67716643545,
-                    45.562582831118
+                    -122.67722,
+                    45.56247
                 ]
             },
             "type": "Feature",
@@ -23815,8 +23815,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -90.067741,
-                    29.946799
+                    -90.06742,
+                    29.94716
                 ]
             },
             "type": "Feature",
