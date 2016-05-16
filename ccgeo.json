@@ -2839,6 +2839,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.80707798167,
+                    38.068237655833
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/595939344/",
+                    "link": "https://www.instagram.com/p/BFc31OpiQOY/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13108559_1104770239586435_2058371679_n.jpg?ig_cache_key=MTI1MTEyMDM0NjkyMTc2MzczNg%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cowgirl Creamery, Pt. Reyes Station, Ca",
+                "igid": "ig595939344"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     126.92802452386,
                     37.556113337074
                 ]
@@ -5911,8 +5935,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -84.445038448712,
-                    33.896476931694
+                    -84.4435,
+                    33.900708
                 ]
             },
             "type": "Feature",
@@ -6703,8 +6727,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.1791398441,
-                    -33.897945590657
+                    151.17913764076,
+                    -33.897945517678
                 ]
             },
             "type": "Feature",
@@ -8167,8 +8191,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -105.00403777692,
-                    39.764660306371
+                    -105.00411,
+                    39.76473
                 ]
             },
             "type": "Feature",
@@ -9031,8 +9055,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.10077,
-                    49.25913
+                    -123.10089530428,
+                    49.258938734653
                 ]
             },
             "type": "Feature",
@@ -10207,30 +10231,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.69986359481,
-                    10.773144630395
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/39096822/",
-                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "L'usine Le Loi",
-                "igid": "ig39096822"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -76.940896,
                     38.952445
                 ]
@@ -11311,24 +11311,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.92815,
-                    64.14559
+                    -118.38285894151,
+                    34.09061911623
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/432154540/",
-                    "link": "https://www.instagram.com/p/BAxKIKNB9GP/",
+                    "url": "https://instagram.com/explore/locations/3912289/",
+                    "link": "https://www.instagram.com/p/BEjG-9XnCHq/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c106.0.867.867/12479193_1555579308096846_1775187362_n.jpg?ig_cache_key=MTE2Njc1ODMxOTY0MjYyODQ5NQ%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c94.0.562.562/12940681_619903258163568_455658321_n.jpg?ig_cache_key=MTIzNDg2MTQzNzYxMDYzMTY1OA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "T\u00edu Dropar",
-                "igid": "ig432154540"
+                "name": "Dialog Cafe",
+                "igid": "ig3912289"
             }
         },
         {
@@ -17263,8 +17263,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00446208417,
-                    -37.948974595
+                    145.00441338718,
+                    -37.948993963931
                 ]
             },
             "type": "Feature",
@@ -20512,9 +20512,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/337334/",
-                    "link": "https://www.instagram.com/p/BBsbLGxEnwz/",
+                    "link": "https://www.instagram.com/p/8qjR09JgKS/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12748279_236160063388150_284138280_n.jpg?ig_cache_key=MTE4MzQ0MDMxMjUyNzM4NzY5OQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10665471_1513015485687421_2023700861_n.jpg?ig_cache_key=MTA5Mjg0MTAxNjMxMDIzNTc5NA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -22039,24 +22039,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.38285894151,
-                    34.09061911623
+                    -21.92815,
+                    64.14559
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/3912289/",
-                    "link": "https://www.instagram.com/p/BEjG-9XnCHq/",
+                    "url": "https://instagram.com/explore/locations/432154540/",
+                    "link": "https://www.instagram.com/p/BAxKIKNB9GP/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c94.0.562.562/12940681_619903258163568_455658321_n.jpg?ig_cache_key=MTIzNDg2MTQzNzYxMDYzMTY1OA%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c106.0.867.867/12479193_1555579308096846_1775187362_n.jpg?ig_cache_key=MTE2Njc1ODMxOTY0MjYyODQ5NQ%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Dialog Cafe",
-                "igid": "ig3912289"
+                "name": "T\u00edu Dropar",
+                "igid": "ig432154540"
             }
         },
         {
@@ -22375,8 +22375,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.8945483561,
-                    -31.97185220332
+                    115.89455211697,
+                    -31.971851860803
                 ]
             },
             "type": "Feature",
@@ -22873,6 +22873,30 @@
                 },
                 "name": "WINSTONS COFFEE",
                 "igid": "ig1016360219"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.04571941,
+                    36.95908399
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1033211558/",
+                    "link": "https://www.instagram.com/p/BE9ByyCsulx/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13150899_1078240308900140_2027597307_n.jpg?ig_cache_key=MTI0MjE1Njk1OTk3Njg0MzYzMw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Verve 1010",
+                "igid": "ig1033211558"
             }
         },
         {
@@ -24577,6 +24601,30 @@
                 },
                 "name": "Coffea's Garden - cafe+guesthouse",
                 "igid": "ig1015316277"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.24220505093,
+                    2.2053274902326
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/925837112/",
+                    "link": "https://www.instagram.com/p/BFeKycbvVYX/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13257102_244383855921841_453581564_n.jpg?ig_cache_key=MTI1MTQ4NTE5MzQyNDY4ODY2Mw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "D' Base Cafe",
+                "igid": "ig925837112"
             }
         },
         {
