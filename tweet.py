@@ -91,7 +91,7 @@ def at_xlat(tok):
 CC_HASHTAGS = ["#cappuccino", "#latte", "#gibraltar",
                "#cortado", "#espresso"
                "#latteart", "#coffee",
-               "#sanfrancisco"]
+               "#sanfrancisco", "#newyork"]
 
 KILL_HASHTAGS = ["#coffeebreak", "#coffeelover", "#coffeetime",
                  "#coffeeaddict", "#caffeine"]
@@ -129,7 +129,7 @@ def caption2tweet(cap, has_url):
     # check the tweet size
     tlen = len(tweet)
     if (tlen > tmax):
-        print "Tweet too long at %d: '%s' -- '%s'" % (tlen, tweet, cap)
+        print "Tweet too long at %d: '%s' -- '%s'" % (tlen, ENC(tweet), ENC(cap))
         return None
 
     # now grab words as we go along
@@ -278,6 +278,13 @@ def parse_args():
     return sys.argv[1]
 
 ###
+##  pipe fix-up
+#
+
+def ENC(x):
+    return x.encode('utf-8')
+
+###
 ##  entrypoint
 #
 if (__name__ == "__main__"):
@@ -311,7 +318,7 @@ if (__name__ == "__main__"):
             skip + 1
             continue
         
-        print "Can tweet %s: %s (%d)" % (p, t.tweet, len(t.tweet))
+        print "Can tweet %s: %s (%d)" % (ENC(p), ENC(t.tweet), len(t.tweet))
         good += 1
 
         # bail if we can print something
