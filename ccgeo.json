@@ -4615,8 +4615,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -21.932386692816,
-                    64.146010151321
+                    -21.93231,
+                    64.14603
                 ]
             },
             "type": "Feature",
@@ -10225,6 +10225,30 @@
                 },
                 "name": "Verve Coffee Roasters",
                 "igid": "ig25077"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.69986359481,
+                    10.773144630395
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/39096822/",
+                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "L'usine Le Loi",
+                "igid": "ig39096822"
             }
         },
         {
