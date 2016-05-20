@@ -5191,8 +5191,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.35364606193,
-                    40.57443482103
+                    -122.35364142108,
+                    40.574434367665
                 ]
             },
             "type": "Feature",
@@ -6112,9 +6112,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/256845950/",
-                    "link": "https://www.instagram.com/p/u2npv6vUrE/",
+                    "link": "https://www.instagram.com/p/20Vy8iMy6T/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10735360_732622053482081_57530500_n.jpg?ig_cache_key=ODQ0MDM2MzcyOTQyMzc1NjIw.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11272996_1014576835227008_1190096019_n.jpg?ig_cache_key=OTg3NTEwMDc4MjQ5ODQwMjc1.2",
                         "width": 150,
                         "height": 150
                     }
@@ -16207,24 +16207,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.37846,
-                    47.6645899
+                    121.05392,
+                    14.61107
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/377688576/",
-                    "link": "https://www.instagram.com/p/19BmqNPJ5V/",
+                    "url": "https://instagram.com/explore/locations/637826733/",
+                    "link": "https://www.instagram.com/p/3Dw9qmiNq7/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11199549_1573281572951759_229807929_n.jpg?ig_cache_key=OTcxOTQwMTQ5Mjg3NzU1MzQ5.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11380291_681371591967056_2074145777_n.jpg?ig_cache_key=OTkxODUxNjg2ODE1OTE0Njgz.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Mmmhmm Coffee",
-                "igid": "ig377688576"
+                "name": "Kuppa Roastery and Cafe",
+                "igid": "ig637826733"
             }
         },
         {
@@ -18799,8 +18799,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.422451,
-                    37.765024
+                    -122.42261,
+                    37.76512
                 ]
             },
             "type": "Feature",
@@ -22351,24 +22351,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9639911,
-                    -37.8119067
+                    -122.88340261042,
+                    45.536315076428
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/406529639/",
-                    "link": "https://www.instagram.com/p/6vdRylLJ5z/",
+                    "url": "https://instagram.com/explore/locations/130446951/",
+                    "link": "https://www.instagram.com/p/BAEN1n3oFGc/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11917809_732620076864445_1522539658_n.jpg?ig_cache_key=MTA1ODE5MzIwMzM0NjA1NDc3MQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/1209730_923787164378722_1093828732_n.jpg?ig_cache_key=MTE1NDEwODI2NDA1OTc4NTYyOA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Cafenatics at Emporium Melbourne",
-                "igid": "ig406529639"
+                "name": "Dapper and Wise Coffee Roasters",
+                "igid": "ig130446951"
             }
         },
         {
@@ -22417,6 +22417,30 @@
                 },
                 "name": "Bluestone Lane",
                 "igid": "ig685393514"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9639911,
+                    -37.8119067
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/406529639/",
+                    "link": "https://www.instagram.com/p/6vdRylLJ5z/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11917809_732620076864445_1522539658_n.jpg?ig_cache_key=MTA1ODE5MzIwMzM0NjA1NDc3MQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Cafenatics at Emporium Melbourne",
+                "igid": "ig406529639"
             }
         },
         {
@@ -25855,6 +25879,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.37846,
+                    47.6645899
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/377688576/",
+                    "link": "https://www.instagram.com/p/19BmqNPJ5V/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11199549_1573281572951759_229807929_n.jpg?ig_cache_key=OTcxOTQwMTQ5Mjg3NzU1MzQ5.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Mmmhmm Coffee",
+                "igid": "ig377688576"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -0.12700977662884,
                     51.50958222955
                 ]
@@ -26167,8 +26215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -74.007085507869,
-                    40.742552663057
+                    -74.007084643316,
+                    40.742551967198
                 ]
             },
             "type": "Feature",
