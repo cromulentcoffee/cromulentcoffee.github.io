@@ -91,7 +91,7 @@ def at_xlat(tok):
 CC_HASHTAGS = ["#cappuccino", "#latte", "#gibraltar",
                "#cortado", "#espresso"
                "#latteart", "#coffee",
-               "#sanfrancisco", "#newyork"]
+               "#sanfrancisco", "#newyork", "#pausalanewaycafe"]
 
 KILL_HASHTAGS = ["#coffeebreak", "#coffeelover", "#coffeetime",
                  "#coffeeaddict", "#caffeine"]

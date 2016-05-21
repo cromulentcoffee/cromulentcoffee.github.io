@@ -1499,9 +1499,8 @@ CCATDB = [
 
     # Need context?
     {'twitter': '', 'ig': u'@stumptowncoffee'},
-    {'twitter': '', 'ig': u'@littlegremlincoffee'},
-    {'twitter': '', 'ig': u'@oregan_coffee'},
 
+    {'twitter': 'fandgcoffee', 'ig': u'@fred_and_ginger_coffee'},
     {'twitter': 'cowgirlcreamery', 'ig': u'@cowgirlcreamery'},
     {'twitter': 'BluestoneLane', 'ig': u'@bluestonelanecoffee'},
     {'twitter': 'TerremotoCoffee', 'ig': u'@terremotocoffee'},
@@ -1551,6 +1550,8 @@ CCATDB = [
     {'twitter': 'habitualph', 'ig': u'@habitualcoffee'},
 
     # No twitter handle
+    {'text': 'oregan coffee', 'ig': u'@oregan_coffee'}, # insta-RT
+    {'text': 'littlegremlincoffee', 'ig': u'@littlegremlincoffee'}, # insta-RT
     {'text': '#kaffibrennslan', 'ig': u'@kaffibrennslan'},
     {'text': '#TocoFresh', 'ig': u'@tocofresh'},
     {'text': '#madayne', 'ig': u'@madaynecoffee'},
