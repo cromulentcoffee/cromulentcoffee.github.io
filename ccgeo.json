@@ -3487,6 +3487,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.46377,
+                    37.78496
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/868873900/",
+                    "link": "https://www.instagram.com/p/8gmPd4BxC5/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12120280_462804890568600_1931260472_n.jpg?ig_cache_key=MTA5MDAzOTI5ODQ2MTczMzA0OQ%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "The Richfield",
+                "igid": "ig868873900"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.17331787653,
                     -33.882114378581
                 ]
@@ -10279,6 +10303,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    106.69986359481,
+                    10.773144630395
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/39096822/",
+                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "L'usine Le Loi",
+                "igid": "ig39096822"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -76.940896,
                     38.952445
                 ]
@@ -10794,7 +10842,7 @@
                     "url": "https://instagram.com/explore/locations/754225584/",
                     "link": "https://www.instagram.com/p/6qeylAqBOE/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11934788_916810305058134_1049815398_n.jpg?ig_cache_key=MTA1Njc5MjQ3OTY4MDQzNTA3Ng%3D%3D.2",
+                        "url": "https://3qavoqoquzvqhmc4.igsonar.com/hphotos-ak-xpt1/t51.2885-15/s150x150/e35/11934788_916810305058134_1049815398_n.jpg?ig_cache_key=MTA1Njc5MjQ3OTY4MDQzNTA3Ng%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -16120,9 +16168,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/2685934/",
-                    "link": "https://www.instagram.com/p/5cifC7FotG/",
+                    "link": "https://www.instagram.com/p/5KABZsOY8S/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11356923_494950037348024_972126114_n.jpg?ig_cache_key=MTAzNDg1MzY4MTQxMjM0NDY0Ng%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12783471_252859808384019_483898847_n.jpg?ig_cache_key=MTAyOTYzNTU2MTExMjU3MTY2Ng%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -21760,9 +21808,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/651386401/",
-                    "link": "https://www.instagram.com/p/6guYydOquz/",
+                    "link": "https://www.instagram.com/p/878GpxMEy7/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11849462_592568614216708_515328759_n.jpg?ig_cache_key=MTA1NDA0NjMyNjM4OTEyNDAxOQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12106210_511516319014120_1419014816_n.jpg?ig_cache_key=MTA5NzczNTI3NDE1MTAzODEzOQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -23089,30 +23137,6 @@
                 },
                 "name": "The Blend",
                 "igid": "ig264453638"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.46377,
-                    37.78496
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/868873900/",
-                    "link": "https://www.instagram.com/p/8gmPd4BxC5/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12120280_462804890568600_1931260472_n.jpg?ig_cache_key=MTA5MDAzOTI5ODQ2MTczMzA0OQ%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "The Richfield",
-                "igid": "ig868873900"
             }
         },
         {
