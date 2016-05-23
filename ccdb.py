@@ -1025,8 +1025,8 @@ CCDB = [
         yelp = "http://www.yelp.com/biz/front-cafe-san-francisco-3",
         address = "150 Mississippi St, San Francisco, CA 94107",
         url = "https://www.frontsf.com",
-        ig = "FrontSF",
-        twitter = "frontsf",
+        twitter = "FrontSF",
+        ig = "frontsf",
     ),
 
     CCS(
@@ -1500,6 +1500,7 @@ CCATDB = [
     # Need context?
     {'twitter': '', 'ig': u'@stumptowncoffee'},
 
+    {'twitter': 'The Ritchfield', 'ig': u'@therichfield'},
     {'twitter': 'fandgcoffee', 'ig': u'@fred_and_ginger_coffee'},
     {'twitter': 'cowgirlcreamery', 'ig': u'@cowgirlcreamery'},
     {'twitter': 'BluestoneLane', 'ig': u'@bluestonelanecoffee'},

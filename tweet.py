@@ -91,10 +91,12 @@ def at_xlat(tok):
 CC_HASHTAGS = ["#cappuccino", "#latte", "#gibraltar",
                "#cortado", "#espresso"
                "#latteart", "#coffee",
-               "#sanfrancisco", "#newyork", "#pausalanewaycafe"]
+               "#sanfrancisco", "#newyork", "#pausalanewaycafe",
+               "#brewedwithheart", "#washington", "#seoulfood"]
 
 KILL_HASHTAGS = ["#coffeebreak", "#coffeelover", "#coffeetime",
-                 "#coffeeaddict", "#caffeine"]
+                 "#coffeeaddict", "#caffeine", "#thanksgiving",
+                 "#merrychristmas"]
 
 def get_url_len():
     return 24 # XXX: FIXME: consult twitter for length
