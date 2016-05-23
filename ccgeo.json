@@ -1869,9 +1869,9 @@
                 "ccid": "cczByXRWLCOA",
                 "yelp": "http://www.yelp.com/biz/front-cafe-san-francisco-3",
                 "url": "https://www.frontsf.com",
-                "twitter": "frontsf",
+                "twitter": "FrontSF",
                 "address": "150 Mississippi St, San Francisco, CA 94107",
-                "ig": "FrontSF",
+                "ig": "frontsf",
                 "name": "Front Cafe"
             }
         },
@@ -10303,30 +10303,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.69986359481,
-                    10.773144630395
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/39096822/",
-                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "L'usine Le Loi",
-                "igid": "ig39096822"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -76.940896,
                     38.952445
                 ]
@@ -10842,7 +10818,7 @@
                     "url": "https://instagram.com/explore/locations/754225584/",
                     "link": "https://www.instagram.com/p/6qeylAqBOE/",
                     "thumb": {
-                        "url": "https://3qavoqoquzvqhmc4.igsonar.com/hphotos-ak-xpt1/t51.2885-15/s150x150/e35/11934788_916810305058134_1049815398_n.jpg?ig_cache_key=MTA1Njc5MjQ3OTY4MDQzNTA3Ng%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11934788_916810305058134_1049815398_n.jpg?ig_cache_key=MTA1Njc5MjQ3OTY4MDQzNTA3Ng%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -13495,6 +13471,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    115.15597442541,
+                    -8.6765194818327
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/348137512/",
+                    "link": "https://www.instagram.com/p/0PfRfHtWsZ/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11007918_1555189154734634_2017168223_n.jpg?ig_cache_key=OTQxMTA4Mzg4MjMxOTk4MjMz.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Revolver Bali ~ Boutique Coffee House Seminyak",
+                "igid": "ig348137512"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     37.59227,
                     55.76167
                 ]
@@ -15487,24 +15487,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    115.15597442541,
-                    -8.6765194818327
+                    -122.337304,
+                    47.6859
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/348137512/",
-                    "link": "https://www.instagram.com/p/0PfRfHtWsZ/",
+                    "url": "https://instagram.com/explore/locations/370973854/",
+                    "link": "https://www.instagram.com/p/2UJExXG0ch/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11007918_1555189154734634_2017168223_n.jpg?ig_cache_key=OTQxMTA4Mzg4MjMxOTk4MjMz.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11208123_1386892518306777_228689345_n.jpg?ig_cache_key=OTc4NDQ2OTI5MzQzNzYwMTYx.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Revolver Bali ~ Boutique Coffee House Seminyak",
-                "igid": "ig348137512"
+                "name": "Bauhaus Ballard",
+                "igid": "ig370973854"
             }
         },
         {
@@ -16743,16 +16743,16 @@
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1017864709/",
-                    "link": "https://www.instagram.com/p/-xYwxBMnLT/",
+                    "url": "https://instagram.com/explore/locations/1019180801/",
+                    "link": "https://www.instagram.com/p/91_ot3xexy/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c135.0.810.810/12338972_916229111802546_1361761738_n.jpg?ig_cache_key=MTEzMDc5Mzg4NTczMTI4Nzc2Mw%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11849085_192363867766811_1181458615_n.jpg?ig_cache_key=MTExNDA3NjM1NzgwNzQzNDg2Ng%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Sue's Gallery Cafe",
-                "igid": "ig1017864709"
+                "igid": "ig1019180801"
             }
         },
         {
@@ -17839,24 +17839,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.337304,
-                    47.6859
+                    145.0542156497,
+                    -37.844799745124
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/370973854/",
-                    "link": "https://www.instagram.com/p/2UJExXG0ch/",
+                    "url": "https://instagram.com/explore/locations/234550430/",
+                    "link": "https://www.instagram.com/p/BFLC9h1pPLO/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11208123_1386892518306777_228689345_n.jpg?ig_cache_key=OTc4NDQ2OTI5MzQzNzYwMTYx.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c236.0.608.608/13129655_1724348017805391_1719252880_n.jpg?ig_cache_key=MTI0NjEwMjc0NjIxMjY1OTkxOA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Bauhaus Ballard",
-                "igid": "ig370973854"
+                "name": "The Bakers Wife",
+                "igid": "ig234550430"
             }
         },
         {
