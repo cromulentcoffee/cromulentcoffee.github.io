@@ -13,8 +13,12 @@ function geo_loaded(result)
 
     console.log("loading geo")
 
-    map.data.addGeoJson(result)
+    a = map.data.addGeoJson(result)
     map.data.setStyle(style_feature);
+
+    // re-write the counter text
+    var count_elem = document.getElementById('cc-count');
+    count_elem.innerHTML = "" + a.length + " locations";
 }
 
 function style_feature(feature)
