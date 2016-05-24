@@ -8887,6 +8887,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -119.02006831001,
+                    35.377302348139
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/595360/",
+                    "link": "https://www.instagram.com/p/2rq_TETaAW/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11259877_567488373353514_802306066_n.jpg?ig_cache_key=OTg1MDcwMDExMjY0Mzc2ODU0.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Dagny's Coffee Company",
+                "igid": "ig595360"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     114.16747,
                     22.32582
                 ]
@@ -10297,6 +10321,30 @@
                 },
                 "name": "Verve Coffee Roasters",
                 "igid": "ig25077"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.69986359481,
+                    10.773144630395
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/39096822/",
+                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "L'usine Le Loi",
+                "igid": "ig39096822"
             }
         },
         {
@@ -15793,6 +15841,30 @@
                 },
                 "name": "Bellano Coffee",
                 "igid": "ig674765"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.7852,
+                    -36.88313
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/1022290894/",
+                    "link": "https://www.instagram.com/p/BER8O9GTDTv/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.135.1080.1080/12904993_150127392052848_2142481990_n.jpg?ig_cache_key=MTIzMDAyOTA4MzcxNjEwNTQ1NQ%3D%3D.2.c",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Hello Friends + Allies",
+                "igid": "ig1022290894"
             }
         },
         {
