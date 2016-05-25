@@ -3679,6 +3679,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.65042,
+                    45.55565
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/479218/",
+                    "link": "https://www.instagram.com/p/7dbExuMGai/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11925801_501560666687067_1467302345_n.jpg?ig_cache_key=MTA3MTEzMTM2MTkwNjAyNjE0Ng%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Extracto Coffee",
+                "igid": "ig479218"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.2810974,
                     -33.8895302
                 ]
@@ -7432,9 +7456,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/223607165/",
-                    "link": "https://www.instagram.com/p/BC-nGS1wGmS/",
+                    "link": "https://www.instagram.com/p/BFKBQ-IhtRn/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12818935_1578436809140167_446526086_n.jpg?ig_cache_key=MTIwNjU3MzcwNjU0MTgyMDMwNg%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13151298_541440296028130_775820233_n.jpg?ig_cache_key=MTI0NTgxMzgxMTE5NDU0OTM1MQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -10327,30 +10351,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    106.69986359481,
-                    10.773144630395
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/39096822/",
-                    "link": "https://www.instagram.com/p/6EQq2HslBq/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11820628_669082946561069_1142012245_n.jpg?ig_cache_key=MTA0NjAzNDMyNjUzMDE4MzI3NA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "L'usine Le Loi",
-                "igid": "ig39096822"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -76.940896,
                     38.952445
                 ]
@@ -11857,6 +11857,30 @@
                 },
                 "name": "Current Swell Coffee Brewery",
                 "igid": "ig1016590063"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.66147,
+                    3.150285
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/632009270/",
+                    "link": "https://www.instagram.com/p/5zKFB7uwhA/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11325453_1630200873923406_1730967810_n.jpg?ig_cache_key=MTA0MTIyMDI2NDk5MTA2NjE3Ng%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Yellow Brick Road",
+                "igid": "ig632009270"
             }
         },
         {
@@ -16375,24 +16399,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.05392,
-                    14.61107
+                    -122.37846,
+                    47.6645899
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/637826733/",
-                    "link": "https://www.instagram.com/p/3Dw9qmiNq7/",
+                    "url": "https://instagram.com/explore/locations/377688576/",
+                    "link": "https://www.instagram.com/p/19BmqNPJ5V/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11380291_681371591967056_2074145777_n.jpg?ig_cache_key=OTkxODUxNjg2ODE1OTE0Njgz.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11199549_1573281572951759_229807929_n.jpg?ig_cache_key=OTcxOTQwMTQ5Mjg3NzU1MzQ5.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Kuppa Roastery and Cafe",
-                "igid": "ig637826733"
+                "name": "Mmmhmm Coffee",
+                "igid": "ig377688576"
             }
         },
         {
@@ -17809,6 +17833,30 @@
                 },
                 "name": "Melk",
                 "igid": "ig849527658"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.599561093333,
+                    10.648409326667
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/265219216/",
+                    "link": "https://www.instagram.com/p/7ol7leHiOd/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11931056_995941470457920_70504538_n.jpg?ig_cache_key=MTA3NDI3NTMzMzUzMTY0MDczMw%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Centro Educativo Gastronomico Concasse",
+                "igid": "ig265219216"
             }
         },
         {
@@ -26023,30 +26071,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.37846,
-                    47.6645899
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/377688576/",
-                    "link": "https://www.instagram.com/p/19BmqNPJ5V/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11199549_1573281572951759_229807929_n.jpg?ig_cache_key=OTcxOTQwMTQ5Mjg3NzU1MzQ5.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Mmmhmm Coffee",
-                "igid": "ig377688576"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -0.12700977662884,
                     51.50958222955
                 ]
@@ -26479,48 +26503,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.66147,
-                    3.150285
+                    -87.459391177151,
+                    20.211738317504
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/632009270/",
-                    "link": "https://www.instagram.com/p/5zKFB7uwhA/",
+                    "url": "https://instagram.com/explore/locations/255481835/",
+                    "link": "https://www.instagram.com/p/BEls7h_vLFi/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11325453_1630200873923406_1730967810_n.jpg?ig_cache_key=MTA0MTIyMDI2NDk5MTA2NjE3Ng%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12960196_780449812090540_338895427_n.jpg?ig_cache_key=MTIzNTU5MTI3Nzc4MTQ5NjE2Mg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Yellow Brick Road",
-                "igid": "ig632009270"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.65042,
-                    45.55565
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/479218/",
-                    "link": "https://www.instagram.com/p/7dbExuMGai/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11925801_501560666687067_1467302345_n.jpg?ig_cache_key=MTA3MTEzMTM2MTkwNjAyNjE0Ng%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Extracto Coffee",
-                "igid": "ig479218"
+                "name": "Ki-Bok",
+                "igid": "ig255481835"
             }
         },
         {
