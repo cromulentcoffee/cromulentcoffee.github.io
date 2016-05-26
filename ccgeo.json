@@ -6136,9 +6136,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/256845950/",
-                    "link": "https://www.instagram.com/p/20Vy8iMy6T/",
+                    "link": "https://www.instagram.com/p/u2npv6vUrE/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11272996_1014576835227008_1190096019_n.jpg?ig_cache_key=OTg3NTEwMDc4MjQ5ODQwMjc1.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10735360_732622053482081_57530500_n.jpg?ig_cache_key=ODQ0MDM2MzcyOTQyMzc1NjIw.2",
                         "width": 150,
                         "height": 150
                     }
@@ -11959,24 +11959,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.19602341117,
-                    -33.884965361792
+                    -73.57772572774,
+                    45.496294404
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/236655243/",
-                    "link": "https://www.instagram.com/p/tE1qyXI--S/",
+                    "url": "https://instagram.com/explore/locations/80523/",
+                    "link": "https://www.instagram.com/p/5Fww0Wpv8N/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10665584_705239182892160_90175384_n.jpg?ig_cache_key=ODEyMDA5ODY5NTkxOTY1NTg2.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11266390_685261784939828_447904029_n.jpg?ig_cache_key=MTAyODQ0MjU1MDkwNjA2MDU1Nw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "The House specialty coffee",
-                "igid": "ig236655243"
+                "name": "Cafe Myriade",
+                "igid": "ig80523"
             }
         },
         {
@@ -17130,7 +17130,7 @@
                     "url": "https://instagram.com/explore/locations/5039168/",
                     "link": "https://www.instagram.com/p/u1YGsEO1vy/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/10735323_758759430861277_159571660_n.jpg?ig_cache_key=ODQzNjg2NTE3OTUwNjAyMjI2.2",
+                        "url": "https://3qavorzbeetaaeaqwaiampwrvqo33pwmqjlq.igsonar.com/hphotos-ak-frc/t51.2885-15/s150x150/e15/10735323_758759430861277_159571660_n.jpg?ig_cache_key=ODQzNjg2NTE3OTUwNjAyMjI2.2",
                         "width": 150,
                         "height": 150
                     }
@@ -21985,30 +21985,6 @@
                 },
                 "name": "Thinking Cup North End",
                 "igid": "ig51065435"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57772572774,
-                    45.496294404
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/80523/",
-                    "link": "https://www.instagram.com/p/5Fww0Wpv8N/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11266390_685261784939828_447904029_n.jpg?ig_cache_key=MTAyODQ0MjU1MDkwNjA2MDU1Nw%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Cafe Myriade",
-                "igid": "ig80523"
             }
         },
         {
