@@ -19,7 +19,7 @@ else
     echo "[DAILY] that'll do?"
 
     echo "[DAILY] running caffeinate"
-    caffeinate -t 600 &
+    caffeinate -u -t 600 &
 fi
 
 echo "[DAILY] Synching to master"
