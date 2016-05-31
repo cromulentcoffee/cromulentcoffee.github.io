@@ -908,7 +908,7 @@
                     "url": "https://instagram.com/explore/locations/213859230/",
                     "link": "https://www.instagram.com/p/7luC26iQNB/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11850224_704888159644421_607047194_n.jpg?ig_cache_key=MTA3MzQ2NjU5Mjc0MDMxMTg3Mw%3D%3D.2",
+                        "url": "https://3qavotnhgnvqhmc4.igsonar.com/hphotos-ak-xtf1/t51.2885-15/s150x150/e35/11850224_704888159644421_607047194_n.jpg?ig_cache_key=MTA3MzQ2NjU5Mjc0MDMxMTg3Mw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -3807,16 +3807,16 @@
             "properties": {
                 "rating": "cromulent",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/1021214959/",
-                    "link": "https://www.instagram.com/p/-mcgnniQKB/",
+                    "url": "https://instagram.com/explore/locations/238300892/",
+                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12256718_1264641803561357_359569693_n.jpg?ig_cache_key=MTEyNzcxNDE0MzU2NzY3NjAzMw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
                         "width": 150,
                         "height": 150
                     }
                 },
                 "name": "Herkimer Coffee",
-                "igid": "ig1021214959"
+                "igid": "ig238300892"
             }
         },
         {
@@ -4168,9 +4168,9 @@
                 "rating": "cromulent",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/6296413/",
-                    "link": "https://www.instagram.com/p/52mvu7mi4i/",
+                    "link": "https://www.instagram.com/p/-6nVecpSXR/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11378709_1645589419019059_758364407_n.jpg?ig_cache_key=MTA0MjE5MDc2OTc1Nzc2MTA1OA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.3.1080.1080/12328186_503378556510452_1301101409_n.jpg?ig_cache_key=MTEzMzM5MTI1NTg1Mjg4NTQ1Nw%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -4393,6 +4393,30 @@
                 },
                 "name": "OTUS Thai Kitchen & Coffee",
                 "igid": "ig759627660"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.20832174803,
+                    39.153287171518
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "cromulent",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/219295634/",
+                    "link": "https://www.instagram.com/p/BGDR_q4iQM-/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13256787_516272218558983_598053855_n.jpg?ig_cache_key=MTI2MTkzMTQ2Mjc1NzI1Mzk1MA%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Black Oak Coffee Roasters",
+                "igid": "ig219295634"
             }
         },
         {
@@ -7273,6 +7297,30 @@
                 },
                 "name": "Happy Bones NYC",
                 "igid": "ig215087319"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.11572,
+                    38.97385
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/800043226/",
+                    "link": "https://www.instagram.com/p/-ZJbopFoXC/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12237172_145233812502264_557127077_n.jpg?ig_cache_key=MTEyMzk3MTA2MzQ4OTEzNjA2Ng%3D%3D.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "STEEP Organic Coffee and Teas",
+                "igid": "ig800043226"
             }
         },
         {
@@ -14248,9 +14296,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/861977418/",
-                    "link": "https://www.instagram.com/p/BBBA-KnGHHi/",
+                    "link": "https://www.instagram.com/p/BB5k0F3AvwX/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.117.938.938/12568324_1964826587074886_335584993_n.jpg?ig_cache_key=MTE3MTIyMTY1MDA5MzkyODkzMA%3D%3D.2.c",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677412_904650016316399_799877690_n.jpg?ig_cache_key=MTE4NzE0MTg4NjE2NzY3Nzk3NQ%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -23857,30 +23905,6 @@
                 },
                 "name": "Red e caf\u00e9 - coffee roasters",
                 "igid": "ig217039"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.355072,
-                    47.6824188
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/238300892/",
-                    "link": "https://www.instagram.com/p/3KLv6YyEVB/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11326756_1590061374607370_294548269_n.jpg?ig_cache_key=OTkzNjU4MzM4ODA4NDQ4MzIx.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Herkimer Coffee",
-                "igid": "ig238300892"
             }
         },
         {
