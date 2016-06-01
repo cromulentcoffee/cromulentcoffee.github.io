@@ -908,7 +908,7 @@
                     "url": "https://instagram.com/explore/locations/213859230/",
                     "link": "https://www.instagram.com/p/7luC26iQNB/",
                     "thumb": {
-                        "url": "https://3qavotnhgnvqhmc4.igsonar.com/hphotos-ak-xtf1/t51.2885-15/s150x150/e35/11850224_704888159644421_607047194_n.jpg?ig_cache_key=MTA3MzQ2NjU5Mjc0MDMxMTg3Mw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11850224_704888159644421_607047194_n.jpg?ig_cache_key=MTA3MzQ2NjU5Mjc0MDMxMTg3Mw%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
@@ -1942,9 +1942,9 @@
                 "address": "3101 Main Street, Santa Monica, CA",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/396892/",
-                    "link": "https://www.instagram.com/p/BB5ZMj-Ta3P/",
+                    "link": "https://www.instagram.com/p/BGGJczeTa3H/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12748260_154252561625058_1952080669_n.jpg?ig_cache_key=MTE4NzA5MDc5MTIxMTU3Njc4Mw%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.125.1080.1080/13267495_100426783715584_1781175610_n.jpg?ig_cache_key=MTI2MjczODMwNzM1NzE5MTYyMw%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -4687,8 +4687,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.5248773,
-                    37.8816181
+                    -122.524308,
+                    37.8813399
                 ]
             },
             "type": "Feature",
@@ -8815,30 +8815,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.4092938,
-                    37.7902343
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "rating": "insta-find",
-                "igpost": {
-                    "url": "https://instagram.com/explore/locations/175908660/",
-                    "link": "https://www.instagram.com/p/6AZV0CEmAC/",
-                    "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/11375165_1626624290946987_1914845047_n.jpg?ig_cache_key=MTA0NDk0NjU2MzY5MTA3NzYzNA%3D%3D.2",
-                        "width": 150,
-                        "height": 150
-                    }
-                },
-                "name": "Beanstalk Cafe",
-                "igid": "ig175908660"
-            }
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.4344788,
                     -28.0413704
                 ]
@@ -9001,6 +8977,30 @@
                 },
                 "name": "Flower Cafe Mattaniah",
                 "igid": "ig237660221"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.02006831001,
+                    35.377302348139
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "igpost": {
+                    "url": "https://instagram.com/explore/locations/595360/",
+                    "link": "https://www.instagram.com/p/2rq_TETaAW/",
+                    "thumb": {
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/11259877_567488373353514_802306066_n.jpg?ig_cache_key=OTg1MDcwMDExMjY0Mzc2ODU0.2",
+                        "width": 150,
+                        "height": 150
+                    }
+                },
+                "name": "Dagny's Coffee Company",
+                "igid": "ig595360"
             }
         },
         {
@@ -14095,24 +14095,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.31673,
-                    52.50255
+                    -122.4092938,
+                    37.7902343
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/254570292/",
-                    "link": "https://www.instagram.com/p/8P5ea6w1Bm/",
+                    "url": "https://instagram.com/explore/locations/175908660/",
+                    "link": "https://www.instagram.com/p/6AZV0CEmAC/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10617063_1517673811857563_382318275_n.jpg?ig_cache_key=MTA4NTMzODgxNDM1ODE3OTk0Mg%3D%3D.2",
+                        "url": "https://3qavotymuitaaeaqwbla6n2y5q5dy46namga.igsonar.com/hphotos-ak-xft1/t51.2885-15/s150x150/e35/11375165_1626624290946987_1914845047_n.jpg?ig_cache_key=MTA0NDk0NjU2MzY5MTA3NzYzNA%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "Set's",
-                "igid": "ig254570292"
+                "name": "Beanstalk Cafe",
+                "igid": "ig175908660"
             }
         },
         {
@@ -14296,9 +14296,9 @@
                 "rating": "insta-find",
                 "igpost": {
                     "url": "https://instagram.com/explore/locations/861977418/",
-                    "link": "https://www.instagram.com/p/BB5k0F3AvwX/",
+                    "link": "https://www.instagram.com/p/BBBA-KnGHHi/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/12677412_904650016316399_799877690_n.jpg?ig_cache_key=MTE4NzE0MTg4NjE2NzY3Nzk3NQ%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.117.938.938/12568324_1964826587074886_335584993_n.jpg?ig_cache_key=MTE3MTIyMTY1MDA5MzkyODkzMA%3D%3D.2.c",
                         "width": 150,
                         "height": 150
                     }
@@ -15559,8 +15559,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.8295,
-                    52.34316
+                    4.82989,
+                    52.34241
                 ]
             },
             "type": "Feature",
@@ -24871,24 +24871,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.46059148786,
-                    34.041900479901
+                    13.31673,
+                    52.50255
                 ]
             },
             "type": "Feature",
             "properties": {
                 "rating": "insta-find",
                 "igpost": {
-                    "url": "https://instagram.com/explore/locations/48916276/",
-                    "link": "https://www.instagram.com/p/7yDy1Qmhgu/",
+                    "url": "https://instagram.com/explore/locations/254570292/",
+                    "link": "https://www.instagram.com/p/8P5ea6w1Bm/",
                     "thumb": {
-                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10684279_229739324067062_706149842_n.jpg?ig_cache_key=MTA3NjkzOTk0ODE5NTE5MDgzMA%3D%3D.2",
+                        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/10617063_1517673811857563_382318275_n.jpg?ig_cache_key=MTA4NTMzODgxNDM1ODE3OTk0Mg%3D%3D.2",
                         "width": 150,
                         "height": 150
                     }
                 },
-                "name": "8 Espressos",
-                "igid": "ig48916276"
+                "name": "Set's",
+                "igid": "ig254570292"
             }
         },
         {
