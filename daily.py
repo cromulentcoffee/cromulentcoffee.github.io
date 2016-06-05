@@ -25,11 +25,13 @@ fi
 echo "[DAILY] Synching to master"
 git pull || exit 1
 
-echo "[DAILY] Pulling instagram data -- `date`"
-./instasync.py || exit 1
+echo "[DAILY] Skipping sync while we're sandboxed"
 
-echo "[DAILY] Generating geojson file -- `date`"
-./ccdb.py --geojson || exit 1
+# echo "[DAILY] Pulling instagram data -- `date`"
+# ./instasync.py || exit 1
+
+# echo "[DAILY] Generating geojson file -- `date`"
+# ./ccdb.py --geojson || exit 1
 
 echo "[DAILY] Making a tweet"
 ./tweet.py post || exit 1
