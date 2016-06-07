@@ -1498,8 +1498,7 @@ CCDB = [
 CCATDB = [
 
     # Need context?
-    {'twitter': '', 'ig': u'@stumptowncoffee'},
-
+    {'twitter': 'iamstrangepants', 'ig': u'@iamstrangepants'},
     {'twitter': 'stumptowncoffee', 'ig': u'@stumptowncoffee'},
     {'twitter': 'equatorcoffees', 'ig': u'@equatorcoffees'},
     {'twitter': 'BlackOakCoffee', 'ig': u'@blackoakcoffeeroasters'},

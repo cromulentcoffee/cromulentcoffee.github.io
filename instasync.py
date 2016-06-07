@@ -247,7 +247,8 @@ def get_list_by_url(url, rating, pending, stats):
         sys.stdout.flush()
 
         # Decode the returned list
-        ds = js["data"]
+        print js
+        ds = js[u"data"]
         for d in ds:
             tcount += 1
 

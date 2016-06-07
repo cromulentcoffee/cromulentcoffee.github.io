@@ -92,7 +92,8 @@ CC_HASHTAGS = ["#cappuccino", "#latte", "#gibraltar",
                "#cortado", "#espresso"
                "#latteart", "#coffee",
                "#sanfrancisco", "#newyork", "#pausalanewaycafe",
-               "#brewedwithheart", "#washington", "#seoulfood"]
+               "#brewedwithheart", "#washington", "#seoulfood", "#oregon",
+               "#latteart"]
 
 KILL_HASHTAGS = ["#coffeebreak", "#coffeelover", "#coffeetime",
                  "#coffeeaddict", "#caffeine", "#thanksgiving",
