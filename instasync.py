@@ -322,6 +322,12 @@ def get_post_by_url(post):
     # pull it down
     js = http_get_js(url)
 
+    print js
+    print js['meta']['code']
+
+    # FIXME:
+    # window._sharedData = {...}
+    
     return js["data"]
 
 ###

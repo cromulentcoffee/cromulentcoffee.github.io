@@ -9,6 +9,7 @@ import ccdb
 import tweepy
 import urllib
 import tempfile
+import igscrape
 import instasync
 import credentials
 
@@ -189,14 +190,26 @@ def find_largest_image(ijs):
     return imgurl
 
 class PostObject():
-    def __init__(self, js):
+    def __init__(self, js, scrape):
         self.locid = None
-        if (("location" in js)
-            and (js["location"] is not None)
-            and ("id" in js["location"])):
-            self.locid = js["location"]["id"]
-        self.caption = js["caption"]["text"]
-        self.imgurl = find_largest_image(js["images"])
+        if (not scrape):
+            # API
+            if (("location" in js)
+                and (js["location"] is not None)
+                and ("id" in js["location"])):
+                self.locid = js["location"]["id"]
+            self.caption = js["caption"]["text"]
+            self.imgurl = find_largest_image(js["images"])
+        else:
+            # scrape
+            post = js["entry_data"]["PostPage"][0]["media"]
+            if (("location" in post)
+                and (post["location"] is not None)
+                and ("id" in post["location"])):
+                self.locid = post["location"]["id"]
+            self.caption = post["caption"]
+            self.imgurl = post["display_src"]
+            
         self.ccurl = None
         self.tweet = None
 
@@ -238,16 +251,19 @@ class PostObject():
 ###
 ##  tweet generation
 #
-
+SCRAPE = True
 def make_tweet(p):
 
     # pull down the URL
     print "making tweet %s" % p
 
-    d = instasync.get_post_by_url(p)
-
-    # Make a more convenient object representation
-    o = PostObject(d)
+    
+    if (not SCRAPE):
+        d = instasync.get_post_by_url(p)
+    else:
+        d = igscrape.scrape_ig_json_from_url(p)
+        
+    o = PostObject(d, SCRAPE)
 
     # translate the caption
     o.generate_tweet()
