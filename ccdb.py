@@ -1491,6 +1491,27 @@ CCDB = [
         twitter = "craftsmanwolves",
     ),
 
+    CCS(
+        ccid = "cc5gGgGxDUXA",
+        name = "SlapFace Coffee & Tea",
+        rating = "insta-find",
+        yelp = "https://www.yelp.com/biz/slap-face-coffee-and-tea-fremont",
+        address = "37324 Fremont Blvd. Fremont, CA 94536",
+        ig = "slapfacecoffee",
+        twitter = "slapfacecoffee",
+    ),
+
+    CCS(
+        ccid = "ccDDqJcntzb-",
+        name = "Devout Coffee",
+        rating = "insta-find",
+        yelp = "https://www.yelp.com/biz/devout-coffee-fremont",
+        address = "37323 Niles Blvd. Fremont, CA 94536",
+        url = "http://devoutcoffee.com",
+        ig = "devoutcoffee",
+        twitter = "devoutcoffee",
+    ),
+
 ]
 
 ## Translation table for @ names in various services
