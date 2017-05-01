@@ -2815,6 +2815,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -122.006859,
+                    37.558403
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "ccid": "cc5gGgGxDUXA",
+                "yelp": "https://www.yelp.com/biz/slap-face-coffee-and-tea-fremont",
+                "twitter": "slapfacecoffee",
+                "address": "37324 Fremont Blvd. Fremont, CA 94536",
+                "ig": "slapfacecoffee",
+                "name": "SlapFace Coffee & Tea"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9807466,
+                    37.5771546
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "ccid": "ccDDqJcntzb-",
+                "yelp": "https://www.yelp.com/biz/devout-coffee-fremont",
+                "url": "http://devoutcoffee.com",
+                "twitter": "devoutcoffee",
+                "address": "37323 Niles Blvd. Fremont, CA 94536",
+                "ig": "devoutcoffee",
+                "name": "Devout Coffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -120.6646,
                     35.27844
                 ]
