@@ -2854,6 +2854,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -83.22766879999999,
+                    33.0808672
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "ccid": "ccBSmU05ZJWd",
+                "yelp": "https://www.yelp.com/biz/blackbird-coffee-milledgeville",
+                "url": "https://www.blackbirdcoffee.com",
+                "twitter": "BlackbirdMilly",
+                "address": "114 W Hancock St Milledgeville, GA 31061",
+                "ig": "blackbirdmilly",
+                "name": "Blackbird Coffee"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -120.6646,
                     35.27844
                 ]

@@ -1512,6 +1512,16 @@ CCDB = [
         twitter = "devoutcoffee",
     ),
 
+    CCS(
+        ccid = "ccBSmU05ZJWd",
+        name = "Blackbird Coffee",
+        rating = "insta-find",
+        yelp = "https://www.yelp.com/biz/blackbird-coffee-milledgeville",
+        address = "114 W Hancock St Milledgeville, GA 31061",
+        url = "https://www.blackbirdcoffee.com",
+        ig = "blackbirdmilly",
+        twitter = "BlackbirdMilly",
+    ),
 ]
 
 ## Translation table for @ names in various services
