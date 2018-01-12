@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import argparse
 import random
@@ -1521,6 +1522,16 @@ CCDB = [
         url = "https://www.blackbirdcoffee.com",
         ig = "blackbirdmilly",
         twitter = "BlackbirdMilly",
+    ),
+    
+    CCS(
+        ccid = "cc-OAWMrntHB",
+        name = "Lattest Omotesando Espresso Bar",
+        rating = "insta-find",
+        yelp = "https://www.yelp.com/biz/ラテスト-表参道-エスプレッソバー-渋谷区",
+        address = "神宮前3-5-2 Shibuya, 東京都 〒150-0001 Japan",
+        url = "http://lattest.jp",
+        ig = "lattest28",
     ),
 ]
 

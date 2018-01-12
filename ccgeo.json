@@ -2874,6 +2874,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    139.7123913,
+                    35.6689128
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "rating": "insta-find",
+                "ccid": "cc-OAWMrntHB",
+                "yelp": "https://www.yelp.com/biz/\u30e9\u30c6\u30b9\u30c8-\u8868\u53c2\u9053-\u30a8\u30b9\u30d7\u30ec\u30c3\u30bd\u30d0\u30fc-\u6e0b\u8c37\u533a",
+                "url": "http://lattest.jp",
+                "address": "\u795e\u5bae\u524d3-5-2 Shibuya, \u6771\u4eac\u90fd \u3012150-0001 Japan",
+                "ig": "lattest28",
+                "name": "Lattest Omotesando Espresso Bar"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -120.6646,
                     35.27844
                 ]
