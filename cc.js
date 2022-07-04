@@ -95,7 +95,7 @@ function click_event(event)
 
     // instagram
     if (typeof event.feature.getProperty('ig') != 'undefined')
-	info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-24.png" alt="Instagram" /></a>';
+	info += '<a href="http://instagram.com/' + event.feature.getProperty("ig") + '?ref=badge"><img src="insta.png" alt="Instagram" /></a>';
 
     // twitter
     if (typeof event.feature.getProperty('twitter') != 'undefined')
